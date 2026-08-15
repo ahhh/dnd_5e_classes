@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Battle Smith — Artificer</title>
+<meta name="description" content="A combat medic and defender who fights beside a Steel Defender and attacks with Intelligence. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Artificer</a> / <strong>Battle Smith</strong></nav>
+<main>
+<h1 id="battle-smith">Battle Smith</h1>
+<p><em>Artificer Artificer Specialist — Tasha's Cauldron of Everything, p. 15</em></p>
+<blockquote>A combat medic and defender who fights beside a Steel Defender and attacks with Intelligence.</blockquote>
+<p>Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is a warrior who fights alongside a steel defender — a construct of the artificer's own devising, loyal to the last.</p>
+<p><strong>How it plays.</strong> The strongest and most popular artificer. Battle Ready lets you attack with Intelligence, so you need only one good stat, and the Steel Defender is a durable companion with its own reaction-based ally protection.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>heroism, shield</td></tr><tr><td>5th</td><td>branding smite, warding bond</td></tr><tr><td>9th</td><td>aura of vitality, conjure barrage</td></tr><tr><td>13th</td><td>aura of purity, fire shield</td></tr><tr><td>17th</td><td>banishing smite, mass cure wounds</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="tool-proficiency">Tool Proficiency</h3>
+<p><em>3rd level</em></p>
+<p>You gain proficiency with smith's tools. If you already have it, you gain proficiency with one other type of artisan's tools of your choice.</p>
+<h3 id="battle-ready">Battle Ready</h3>
+<p><em>3rd level</em></p>
+<p>Your combat training and your experiments with magic have paid off in two ways:</p>
+<ul><li>You gain proficiency with martial weapons.</li><li>When you attack with a magic weapon, you can use your <strong>Intelligence modifier</strong>, instead of Strength or Dexterity, for the attack and damage rolls.</li></ul>
+<p>Since your own infusions make weapons magical, this effectively makes Intelligence your only combat stat.</p>
+<h3 id="steel-defender">Steel Defender</h3>
+<p><em>3rd level</em></p>
+<p>Your tinkering has borne fruit: you've created a steel defender, a construct that fights alongside you. It is friendly to you and your companions and obeys your commands.</p>
+<p>Its statistics scale with your artificer level and proficiency bonus. In combat it rolls its own initiative and acts on its own turn. It can take any action of its choice, not just Dodge, but its <strong>Force-Empowered Rend</strong> attack requires your bonus-action command.</p>
+<p>Its <strong>Deflect Attack</strong> reaction imposes disadvantage on an attack against another creature within 5 feet of it, dealing force damage if the attack misses. If it drops to 0 hit points, you can revive it with 1 hour of work and smith's tools.</p>
+<h3 id="extra-attack">Extra Attack</h3>
+<p><em>5th level</em></p>
+<p>You can attack twice, rather than once, whenever you take the Attack action on your turn.</p>
+<h3 id="arcane-jolt">Arcane Jolt</h3>
+<p><em>9th level</em></p>
+<p>You've learned new ways to channel arcane energy to harm or heal. When either you hit a target with a magic weapon attack or your steel defender hits a target, you can channel magical energy through the strike to create one of the following effects:</p>
+<ul><li>The target takes an extra 2d6 force damage.</li><li>Choose one creature or object you can see within 30 feet; it regains 2d6 hit points.</li></ul>
+<p>You can use this a number of times equal to your Intelligence modifier (minimum once) per long rest.</p>
+<h3 id="improved-defender">Improved Defender</h3>
+<p><em>15th level</em></p>
+<p>Your Arcane Jolt and steel defender become more powerful:</p>
+<ul><li>The extra damage and healing of your Arcane Jolt both increase to 4d6.</li><li>Your steel defender gains a +2 bonus to Armor Class.</li><li>Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to 1d4 + your Intelligence modifier.</li></ul>
+<p><a href="index.html">← Back to Artificer</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "id": "way-of-shadow",
+  "name": "Way of Shadow",
+  "class": "monk",
+  "label": "Monastic Tradition",
+  "source": { "book": "PHB", "page": 80 },
+  "summary": "A ninja who teleports between shadows and vanishes in plain sight.",
+  "flavor": "Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadowdancers, and they serve as spies and assassins — sometimes as members of a monastery, sometimes hired out to nobles and merchant princes.",
+  "playstyle": "The infiltration monk. Shadow Step is excellent free mobility with a built-in advantage rider, and Shadow Arts turns ki into utility spells including on-demand darkness.",
+  "features": [
+    {
+      "name": "Shadow Arts",
+      "level": 3,
+      "description": "You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast *darkness*, *darkvision*, *pass without trace*, or *silence*, without providing material components. You also gain the *minor illusion* cantrip if you don't already know it."
+    },
+    {
+      "name": "Shadow Step",
+      "level": 6,
+      "description": "When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+    },
+    {
+      "name": "Cloak of Shadows",
+      "level": 11,
+      "description": "When you are in dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light."
+    },
+    {
+      "name": "Opportunist",
+      "level": 17,
+      "description": "Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
+    }
+  ]
+}

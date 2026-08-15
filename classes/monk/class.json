@@ -1,0 +1,202 @@
+{
+  "id": "monk",
+  "name": "Monk",
+  "source": { "book": "PHB", "page": 76 },
+  "summary": "A martial artist who channels ki into blinding speed, flurries of blows, and stunning strikes.",
+  "flavor": "Monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy — ki — infuses all that they do. Monks need no weapon or armor; their body is the weapon, and their discipline is the armor.",
+  "hitDice": "d8",
+  "hitPointsAt1st": "8 + your Constitution modifier",
+  "hitPointsPerLevel": "1d8 (or 5) + your Constitution modifier",
+  "primaryAbility": ["Dexterity", "Wisdom"],
+  "savingThrows": ["Strength", "Dexterity"],
+  "proficiencies": {
+    "armor": [],
+    "weapons": ["Simple weapons", "Shortswords"],
+    "tools": ["One type of artisan's tools or one musical instrument"],
+    "skills": {
+      "choose": 2,
+      "from": ["Acrobatics", "Athletics", "History", "Insight", "Religion", "Stealth"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a shortsword", "any simple weapon"] },
+      { "choose": 1, "from": ["a dungeoneer's pack", "an explorer's pack"] }
+    ],
+    "fixed": ["10 darts"],
+    "goldAlternative": "5d4 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Dexterity 13 and Wisdom 13",
+    "proficienciesGained": ["Simple weapons", "Shortswords"]
+  },
+  "spellcasting": null,
+  "subclass": { "label": "Monastic Tradition", "level": 3, "featureLevels": [3, 6, 11, 17] },
+  "progression": {
+    "columns": [
+      { "key": "martialArts", "label": "Martial Arts" },
+      { "key": "ki", "label": "Ki Points" },
+      { "key": "movement", "label": "Unarmored Movement" }
+    ],
+    "levels": [
+      { "level": 1, "features": ["Unarmored Defense", "Martial Arts"], "values": { "martialArts": "1d4", "ki": "—", "movement": "—" } },
+      { "level": 2, "features": ["Ki", "Unarmored Movement", "Dedicated Weapon (optional)"], "values": { "martialArts": "1d4", "ki": "2", "movement": "+10 ft." } },
+      { "level": 3, "features": ["Monastic Tradition", "Deflect Missiles", "Ki-Fueled Attack (optional)"], "values": { "martialArts": "1d4", "ki": "3", "movement": "+10 ft." } },
+      { "level": 4, "features": ["Ability Score Improvement", "Slow Fall", "Quickened Healing (optional)"], "values": { "martialArts": "1d4", "ki": "4", "movement": "+10 ft." } },
+      { "level": 5, "features": ["Extra Attack", "Stunning Strike", "Focused Aim (optional)"], "values": { "martialArts": "1d6", "ki": "5", "movement": "+10 ft." } },
+      { "level": 6, "features": ["Ki-Empowered Strikes", "Monastic Tradition feature"], "values": { "martialArts": "1d6", "ki": "6", "movement": "+15 ft." } },
+      { "level": 7, "features": ["Evasion", "Stillness of Mind"], "values": { "martialArts": "1d6", "ki": "7", "movement": "+15 ft." } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "martialArts": "1d6", "ki": "8", "movement": "+15 ft." } },
+      { "level": 9, "features": ["Unarmored Movement improvement"], "values": { "martialArts": "1d6", "ki": "9", "movement": "+15 ft." } },
+      { "level": 10, "features": ["Purity of Body"], "values": { "martialArts": "1d6", "ki": "10", "movement": "+20 ft." } },
+      { "level": 11, "features": ["Monastic Tradition feature"], "values": { "martialArts": "1d8", "ki": "11", "movement": "+20 ft." } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "martialArts": "1d8", "ki": "12", "movement": "+20 ft." } },
+      { "level": 13, "features": ["Tongue of the Sun and Moon"], "values": { "martialArts": "1d8", "ki": "13", "movement": "+20 ft." } },
+      { "level": 14, "features": ["Diamond Soul"], "values": { "martialArts": "1d8", "ki": "14", "movement": "+25 ft." } },
+      { "level": 15, "features": ["Timeless Body"], "values": { "martialArts": "1d8", "ki": "15", "movement": "+25 ft." } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "martialArts": "1d8", "ki": "16", "movement": "+25 ft." } },
+      { "level": 17, "features": ["Monastic Tradition feature"], "values": { "martialArts": "1d10", "ki": "17", "movement": "+25 ft." } },
+      { "level": 18, "features": ["Empty Body"], "values": { "martialArts": "1d10", "ki": "18", "movement": "+30 ft." } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "martialArts": "1d10", "ki": "19", "movement": "+30 ft." } },
+      { "level": 20, "features": ["Perfect Self"], "values": { "martialArts": "1d10", "ki": "20", "movement": "+30 ft." } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Unarmored Defense",
+      "level": 1,
+      "description": "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+    },
+    {
+      "name": "Martial Arts",
+      "level": 1,
+      "description": "Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons (shortswords and any simple melee weapon that lacks the two-handed or heavy property). While unarmed or wielding only monk weapons and wearing no armor or shield:\n\n- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.\n- You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain levels (see the Martial Arts column).\n- When you use the Attack action with an unarmed strike or monk weapon on your turn, you can make one unarmed strike as a bonus action."
+    },
+    {
+      "name": "Ki",
+      "level": 2,
+      "description": "Your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points (see the Ki Points column), all of which you regain when you finish a short or long rest.\n\nSome ki features require your target to make a saving throw; the DC equals **8 + your proficiency bonus + your Wisdom modifier**.\n\n**Flurry of Blows.** Immediately after you take the Attack action, you can spend 1 ki point to make two unarmed strikes as a bonus action.\n\n**Patient Defense.** You can spend 1 ki point to take the Dodge action as a bonus action.\n\n**Step of the Wind.** You can spend 1 ki point to take the Disengage or Dash action as a bonus action, and your jump distance is doubled for the turn."
+    },
+    {
+      "name": "Unarmored Movement",
+      "level": 2,
+      "description": "Your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases as you gain levels (see the table). Starting at 9th level, you can move along vertical surfaces and across liquids on your turn without falling during the move."
+    },
+    {
+      "name": "Dedicated Weapon",
+      "level": 2,
+      "source": "TCE",
+      "optional": true,
+      "description": "Whenever you finish a short or long rest, you can touch one weapon and designate it as a monk weapon for you, provided it is a simple or martial weapon that you are proficient with, lacks the heavy and special properties, and is not two-handed."
+    },
+    {
+      "name": "Monastic Tradition",
+      "level": 3,
+      "description": "You commit yourself to a monastic tradition. It grants features at 3rd, 6th, 11th, and 17th level."
+    },
+    {
+      "name": "Deflect Missiles",
+      "level": 3,
+      "description": "You can use your reaction to deflect or catch a missile when you are hit by a ranged weapon attack, reducing the damage by 1d10 + your Dexterity modifier + your monk level. If you reduce the damage to 0, you can catch the missile — and if you have a free hand, you can spend 1 ki point to make a ranged attack with it as part of the same reaction, treating it as a monk weapon with a range of 20/60."
+    },
+    {
+      "name": "Ki-Fueled Attack",
+      "level": 3,
+      "source": "TCE",
+      "optional": true,
+      "description": "If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Slow Fall",
+      "level": 4,
+      "description": "You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+    },
+    {
+      "name": "Quickened Healing",
+      "level": 4,
+      "source": "TCE",
+      "optional": true,
+      "description": "As an action, you can spend 2 ki points and roll a Martial Arts die, regaining hit points equal to the number rolled + your proficiency bonus."
+    },
+    {
+      "name": "Extra Attack",
+      "level": 5,
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Stunning Strike",
+      "level": 5,
+      "description": "When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+    },
+    {
+      "name": "Focused Aim",
+      "level": 5,
+      "source": "TCE",
+      "optional": true,
+      "description": "When you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of those points, potentially turning the miss into a hit."
+    },
+    {
+      "name": "Ki-Empowered Strikes",
+      "level": 6,
+      "description": "Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+    },
+    {
+      "name": "Evasion",
+      "level": 7,
+      "description": "When you are subjected to an effect that allows a Dexterity saving throw to take only half damage, you instead take no damage on a success and only half damage on a failure."
+    },
+    {
+      "name": "Stillness of Mind",
+      "level": 7,
+      "description": "You can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+    },
+    {
+      "name": "Purity of Body",
+      "level": 10,
+      "description": "Your mastery of ki makes you immune to disease and poison."
+    },
+    {
+      "name": "Tongue of the Sun and Moon",
+      "level": 13,
+      "description": "You learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
+    },
+    {
+      "name": "Diamond Soul",
+      "level": 14,
+      "description": "You gain proficiency in all saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+    },
+    {
+      "name": "Timeless Body",
+      "level": 15,
+      "description": "Your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, but you no longer need food or water."
+    },
+    {
+      "name": "Empty Body",
+      "level": 18,
+      "description": "You can use your action to spend 4 ki points to become invisible for 1 minute, during which you also have resistance to all damage but force damage. Additionally, you can spend 8 ki points to cast the *astral projection* spell without needing material components — but it can't affect any creature other than you."
+    },
+    {
+      "name": "Perfect Self",
+      "level": 20,
+      "description": "When you roll initiative and have no ki points remaining, you regain 4 ki points."
+    }
+  ],
+  "subclasses": [
+    { "id": "way-of-the-open-hand", "name": "Way of the Open Hand", "source": "PHB" },
+    { "id": "way-of-shadow", "name": "Way of Shadow", "source": "PHB" },
+    { "id": "way-of-the-four-elements", "name": "Way of the Four Elements", "source": "PHB" },
+    { "id": "way-of-the-long-death", "name": "Way of the Long Death", "source": "SCAG" },
+    { "id": "way-of-the-sun-soul", "name": "Way of the Sun Soul", "source": "XGE" },
+    { "id": "way-of-the-drunken-master", "name": "Way of the Drunken Master", "source": "XGE" },
+    { "id": "way-of-the-kensei", "name": "Way of the Kensei", "source": "XGE" },
+    { "id": "way-of-mercy", "name": "Way of Mercy", "source": "TCE" },
+    { "id": "way-of-the-astral-self", "name": "Way of the Astral Self", "source": "TCE" },
+    { "id": "way-of-the-ascendant-dragon", "name": "Way of the Ascendant Dragon", "source": "FTD" },
+    { "id": "way-of-the-cobalt-soul", "name": "Way of the Cobalt Soul", "source": "EGW" }
+  ]
+}

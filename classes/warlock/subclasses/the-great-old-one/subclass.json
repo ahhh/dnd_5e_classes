@@ -1,0 +1,39 @@
+{
+  "id": "the-great-old-one",
+  "name": "The Great Old One",
+  "class": "warlock",
+  "label": "Otherworldly Patron",
+  "source": { "book": "PHB", "page": 109 },
+  "summary": "An alien intelligence grants telepathy, psychic power, and the ability to enslave minds.",
+  "flavor": "Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible, and it might not even know you exist.",
+  "playstyle": "The psychic control patron. Awakened Mind gives free telepathy, Entropic Ward turns a miss into advantage, and Create Thrall permanently charms a creature — extraordinary for intrigue campaigns.",
+  "expandedSpells": {
+    "1st": ["dissonant whispers", "Tasha's hideous laughter"],
+    "2nd": ["detect thoughts", "phantasmal force"],
+    "3rd": ["clairvoyance", "sending"],
+    "4th": ["dominate beast", "Evard's black tentacles"],
+    "5th": ["dominate person", "telekinesis"]
+  },
+  "features": [
+    {
+      "name": "Awakened Mind",
+      "level": 1,
+      "description": "Your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet. You don't need to share a language, but the creature must be able to understand at least one language."
+    },
+    {
+      "name": "Entropic Ward",
+      "level": 6,
+      "description": "You learn to magically ward yourself against attack and turn an enemy's failed strike into good luck. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against that creature has advantage if you make it before the end of your next turn. Once used, you can't use this again until you finish a short or long rest."
+    },
+    {
+      "name": "Thought Shield",
+      "level": 10,
+      "description": "Your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do."
+    },
+    {
+      "name": "Create Thrall",
+      "level": 14,
+      "description": "You gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a *remove curse* spell is cast on it, its charmed condition is removed, or you use this feature again.\n\nYou can communicate telepathically with the charmed creature as long as you are on the same plane of existence."
+    }
+  ]
+}

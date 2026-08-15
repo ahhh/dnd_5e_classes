@@ -1,0 +1,122 @@
+{
+  "id": "sorcerer",
+  "name": "Sorcerer",
+  "source": { "book": "PHB", "page": 99 },
+  "summary": "An innate spellcaster who bends magic itself, reshaping spells with raw sorcerous power.",
+  "flavor": "Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. One can't study sorcery as one learns a language, any more than one can learn to live a legendary life. No one chooses sorcery; the power chooses the sorcerer.",
+  "hitDice": "d6",
+  "hitPointsAt1st": "6 + your Constitution modifier",
+  "hitPointsPerLevel": "1d6 (or 4) + your Constitution modifier",
+  "primaryAbility": ["Charisma"],
+  "savingThrows": ["Constitution", "Charisma"],
+  "proficiencies": {
+    "armor": [],
+    "weapons": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": ["Arcana", "Deception", "Insight", "Intimidation", "Persuasion", "Religion"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a light crossbow and 20 bolts", "any simple weapon"] },
+      { "choose": 1, "from": ["a component pouch", "an arcane focus"] },
+      { "choose": 1, "from": ["a dungeoneer's pack", "an explorer's pack"] }
+    ],
+    "fixed": ["Two daggers"],
+    "goldAlternative": "3d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Charisma 13",
+    "proficienciesGained": [],
+    "spellcastingNote": "Add your full sorcerer level when determining shared multiclass spell slots."
+  },
+  "spellcasting": {
+    "ability": "Charisma",
+    "slotTable": "full",
+    "type": "known",
+    "ritualCasting": false,
+    "focus": "An arcane focus",
+    "spellList": "Sorcerer",
+    "notes": "You know a small, fixed number of spells and can swap one for another whenever you gain a sorcerer level. Your power comes not from breadth of spells but from Metamagic — the ability to reshape the ones you know."
+  },
+  "subclass": { "label": "Sorcerous Origin", "level": 1, "featureLevels": [1, 6, 14, 18] },
+  "progression": {
+    "columns": [
+      { "key": "cantrips", "label": "Cantrips Known" },
+      { "key": "known", "label": "Spells Known" },
+      { "key": "sp", "label": "Sorcery Points" }
+    ],
+    "levels": [
+      { "level": 1, "features": ["Spellcasting", "Sorcerous Origin"], "values": { "cantrips": "4", "known": "2", "sp": "—" } },
+      { "level": 2, "features": ["Font of Magic"], "values": { "cantrips": "4", "known": "3", "sp": "2" } },
+      { "level": 3, "features": ["Metamagic"], "values": { "cantrips": "4", "known": "4", "sp": "3" } },
+      { "level": 4, "features": ["Ability Score Improvement", "Sorcerous Versatility (optional)"], "values": { "cantrips": "5", "known": "5", "sp": "4" } },
+      { "level": 5, "features": [], "values": { "cantrips": "5", "known": "6", "sp": "5" } },
+      { "level": 6, "features": ["Sorcerous Origin feature"], "values": { "cantrips": "5", "known": "7", "sp": "6" } },
+      { "level": 7, "features": [], "values": { "cantrips": "5", "known": "8", "sp": "7" } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "cantrips": "5", "known": "9", "sp": "8" } },
+      { "level": 9, "features": [], "values": { "cantrips": "5", "known": "10", "sp": "9" } },
+      { "level": 10, "features": ["Metamagic"], "values": { "cantrips": "6", "known": "11", "sp": "10" } },
+      { "level": 11, "features": [], "values": { "cantrips": "6", "known": "12", "sp": "11" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "cantrips": "6", "known": "12", "sp": "12" } },
+      { "level": 13, "features": [], "values": { "cantrips": "6", "known": "13", "sp": "13" } },
+      { "level": 14, "features": ["Sorcerous Origin feature"], "values": { "cantrips": "6", "known": "13", "sp": "14" } },
+      { "level": 15, "features": [], "values": { "cantrips": "6", "known": "14", "sp": "15" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "cantrips": "6", "known": "14", "sp": "16" } },
+      { "level": 17, "features": ["Metamagic"], "values": { "cantrips": "6", "known": "15", "sp": "17" } },
+      { "level": 18, "features": ["Sorcerous Origin feature"], "values": { "cantrips": "6", "known": "15", "sp": "18" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "cantrips": "6", "known": "15", "sp": "19" } },
+      { "level": 20, "features": ["Sorcerous Restoration"], "values": { "cantrips": "6", "known": "15", "sp": "20" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Spellcasting",
+      "level": 1,
+      "description": "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. You know four cantrips and two 1st-level spells at 1st level, learning more as you gain levels. Charisma is your spellcasting ability."
+    },
+    {
+      "name": "Sorcerous Origin",
+      "level": 1,
+      "description": "Choose a sorcerous origin, which describes the source of your innate magical power. It grants features at 1st, 6th, 14th, and 18th level."
+    },
+    {
+      "name": "Font of Magic",
+      "level": 2,
+      "description": "You tap into a deep wellspring of magic within yourself, represented by **sorcery points** (see the table). You regain all spent sorcery points on a long rest.\n\n**Converting Sorcery Points to Spell Slots.** As a bonus action, you can transform sorcery points into a spell slot: 2 points for a 1st-level slot, 3 for 2nd, 5 for 3rd, 6 for 4th, and 7 for 5th.\n\n**Converting Spell Slots to Sorcery Points.** As a bonus action, you can expend one spell slot to gain a number of sorcery points equal to the slot's level."
+    },
+    {
+      "name": "Metamagic",
+      "level": 3,
+      "description": "You gain the ability to twist your spells to suit your needs. You gain two Metamagic options of your choice, and two more at 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.\n\n| Option | Cost | Effect |\n| :--- | :--- | :--- |\n| **Careful Spell** | 1 SP | Choose creatures up to your Charisma modifier; they automatically succeed on the spell's saving throw. |\n| **Distant Spell** | 1 SP | Double a spell's range, or give a touch spell a range of 30 feet. |\n| **Empowered Spell** | 1 SP | Reroll a number of damage dice up to your Charisma modifier. Can be used alongside another Metamagic. |\n| **Extended Spell** | 1 SP | Double a spell's duration, to a maximum of 24 hours. |\n| **Heightened Spell** | 3 SP | One target has disadvantage on its first saving throw against the spell. |\n| **Quickened Spell** | 2 SP | Change a casting time of 1 action to 1 bonus action. |\n| **Seeking Spell** *(TCE)* | 2 SP | Reroll a missed spell attack roll. |\n| **Subtle Spell** | 1 SP | Cast without somatic or verbal components. |\n| **Transmuted Spell** *(TCE)* | 1 SP | Change a spell's damage type among acid, cold, fire, lightning, poison, and thunder. |\n| **Twinned Spell** | Slot level (1 for cantrips) | A spell that targets only one creature targets a second creature. |"
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Sorcerous Versatility",
+      "level": 4,
+      "source": "TCE",
+      "optional": true,
+      "description": "Whenever you gain an Ability Score Improvement, you can replace one Metamagic option you know with another one from the class, and you can replace one cantrip you learned from the Spellcasting feature with another sorcerer cantrip."
+    },
+    {
+      "name": "Sorcerous Restoration",
+      "level": 20,
+      "description": "You regain 4 expended sorcery points whenever you finish a short rest."
+    }
+  ],
+  "subclasses": [
+    { "id": "draconic-bloodline", "name": "Draconic Bloodline", "source": "PHB" },
+    { "id": "wild-magic", "name": "Wild Magic", "source": "PHB" },
+    { "id": "divine-soul", "name": "Divine Soul", "source": "XGE" },
+    { "id": "shadow-magic", "name": "Shadow Magic", "source": "XGE" },
+    { "id": "storm-sorcery", "name": "Storm Sorcery", "source": "XGE" },
+    { "id": "aberrant-mind", "name": "Aberrant Mind", "source": "TCE" },
+    { "id": "clockwork-soul", "name": "Clockwork Soul", "source": "TCE" }
+  ]
+}

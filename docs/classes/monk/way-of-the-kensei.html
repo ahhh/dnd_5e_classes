@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Way of the Kensei — Monk</title>
+<meta name="description" content="A weapon master who treats chosen blades and bows as extensions of the body. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Monk</a> / <strong>Way of the Kensei</strong></nav>
+<main>
+<h1 id="way-of-the-kensei">Way of the Kensei</h1>
+<p><em>Monk Monastic Tradition — Xanathar's Guide to Everything, p. 34</em></p>
+<blockquote>A weapon master who treats chosen blades and bows as extensions of the body.</blockquote>
+<p>Monks of the Way of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. Founded on a mastery of sword fighting, the tradition has expanded to include many different weapons.</p>
+<p><strong>How it plays.</strong> The armed monk. You get to use martial weapons — including longbows — with your Martial Arts die, and Sharpen the Blade lets you enchant your own weapon. Deft Strike converts ki into solid extra damage.</p>
+<h2 id="features">Features</h2>
+<h3 id="path-of-the-kensei">Path of the Kensei</h3>
+<p><em>3rd level</em></p>
+<p>You gain the following benefits.</p>
+<p><strong>Kensei Weapons.</strong> Choose two weapons — each can be a simple or martial melee or ranged weapon that lacks the heavy and special properties. They become kensei weapons for you, counting as monk weapons. You choose two additional kensei weapons at 6th, 11th, and 17th level.</p>
+<p><strong>Agile Parry.</strong> If you make an unarmed strike as part of the Attack action on your turn and are holding a kensei weapon, you gain +2 AC until the start of your next turn.</p>
+<p><strong>Kensei's Shot.</strong> As a bonus action, you can make your ranged attacks with a kensei weapon deal an extra 1d4 damage until the end of the turn.</p>
+<p><strong>Way of the Brush.</strong> You gain proficiency with calligrapher's supplies or painter's supplies.</p>
+<h3 id="one-with-the-blade">One with the Blade</h3>
+<p><em>6th level</em></p>
+<p>You gain two benefits.</p>
+<p><strong>Magic Kensei Weapons.</strong> Your attacks with kensei weapons count as magical for overcoming resistance and immunity to nonmagical attacks.</p>
+<p><strong>Deft Strike.</strong> When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage equal to your Martial Arts die. You can use this once per turn.</p>
+<h3 id="sharpen-the-blade">Sharpen the Blade</h3>
+<p><em>11th level</em></p>
+<p>As a bonus action, you can expend up to 3 ki points to grant one kensei weapon you touch a bonus to attack and damage rolls equal to the number of ki points spent. The bonus lasts for 1 minute or until you use this feature again. This has no effect on a magic weapon that already has a bonus to those rolls.</p>
+<h3 id="unerring-accuracy">Unerring Accuracy</h3>
+<p><em>17th level</em></p>
+<p>If you miss with an attack roll using a monk weapon on your turn, you can reroll it. You can use this feature only once on each of your turns.</p>
+<p><a href="index.html">← Back to Monk</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

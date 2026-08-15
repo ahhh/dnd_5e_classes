@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College of Lore — Bard</title>
+<meta name="description" content="Scholar-bards who collect secrets, cut enemies down with a word, and steal spells from every class. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Bard</a> / <strong>College of Lore</strong></nav>
+<main>
+<h1 id="college-of-lore">College of Lore</h1>
+<p><em>Bard Bard College — Player's Handbook, p. 54</em></p>
+<blockquote>Scholar-bards who collect secrets, cut enemies down with a word, and steal spells from every class.</blockquote>
+<p>Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Their motto is that no source of information is beneath notice.</p>
+<p><strong>How it plays.</strong> The strongest all-round bard. Cutting Words is a superb reaction debuff, and Additional Magical Secrets at 6th level gives you top-tier spells years ahead of schedule.</p>
+<h2 id="features">Features</h2>
+<h3 id="bonus-proficiencies">Bonus Proficiencies</h3>
+<p><em>3rd level</em></p>
+<p>You gain proficiency with three skills of your choice.</p>
+<h3 id="cutting-words">Cutting Words</h3>
+<p><em>3rd level</em></p>
+<p>When a creature within 60 feet that you can see makes an attack roll, ability check, or damage roll, you can use your reaction to expend a Bardic Inspiration die and subtract the number rolled from the creature's total. You can do this after the roll but before you know whether it succeeds. A creature is unaffected if it can't hear you or is immune to being charmed.</p>
+<h3 id="additional-magical-secrets">Additional Magical Secrets</h3>
+<p><em>6th level</em></p>
+<p>You learn two spells of your choice from any class. They count as bard spells for you but don't count against the number of bard spells you know.</p>
+<h3 id="peerless-skill">Peerless Skill</h3>
+<p><em>14th level</em></p>
+<p>When you make an ability check, you can expend one use of Bardic Inspiration and add the die roll to your total. You can do so after rolling but before knowing whether you succeed.</p>
+<p><a href="index.html">← Back to Bard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

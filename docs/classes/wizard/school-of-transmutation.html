@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School of Transmutation — Wizard</title>
+<meta name="description" content="An alchemist of reality who reshapes matter and carries a stone of ever-shifting power. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Wizard</a> / <strong>School of Transmutation</strong></nav>
+<main>
+<h1 id="school-of-transmutation">School of Transmutation</h1>
+<p><em>Wizard Arcane Tradition — Player's Handbook, p. 119</em></p>
+<blockquote>An alchemist of reality who reshapes matter and carries a stone of ever-shifting power.</blockquote>
+<p>You are a student of spells that modify energy and matter. To you, the world is not a fixed thing but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities.</p>
+<p><strong>How it plays.</strong> Utility-focused with a strong 6th-level feature. The Transmuter's Stone is a persistent, reconfigurable buff you can hand to an ally, and Master Transmuter offers a once-per-day miracle.</p>
+<h2 id="features">Features</h2>
+<h3 id="transmutation-savant">Transmutation Savant</h3>
+<p><em>2nd level</em></p>
+<p>The gold and time you must spend to copy a transmutation spell into your spellbook is halved.</p>
+<h3 id="minor-alchemy">Minor Alchemy</h3>
+<p><em>2nd level</em></p>
+<p>You can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those substances.</p>
+<p>For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. The transformation lasts for 1 hour, or until you lose your concentration.</p>
+<h3 id="transmuters-stone">Transmuter's Stone</h3>
+<p><em>6th level</em></p>
+<p>You can spend 8 hours creating a transmuter's stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice while the stone is in its possession:</p>
+<ul><li>Darkvision out to 60 feet</li><li>An increase to speed of 10 feet while unencumbered</li><li>Proficiency in Constitution saving throws</li><li>Resistance to acid, cold, fire, lightning, or thunder damage (your choice when you create the stone)</li></ul>
+<p>Each time you cast a transmutation spell of 1st level or higher, you can change the effect of your stone if it is on your person.</p>
+<h3 id="shapechanger">Shapechanger</h3>
+<p><em>10th level</em></p>
+<p>You add the <em>polymorph</em> spell to your spellbook if it is not there already. You can cast <em>polymorph</em> without expending a spell slot; when you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower. Once you cast it this way, you can't do so again until you finish a short or long rest.</p>
+<h3 id="master-transmuter">Master Transmuter</h3>
+<p><em>14th level</em></p>
+<p>You can use your action to consume the reserve of transmutation magic stored within your transmuter's stone in a single burst. When you do so, choose one of the following effects; your stone is destroyed and can't be remade until you finish a long rest.</p>
+<p><strong>Major Transformation.</strong> Transmute one nonmagical object into another object of similar size and mass, of equal or lesser value. <strong>Panacea.</strong> Remove all curses, diseases, and poisons affecting a creature you touch, and restore all its hit points. <strong>Restore Life.</strong> Cast <em>raise dead</em> without expending a spell slot or material components. <strong>Restore Youth.</strong> Reduce the target's apparent age by 3d10 years, to a minimum of 13 years, without changing its lifespan.</p>
+<p><a href="index.html">← Back to Wizard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

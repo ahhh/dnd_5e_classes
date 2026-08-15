@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Way of the Open Hand — Monk</title>
+<meta name="description" content="The quintessential martial artist — every Flurry of Blows can trip, push, or deny reactions. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Monk</a> / <strong>Way of the Open Hand</strong></nav>
+<main>
+<h1 id="way-of-the-open-hand">Way of the Open Hand</h1>
+<p><em>Monk Monastic Tradition — Player's Handbook, p. 79</em></p>
+<blockquote>The quintessential martial artist — every Flurry of Blows can trip, push, or deny reactions.</blockquote>
+<p>Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.</p>
+<p><strong>How it plays.</strong> The strongest baseline monk. Open Hand Technique adds free control effects to attacks you were making anyway, and Quivering Palm is one of the most dramatic capstones in the game.</p>
+<h2 id="features">Features</h2>
+<h3 id="open-hand-technique">Open Hand Technique</h3>
+<p><em>3rd level</em></p>
+<p>Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:</p>
+<ul><li>It must succeed on a Dexterity saving throw or be knocked prone.</li><li>It must make a Strength saving throw; on a failure, you push it up to 15 feet away from you.</li><li>It can't take reactions until the end of your next turn.</li></ul>
+<h3 id="wholeness-of-body">Wholeness of Body</h3>
+<p><em>6th level</em></p>
+<p>As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.</p>
+<h3 id="tranquility">Tranquility</h3>
+<p><em>11th level</em></p>
+<p>At the end of a long rest, you gain the effect of a <em>sanctuary</em> spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.</p>
+<h3 id="quivering-palm">Quivering Palm</h3>
+<p><em>17th level</em></p>
+<p>You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level.</p>
+<p>You can use an action to end the vibrations: the target must make a Constitution saving throw. It takes 10d10 necrotic damage on a success, or drops to 0 hit points on a failure. You can have only one creature under this effect at a time.</p>
+<p><a href="index.html">← Back to Monk</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

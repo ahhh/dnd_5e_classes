@@ -1,0 +1,62 @@
+# Oath of Conquest
+
+*Paladin Sacred Oath — Xanathar's Guide to Everything, p. 37*
+
+> A tyrant knight who freezes foes in terror and grinds them down with an aura of dread.
+
+The Oath of Conquest calls to paladins who seek glory in battle and the subjugation of their enemies. It is not enough for these paladins to establish order — they must crush the forces of chaos. Sometimes called knight tyrants or iron mongers, they are frequently found in the service of evil deities and warlords.
+
+**How it plays.** The fear-lock oath. Conquering Presence frightens a crowd, and Aura of Conquest reduces frightened creatures' speed to 0 while dealing automatic psychic damage — a brutal control combination.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 3rd | armor of Agathys, command |
+| 5th | hold person, spiritual weapon |
+| 9th | bestow curse, fear |
+| 13th | dominate beast, stoneskin |
+| 17th | cloudkill, dominate person |
+
+## Features
+
+### Tenets of Conquest
+
+*3rd level*
+
+**Douse the Flame of Hope.** It is not enough to merely defeat an enemy in battle. Your victory must be so overwhelming that your enemies' will to fight is shattered forever.
+**Rule with an Iron Fist.** Once you have conquered, tolerate no dissent. Your word is law.
+**Strength Above All.** You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin.
+
+### Channel Divinity: Conquering Presence
+
+*3rd level*
+
+As an action, you can force each creature of your choice within 30 feet to make a Wisdom saving throw. On a failure, a creature becomes frightened of you for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+### Channel Divinity: Guided Strike
+
+*3rd level*
+
+When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You can make this choice after you see the roll but before the DM says whether the attack hits or misses.
+
+### Aura of Conquest
+
+*7th level*
+
+You constantly emanate a menacing aura in a 10-foot radius while you aren't incapacitated. If a creature is frightened of you and starts its turn in the aura, its speed is reduced to 0, and it takes psychic damage equal to half your paladin level. At 18th level, the range increases to 30 feet.
+
+### Scornful Rebuke
+
+*15th level*
+
+Whenever a creature hits you with an attack while you aren't incapacitated, the attacker takes psychic damage equal to your Charisma modifier (minimum 1).
+
+### Invincible Conqueror
+
+*20th level*
+
+As an action, you can gain the following benefits for 1 minute: you have resistance to all damage; when you take the Attack action on your turn you can make one additional attack; and your melee weapon attacks score a critical hit on a roll of 19 or 20. Once used, you can't use this again until you finish a long rest.
+
+
+[← Back to Paladin](index.md)

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circle of the Moon — Druid</title>
+<meta name="description" content="The shapeshifting combat druid — transform as a bonus action into ever-deadlier beasts. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Druid</a> / <strong>Circle of the Moon</strong></nav>
+<main>
+<h1 id="circle-of-the-moon">Circle of the Moon</h1>
+<p><em>Druid Druid Circle — Player's Handbook, p. 69</em></p>
+<blockquote>The shapeshifting combat druid — transform as a bonus action into ever-deadlier beasts.</blockquote>
+<p>Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings, and they are as unpredictable as the moon's changing face — a gnarled tree one moment, a dire wolf the next.</p>
+<p><strong>How it plays.</strong> The strongest early-game melee druid. Bonus-action Wild Shape plus a much higher CR limit makes you a genuine front-liner, and your beast form's hit points act as a second health bar.</p>
+<h2 id="features">Features</h2>
+<h3 id="combat-wild-shape">Combat Wild Shape</h3>
+<p><em>2nd level</em></p>
+<p>You can use Wild Shape as a bonus action rather than an action. Additionally, while transformed, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the slot expended.</p>
+<h3 id="circle-forms">Circle Forms</h3>
+<p><em>2nd level</em></p>
+<p>You can transform into beasts with a challenge rating as high as 1 (ignoring the Wild Shape column's CR restriction). Starting at 6th level, you can transform into a beast with a CR as high as your druid level divided by 3, rounded down.</p>
+<h3 id="primal-strike">Primal Strike</h3>
+<p><em>6th level</em></p>
+<p>Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.</p>
+<h3 id="elemental-wild-shape">Elemental Wild Shape</h3>
+<p><em>10th level</em></p>
+<p>You can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</p>
+<h3 id="thousand-forms">Thousand Forms</h3>
+<p><em>14th level</em></p>
+<p>You have learned to use magic to alter your physical form in more subtle ways. You can cast the <em>alter self</em> spell at will.</p>
+<p><a href="index.html">← Back to Druid</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

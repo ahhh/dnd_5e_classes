@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circle of Wildfire — Druid</title>
+<meta name="description" content="A druid of cleansing flame bonded to a wildfire spirit that burns and teleports allies. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Druid</a> / <strong>Circle of Wildfire</strong></nav>
+<main>
+<h1 id="circle-of-wildfire">Circle of Wildfire</h1>
+<p><em>Druid Druid Circle — Tasha's Cauldron of Everything, p. 38</em></p>
+<blockquote>A druid of cleansing flame bonded to a wildfire spirit that burns and teleports allies.</blockquote>
+<p>Druids of the Circle of Wildfire understand that destruction is sometimes the herald of rebirth. A forest fire clears the way for new growth. These druids bond with a wildfire spirit — a strange being of ash and flame — and together they embody both devastation and renewal.</p>
+<p><strong>How it plays.</strong> A rare damage-and-healing hybrid. The wildfire spirit's Fiery Teleportation is excellent party repositioning, and Enhanced Bond adds damage to every fire spell you cast.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>2nd</td><td>burning hands, cure wounds</td></tr><tr><td>3rd</td><td>blur, scorching ray</td></tr><tr><td>5th</td><td>revivify, aura of vitality</td></tr><tr><td>7th</td><td>fire shield, flame strike</td></tr><tr><td>9th</td><td>flame strike, mass cure wounds</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="circle-spells">Circle Spells</h3>
+<p><em>2nd level</em></p>
+<p>Your bond with your wildfire spirit grants you spells at 2nd, 3rd, 5th, 7th, and 9th level. They are always prepared and don't count against the number of spells you can prepare.</p>
+<h3 id="summon-wildfire-spirit">Summon Wildfire Spirit</h3>
+<p><em>2nd level</em></p>
+<p>As an action, you can expend a use of Wild Shape to summon your wildfire spirit rather than transform. It appears in an unoccupied space within 30 feet, and each creature within 10 feet of it (other than you) must succeed on a Dexterity saving throw or take 2d6 fire damage. The spirit is friendly to you and your companions, acts on your initiative, obeys your commands, and lasts 1 hour or until it drops to 0 hit points. Its <strong>Fiery Teleportation</strong> action lets it and willing creatures within 5 feet teleport up to 15 feet, dealing fire damage on arrival.</p>
+<h3 id="enhanced-bond">Enhanced Bond</h3>
+<p><em>6th level</em></p>
+<p>While your wildfire spirit is summoned, your fire and healing spells are strengthened: when you cast a spell that deals fire damage or restores hit points, add 1d8 to one damage or healing roll. You can also cast spells as though you were in the spirit's space, using your own senses.</p>
+<h3 id="cauterizing-flames">Cauterizing Flames</h3>
+<p><em>10th level</em></p>
+<p>When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs up in its space. When a creature enters that space, you can use your reaction to extinguish the flame and either deal 2d10 fire damage or restore 2d10 hit points to it. You can use this a number of times equal to your proficiency bonus per long rest.</p>
+<h3 id="blazing-revival">Blazing Revival</h3>
+<p><em>14th level</em></p>
+<p>If you drop to 0 hit points and don't die outright, your wildfire spirit can be destroyed to save you: you instead drop to half your hit point maximum and then fall prone. Once used, you can't use this again until you finish a long rest.</p>
+<p><a href="index.html">← Back to Druid</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

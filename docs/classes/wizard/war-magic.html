@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>War Magic — Wizard</title>
+<meta name="description" content="A battle mage who balances abjuration and evocation, warding themselves while blasting foes. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Wizard</a> / <strong>War Magic</strong></nav>
+<main>
+<h1 id="war-magic">War Magic</h1>
+<p><em>Wizard Arcane Tradition — Xanathar's Guide to Everything, p. 59</em></p>
+<blockquote>A battle mage who balances abjuration and evocation, warding themselves while blasting foes.</blockquote>
+<p>A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration, rather than specializing in either. It teaches techniques that empower a caster's spells while providing methods for wizards to bolster their own defenses.</p>
+<p><strong>How it plays.</strong> The survivability wizard. Arcane Deflection is a huge reaction bonus to AC or saves, Tactical Wit adds Intelligence to initiative, and Durable Magic keeps your concentration spells running.</p>
+<h2 id="features">Features</h2>
+<h3 id="arcane-deflection">Arcane Deflection</h3>
+<p><em>2nd level</em></p>
+<p>You have learned to weave your magic to fortify yourself against harm. When you are hit by an attack or fail a saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack, or a +4 bonus to that saving throw.</p>
+<p>When you use this feature, you can't cast spells other than cantrips until the end of your next turn.</p>
+<h3 id="tactical-wit">Tactical Wit</h3>
+<p><em>2nd level</em></p>
+<p>Your keen ability to assess tactical situations allows you to act quickly in battle. You gain a bonus to your initiative rolls equal to your Intelligence modifier.</p>
+<h3 id="power-surge">Power Surge</h3>
+<p><em>6th level</em></p>
+<p>You can store magical energy within yourself to later empower your damaging spells. You can store a maximum number of power surges equal to your Intelligence modifier (minimum one).</p>
+<p>Whenever you successfully end a spell with <em>dispel magic</em> or <em>counterspell</em>, you gain one power surge. You also gain one whenever you finish a long rest, if you have none.</p>
+<p>When you deal damage with a wizard spell of 1st level or higher, you can spend one power surge to increase that damage by half your wizard level (rounded up).</p>
+<h3 id="durable-magic">Durable Magic</h3>
+<p><em>10th level</em></p>
+<p>The magic you channel helps ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and to all saving throws.</p>
+<h3 id="deflecting-shroud">Deflecting Shroud</h3>
+<p><em>14th level</em></p>
+<p>Your Arcane Deflection becomes infused with deadly magic. When you use your Arcane Deflection feature, you can cause magical energy to arc from you. Up to three creatures of your choice that you can see within 60 feet each take force damage equal to half your wizard level.</p>
+<p><a href="index.html">← Back to Wizard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

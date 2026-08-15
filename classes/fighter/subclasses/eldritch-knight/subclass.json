@@ -1,0 +1,48 @@
+{
+  "id": "eldritch-knight",
+  "name": "Eldritch Knight",
+  "class": "fighter",
+  "label": "Martial Archetype",
+  "source": { "book": "PHB", "page": 74 },
+  "summary": "A warrior-mage who binds weapons to their soul and casts wizard spells between sword strokes.",
+  "flavor": "Eldritch Knights study the arcane alongside the martial arts, combining rigorous weapon training with wizardry. They focus on abjuration and evocation — magic that shields their allies and destroys their enemies.",
+  "playstyle": "The classic gish. *Shield* and *absorbed* defensive spells make you extremely durable, and War Magic lets you cast a cantrip and swing in the same turn. Intelligence is a third stat to manage.",
+  "spellcasting": {
+    "slotTable": "third",
+    "ability": "Intelligence",
+    "school": "Abjuration and Evocation",
+    "notes": "You learn spells from the wizard spell list. Most must be from the abjuration or evocation schools, though at 3rd, 8th, 14th, and 20th level you may choose from any school. You know 3 spells at 3rd level, rising to 13 by 20th, plus 2 cantrips (3 at 10th level)."
+  },
+  "features": [
+    {
+      "name": "Spellcasting",
+      "level": 3,
+      "description": "You augment your martial prowess with the ability to cast spells, using the third-caster progression above. Intelligence is your spellcasting ability."
+    },
+    {
+      "name": "Weapon Bond",
+      "level": 3,
+      "description": "You learn a ritual that creates a magical bond between yourself and one weapon, performed over 1 hour during a short rest. Once bonded, you can't be disarmed of that weapon unless you are incapacitated, and you can summon it as a bonus action if it is on the same plane, causing it to teleport into your hand. You can have up to two bonded weapons but can summon only one at a time."
+    },
+    {
+      "name": "War Magic",
+      "level": 7,
+      "description": "When you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
+    },
+    {
+      "name": "Eldritch Strike",
+      "level": 10,
+      "description": "When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+    },
+    {
+      "name": "Arcane Charge",
+      "level": 15,
+      "description": "When you use your Action Surge, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action."
+    },
+    {
+      "name": "Improved War Magic",
+      "level": 18,
+      "description": "When you use your action to cast a spell of 1st level or higher, you can make one weapon attack as a bonus action."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "divine-soul",
+  "name": "Divine Soul",
+  "class": "sorcerer",
+  "label": "Sorcerous Origin",
+  "source": { "book": "XGE", "page": 50 },
+  "summary": "Celestial heritage grants you the entire cleric spell list alongside sorcerer flexibility.",
+  "flavor": "Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign of great destiny — the sorcerer might be descended from an angel, or blessed at birth by a god.",
+  "playstyle": "Arguably the most powerful sorcerer. Access to the full cleric list means you get *healing word*, *spirit guardians*, and *revivify* while still having Metamagic — a combination nothing else in the game offers.",
+  "features": [
+    {
+      "name": "Divine Magic",
+      "level": 1,
+      "description": "Your link to the divine allows you to learn spells from the cleric spell list. Whenever you gain a sorcerer level, you can replace one of your known spells with a cleric spell as well as a sorcerer spell.\n\nYou also choose an affinity that grants you a bonus spell, always known and not counted against your spells known:\n\n| Affinity | Bonus Spell |\n| :--- | :--- |\n| Good | *cure wounds* |\n| Evil | *inflict wounds* |\n| Law | *bless* |\n| Chaos | *bane* |\n| Neutrality | *protection from evil and good* |"
+    },
+    {
+      "name": "Favored by the Gods",
+      "level": 1,
+      "description": "Divine power guards your destiny. If you fail a saving throw or miss with an attack roll, you can roll 2d4 and add it to the total, possibly changing the outcome. Once you use this feature, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Empowered Healing",
+      "level": 6,
+      "description": "The divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't incapacitated. You can use this feature only once per turn."
+    },
+    {
+      "name": "Otherworldly Wings",
+      "level": 14,
+      "description": "You can use a bonus action to manifest a pair of spectral wings from your back, gaining a flying speed of 30 feet. The wings last until you dismiss them as a bonus action. Their appearance depends on your affinity — feathered for good and law, bat-like or insectile for evil and chaos."
+    },
+    {
+      "name": "Unearthly Recovery",
+      "level": 18,
+      "description": "You gain the ability to overcome grievous injuries. As a bonus action when you have fewer than half of your hit points remaining, you can regain hit points equal to half your hit point maximum. Once used, you can't use this feature again until you finish a long rest."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "cleric",
+  "name": "Cleric",
+  "source": { "book": "PHB", "page": 56 },
+  "summary": "A divine agent who channels a god's power to heal, smite, and turn back the undead.",
+  "flavor": "Clerics are conduits for divine power. They are not merely priests — they are champions who wield the authority of their deity in the world, mending wounds, shattering the undead, and calling down miracles. The domain a cleric serves shapes them far more than the class itself, making the cleric the most varied class in the game.",
+  "hitDice": "d8",
+  "hitPointsAt1st": "8 + your Constitution modifier",
+  "hitPointsPerLevel": "1d8 (or 5) + your Constitution modifier",
+  "primaryAbility": ["Wisdom"],
+  "savingThrows": ["Wisdom", "Charisma"],
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Shields"],
+    "weapons": ["Simple weapons"],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": ["History", "Insight", "Medicine", "Persuasion", "Religion"],
+      "note": "Some domains grant additional proficiencies"
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a mace", "a warhammer (if proficient)"] },
+      { "choose": 1, "from": ["scale mail", "leather armor", "chain mail (if proficient)"] },
+      { "choose": 1, "from": ["a light crossbow and 20 bolts", "any simple weapon"] },
+      { "choose": 1, "from": ["a priest's pack", "an explorer's pack"] }
+    ],
+    "fixed": ["A shield", "A holy symbol"],
+    "goldAlternative": "5d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Wisdom 13",
+    "proficienciesGained": ["Light armor", "Medium armor", "Shields"],
+    "spellcastingNote": "Add your full cleric level when determining shared multiclass spell slots."
+  },
+  "spellcasting": {
+    "ability": "Wisdom",
+    "slotTable": "full",
+    "type": "prepared",
+    "ritualCasting": true,
+    "focus": "A holy symbol",
+    "preparedFormula": "Wisdom modifier + cleric level (minimum 1)",
+    "spellList": "Cleric",
+    "notes": "You have access to the entire cleric spell list and choose your prepared spells fresh after each long rest. Domain spells are always prepared and don't count against this number."
+  },
+  "subclass": { "label": "Divine Domain", "level": 1, "featureLevels": [1, 2, 6, 8, 17] },
+  "progression": {
+    "columns": [{ "key": "cantrips", "label": "Cantrips Known" }],
+    "levels": [
+      { "level": 1, "features": ["Spellcasting", "Divine Domain"], "values": { "cantrips": "3" } },
+      { "level": 2, "features": ["Channel Divinity (1/rest)", "Divine Domain feature", "Harness Divine Power (optional)"], "values": { "cantrips": "3" } },
+      { "level": 3, "features": [], "values": { "cantrips": "3" } },
+      { "level": 4, "features": ["Ability Score Improvement", "Cantrip Versatility (optional)"], "values": { "cantrips": "4" } },
+      { "level": 5, "features": ["Destroy Undead (CR 1/2)"], "values": { "cantrips": "4" } },
+      { "level": 6, "features": ["Channel Divinity (2/rest)", "Divine Domain feature"], "values": { "cantrips": "4" } },
+      { "level": 7, "features": [], "values": { "cantrips": "4" } },
+      { "level": 8, "features": ["Ability Score Improvement", "Destroy Undead (CR 1)", "Divine Domain feature", "Blessed Strikes (optional)"], "values": { "cantrips": "4" } },
+      { "level": 9, "features": [], "values": { "cantrips": "4" } },
+      { "level": 10, "features": ["Divine Intervention"], "values": { "cantrips": "5" } },
+      { "level": 11, "features": ["Destroy Undead (CR 2)"], "values": { "cantrips": "5" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "cantrips": "5" } },
+      { "level": 13, "features": [], "values": { "cantrips": "5" } },
+      { "level": 14, "features": ["Destroy Undead (CR 3)"], "values": { "cantrips": "5" } },
+      { "level": 15, "features": [], "values": { "cantrips": "5" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "cantrips": "5" } },
+      { "level": 17, "features": ["Destroy Undead (CR 4)", "Divine Domain feature"], "values": { "cantrips": "5" } },
+      { "level": 18, "features": ["Channel Divinity (3/rest)"], "values": { "cantrips": "5" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "cantrips": "5" } },
+      { "level": 20, "features": ["Divine Intervention improvement"], "values": { "cantrips": "5" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Spellcasting",
+      "level": 1,
+      "description": "As a conduit for divine power, you can cast cleric spells. You know three cantrips and prepare a number of spells each day equal to your Wisdom modifier + your cleric level. You use a holy symbol as a spellcasting focus, and can cast any prepared cleric spell with the ritual tag as a ritual."
+    },
+    {
+      "name": "Divine Domain",
+      "level": 1,
+      "description": "Choose a domain related to your deity. Your domain grants you bonus spells (always prepared, and not counted against your prepared total), a Channel Divinity option, and features at 1st, 2nd, 6th, 8th, and 17th level."
+    },
+    {
+      "name": "Channel Divinity",
+      "level": 2,
+      "description": "You can channel divine energy directly from your deity to fuel magical effects. You start with two such effects — Turn Undead and one granted by your domain. You must finish a short or long rest to use it again. You gain a second use at 6th level and a third at 18th.\n\nSome Channel Divinity effects require saving throws; the DC equals your cleric spell save DC."
+    },
+    {
+      "name": "Channel Divinity: Turn Undead",
+      "level": 2,
+      "description": "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead within 30 feet that can see or hear you must make a Wisdom saving throw. On a failure, it is turned for 1 minute or until it takes any damage — it must spend its turns trying to move as far away from you as it can, and it can't willingly move within 30 feet of you or take reactions. For its action it can only Dash or try to escape an effect preventing movement."
+    },
+    {
+      "name": "Harness Divine Power",
+      "level": 2,
+      "source": "TCE",
+      "optional": true,
+      "description": "You can expend a use of Channel Divinity as a bonus action to regain one expended spell slot, of a level no higher than half your proficiency bonus (rounded up). You can use this once per long rest, increasing to twice at 6th level and three times at 18th."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Cantrip Versatility",
+      "level": 4,
+      "source": "TCE",
+      "optional": true,
+      "description": "Whenever you gain an Ability Score Improvement, you can replace one cantrip you learned from this class's Spellcasting feature with another cleric cantrip."
+    },
+    {
+      "name": "Destroy Undead",
+      "level": 5,
+      "description": "When an undead of CR 1/2 or lower fails its saving throw against your Turn Undead, it is instantly destroyed. The threshold rises to CR 1 at 8th level, CR 2 at 11th, CR 3 at 14th, and CR 4 at 17th."
+    },
+    {
+      "name": "Blessed Strikes",
+      "level": 8,
+      "source": "TCE",
+      "optional": true,
+      "replaces": "Divine Strike or Potent Spellcasting",
+      "description": "Once per turn, when you hit a creature with a weapon attack or deal damage with a cantrip, you can deal an extra 1d8 radiant damage. This replaces the Divine Strike or Potent Spellcasting feature your domain would grant at 8th level."
+    },
+    {
+      "name": "Divine Intervention",
+      "level": 10,
+      "description": "As an action, you can call on your deity to intervene on your behalf. Describe the assistance you seek, then roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes — the DM chooses the nature of the intervention, though the effect of any cleric spell or domain spell is appropriate.\n\nIf your deity intervenes, you can't use this feature again for 7 days; otherwise you can use it again after a long rest. At 20th level, your call for intervention succeeds automatically, with no roll required."
+    }
+  ],
+  "subclasses": [
+    { "id": "knowledge-domain", "name": "Knowledge Domain", "source": "PHB" },
+    { "id": "life-domain", "name": "Life Domain", "source": "PHB" },
+    { "id": "light-domain", "name": "Light Domain", "source": "PHB" },
+    { "id": "nature-domain", "name": "Nature Domain", "source": "PHB" },
+    { "id": "tempest-domain", "name": "Tempest Domain", "source": "PHB" },
+    { "id": "trickery-domain", "name": "Trickery Domain", "source": "PHB" },
+    { "id": "war-domain", "name": "War Domain", "source": "PHB" },
+    { "id": "death-domain", "name": "Death Domain", "source": "DMG" },
+    { "id": "arcana-domain", "name": "Arcana Domain", "source": "SCAG" },
+    { "id": "forge-domain", "name": "Forge Domain", "source": "XGE" },
+    { "id": "grave-domain", "name": "Grave Domain", "source": "XGE" },
+    { "id": "order-domain", "name": "Order Domain", "source": "TCE" },
+    { "id": "peace-domain", "name": "Peace Domain", "source": "TCE" },
+    { "id": "twilight-domain", "name": "Twilight Domain", "source": "TCE" },
+    { "id": "blood-domain", "name": "Blood Domain", "source": "EGW" }
+  ]
+}

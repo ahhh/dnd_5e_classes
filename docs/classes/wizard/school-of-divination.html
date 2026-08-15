@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School of Divination — Wizard</title>
+<meta name="description" content="A seer who rolls dice in advance and substitutes them for any roll made later. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Wizard</a> / <strong>School of Divination</strong></nav>
+<main>
+<h1 id="school-of-divination">School of Divination</h1>
+<p><em>Wizard Arcane Tradition — Player's Handbook, p. 116</em></p>
+<blockquote>A seer who rolls dice in advance and substitutes them for any roll made later.</blockquote>
+<p>The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly.</p>
+<p><strong>How it plays.</strong> Portent is one of the most powerful features in the game — replacing an enemy's saving throw or attack roll with a 1 you rolled at dawn is effectively a guaranteed spell landing, or a guaranteed miss on the party.</p>
+<h2 id="features">Features</h2>
+<h3 id="divination-savant">Divination Savant</h3>
+<p><em>2nd level</em></p>
+<p>The gold and time you must spend to copy a divination spell into your spellbook is halved.</p>
+<h3 id="portent">Portent</h3>
+<p><em>2nd level</em></p>
+<p>Glimpses of the future begin to press on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled.</p>
+<p>You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once, and you lose any unused rolls when you finish your next long rest.</p>
+<h3 id="expert-divination">Expert Divination</h3>
+<p><em>6th level</em></p>
+<p>Casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than 5th level.</p>
+<h3 id="the-third-eye">The Third Eye</h3>
+<p><em>10th level</em></p>
+<p>You can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are incapacitated or take a short or long rest. You can't use the feature again until you finish a rest.</p>
+<p><strong>Darkvision.</strong> You gain darkvision out to 60 feet. <strong>Ethereal Sight.</strong> You can see into the Ethereal Plane within 60 feet. <strong>Greater Comprehension.</strong> You can read any language. <strong>See Invisibility.</strong> You can see invisible creatures and objects within 10 feet that are within line of sight.</p>
+<h3 id="greater-portent">Greater Portent</h3>
+<p><em>14th level</em></p>
+<p>The visions in your dreams intensify and paint a more accurate picture of what is to come. You roll three d20s for your Portent feature, rather than two.</p>
+<p><a href="index.html">← Back to Wizard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

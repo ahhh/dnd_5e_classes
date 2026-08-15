@@ -1,0 +1,48 @@
+# Beast Master
+
+*Ranger Ranger Archetype — Player's Handbook, p. 93*
+
+> A ranger bonded to an animal companion that fights at their side.
+
+The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike.
+
+**How it plays.** The original animal companion subclass, and widely regarded as underpowered — the beast competes with you for actions and is fragile at higher levels. Tasha's *Primal Companion* (in the Ranger's optional features) is the recommended fix, or consider Drakewarden.
+
+## Features
+
+### Ranger's Companion
+
+*3rd level*
+
+You gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower.
+
+The beast adds your proficiency bonus to its AC, attack rolls, damage rolls, saving throws, and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.
+
+The beast obeys your commands and takes its turn on your initiative. On your turn you can verbally command it to move (no action required); you must use your action to command it to take the Attack, Dash, Disengage, Dodge, or Help action. If you are incapacitated or absent, it acts on its own.
+
+### Primal Companion (recommended alternative)
+
+*3rd level* <sub>*Optional class feature*</sub>
+
+*Tasha's Cauldron of Everything* offers the Beast Master a much stronger companion option. Instead of a real beast, you magically summon a primal beast — Beast of the Land, Beast of the Sea, or Beast of the Sky — whose statistics scale automatically with your ranger level and proficiency bonus. It can attack as part of your bonus-action command rather than consuming your action, and you can resummon it after a long rest if it dies.
+
+### Exceptional Training
+
+*7th level*
+
+On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, or Help action on its turn. In addition, the beast's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.
+
+### Bestial Fury
+
+*11th level*
+
+When you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has one.
+
+### Share Spells
+
+*15th level*
+
+When you cast a spell targeting yourself, you can also affect your beast companion with the spell if it is within 30 feet of you.
+
+
+[← Back to Ranger](index.md)

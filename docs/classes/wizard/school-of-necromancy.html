@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School of Necromancy — Wizard</title>
+<meta name="description" content="A commander of the dead who drains life to heal and raises an army of undead thralls. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Wizard</a> / <strong>School of Necromancy</strong></nav>
+<main>
+<h1 id="school-of-necromancy">School of Necromancy</h1>
+<p><em>Wizard Arcane Tradition — Player's Handbook, p. 118</em></p>
+<blockquote>A commander of the dead who drains life to heal and raises an army of undead thralls.</blockquote>
+<p>The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. Necromancers are feared, and often for good reason.</p>
+<p><strong>How it plays.</strong> The minion-master wizard. Undead Thralls lets you animate more, tougher undead with every casting, and Grim Harvest sustains you by healing whenever your spells kill.</p>
+<h2 id="features">Features</h2>
+<h3 id="necromancy-savant">Necromancy Savant</h3>
+<p><em>2nd level</em></p>
+<p>The gold and time you must spend to copy a necromancy spell into your spellbook is halved.</p>
+<h3 id="grim-harvest">Grim Harvest</h3>
+<p><em>2nd level</em></p>
+<p>You gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times if it is a necromancy spell. You don't gain this benefit for killing constructs or undead.</p>
+<h3 id="undead-thralls">Undead Thralls</h3>
+<p><em>6th level</em></p>
+<p>You add the <em>animate dead</em> spell to your spellbook if it is not there already. When you cast it, you can target one additional corpse or pile of bones, creating another zombie or skeleton.</p>
+<p>Whenever you create an undead using a necromancy spell, it gains additional benefits: its hit point maximum is increased by an amount equal to your wizard level, and it adds your proficiency bonus to its weapon damage rolls.</p>
+<h3 id="inured-to-undeath">Inured to Undeath</h3>
+<p><em>10th level</em></p>
+<p>You have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects.</p>
+<h3 id="command-undead">Command Undead</h3>
+<p><em>14th level</em></p>
+<p>You can use magic to bring undead under your control, even those created by other wizards. As an action, you can choose one undead that you can see within 60 feet. That creature must make a Charisma saving throw against your spell save DC. If it succeeds, you can't use this feature on it again.</p>
+<p>If it fails, it becomes friendly to you and obeys your commands until you use this feature again. Intelligent undead are harder to control: if the target has an Intelligence of 8 or higher, it has advantage on the saving throw, and if it has an Intelligence of 12 or higher, it can repeat the saving throw every hour.</p>
+<p><a href="index.html">← Back to Wizard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

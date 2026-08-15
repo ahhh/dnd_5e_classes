@@ -1,0 +1,60 @@
+# The Undead
+
+*Warlock Otherworldly Patron — Van Richten's Guide to Ravenloft, p. 30*
+
+> A lich or vampire lord patron who lets you assume a terrifying, damage-shrugging Form of Dread.
+
+You have made a pact with a deathless sorcerer — a lich, a vampire, a mummy lord, or one of Ravenloft's darklords. The horror of your patron's existence bleeds into you, and in moments of need, you can take on a fraction of its dreadful form.
+
+**How it plays.** A strong, self-contained patron. Form of Dread grants temporary hit points, frightens enemies, and later gives resistance to all nonmagical damage plus advantage on saves — a genuine combat transformation.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 1st | bane, false life |
+| 2nd | blindness/deafness, phantasmal force |
+| 3rd | phantom steed, speak with dead |
+| 4th | death ward, greater invisibility |
+| 5th | antilife shell, cloudkill |
+
+## Features
+
+### Form of Dread
+
+*1st level*
+
+As a bonus action, you transform for 1 minute, gaining these benefits:
+
+- You gain temporary hit points equal to 1d10 + your warlock level.
+- Once on each of your turns when you hit a creature with an attack, you can force it to make a Wisdom saving throw against your spell save DC; on a failure it is frightened of you until the end of your next turn.
+- You are immune to the frightened condition.
+
+You can use this a number of times equal to your proficiency bonus per long rest.
+
+### Grave Touched
+
+*6th level*
+
+Your patron's necromantic power has changed you. You no longer need to eat, drink, or breathe.
+
+In addition, once on each of your turns when you hit a creature with an attack and roll damage, you can replace the damage type with necrotic damage. If you're in your Form of Dread, you can also roll an extra damage die when determining the necrotic damage.
+
+### Necrotic Husk
+
+*10th level*
+
+The necrotic energy that sustains you now protects you. You gain resistance to necrotic damage, and while you are in your Form of Dread, you are immune to it.
+
+In addition, when you are reduced to 0 hit points, you can use your reaction to have necrotic energy explode from you: each creature within 30 feet takes necrotic damage equal to 2d10 + your warlock level. You then drop to 1 hit point instead of 0. Once used, you can't use this again until you finish a long rest.
+
+### Spirit Projection
+
+*14th level*
+
+You can project your spirit from your body. As an action, your spirit steps out of your body, which becomes incapacitated. Your spirit can move through creatures and objects as though they were difficult terrain, and you have resistance to bludgeoning, piercing, and slashing damage. This lasts 1 hour or until you end it.
+
+While projecting, you can cast *sending*, and while in Form of Dread, you can also cast spells with a range of touch at a range of 30 feet, and you regain hit points equal to the necrotic damage you deal. Once used, you can't use this again until you finish a long rest.
+
+
+[← Back to Warlock](index.md)

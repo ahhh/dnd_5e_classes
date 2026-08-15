@@ -1,0 +1,125 @@
+{
+  "id": "wizard",
+  "name": "Wizard",
+  "source": { "book": "PHB", "page": 112 },
+  "summary": "A scholar of the Weave with the deepest, broadest spell list in the game.",
+  "flavor": "Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes, glimpses the future, and turns slain foes into zombies — and every bit of it is written down, studied, and mastered.",
+  "hitDice": "d6",
+  "hitPointsAt1st": "6 + your Constitution modifier",
+  "hitPointsPerLevel": "1d6 (or 4) + your Constitution modifier",
+  "primaryAbility": ["Intelligence"],
+  "savingThrows": ["Intelligence", "Wisdom"],
+  "proficiencies": {
+    "armor": [],
+    "weapons": ["Daggers", "Darts", "Slings", "Quarterstaffs", "Light crossbows"],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a quarterstaff", "a dagger"] },
+      { "choose": 1, "from": ["a component pouch", "an arcane focus"] },
+      { "choose": 1, "from": ["a scholar's pack", "an explorer's pack"] }
+    ],
+    "fixed": ["A spellbook"],
+    "goldAlternative": "4d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Intelligence 13",
+    "proficienciesGained": [],
+    "spellcastingNote": "Add your full wizard level when determining shared multiclass spell slots."
+  },
+  "spellcasting": {
+    "ability": "Intelligence",
+    "slotTable": "full",
+    "type": "prepared",
+    "ritualCasting": true,
+    "focus": "An arcane focus",
+    "preparedFormula": "Intelligence modifier + wizard level (minimum 1)",
+    "spellList": "Wizard",
+    "notes": "Your **spellbook** is the heart of the class. You start with six 1st-level spells and add two spells of your choice each time you gain a wizard level. You can also copy spells you find on scrolls and in other spellbooks — the only class whose spell list can grow without limit. You prepare from your spellbook after each long rest, and can cast any ritual in your book without preparing it."
+  },
+  "subclass": { "label": "Arcane Tradition", "level": 2, "featureLevels": [2, 6, 10, 14] },
+  "progression": {
+    "columns": [{ "key": "cantrips", "label": "Cantrips Known" }],
+    "levels": [
+      { "level": 1, "features": ["Spellcasting", "Arcane Recovery"], "values": { "cantrips": "3" } },
+      { "level": 2, "features": ["Arcane Tradition"], "values": { "cantrips": "3" } },
+      { "level": 3, "features": ["Cantrip Formulas (optional)"], "values": { "cantrips": "3" } },
+      { "level": 4, "features": ["Ability Score Improvement"], "values": { "cantrips": "4" } },
+      { "level": 5, "features": [], "values": { "cantrips": "4" } },
+      { "level": 6, "features": ["Arcane Tradition feature"], "values": { "cantrips": "4" } },
+      { "level": 7, "features": [], "values": { "cantrips": "4" } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "cantrips": "4" } },
+      { "level": 9, "features": [], "values": { "cantrips": "4" } },
+      { "level": 10, "features": ["Arcane Tradition feature"], "values": { "cantrips": "5" } },
+      { "level": 11, "features": [], "values": { "cantrips": "5" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "cantrips": "5" } },
+      { "level": 13, "features": [], "values": { "cantrips": "5" } },
+      { "level": 14, "features": ["Arcane Tradition feature"], "values": { "cantrips": "5" } },
+      { "level": 15, "features": [], "values": { "cantrips": "5" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "cantrips": "5" } },
+      { "level": 17, "features": [], "values": { "cantrips": "5" } },
+      { "level": 18, "features": ["Spell Mastery"], "values": { "cantrips": "5" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "cantrips": "5" } },
+      { "level": 20, "features": ["Signature Spells"], "values": { "cantrips": "5" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Spellcasting",
+      "level": 1,
+      "description": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.\n\n**Your Spellbook.** At 1st level it contains six 1st-level wizard spells of your choice. Each time you gain a wizard level, you add two wizard spells of your choice to it. You can also copy spells found during your adventures: doing so takes 2 hours and costs 50 gp per spell level.\n\n**Preparing Spells.** You prepare a number of spells equal to your Intelligence modifier + your wizard level after each long rest. Preparing a new list requires time spent studying: at least 1 minute per spell level for each spell."
+    },
+    {
+      "name": "Arcane Recovery",
+      "level": 1,
+      "description": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The slots can have a combined level equal to or less than half your wizard level (rounded up), and none of them can be 6th level or higher."
+    },
+    {
+      "name": "Arcane Tradition",
+      "level": 2,
+      "description": "You choose an arcane tradition, shaping your practice of magic. It grants features at 2nd, 6th, 10th, and 14th level."
+    },
+    {
+      "name": "Cantrip Formulas",
+      "level": 3,
+      "source": "TCE",
+      "optional": true,
+      "description": "You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas, you can replace one wizard cantrip you know with another wizard cantrip."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Spell Mastery",
+      "level": 18,
+      "description": "You have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared.\n\nBy spending 8 hours in study, you can exchange one or both of the spells you chose."
+    },
+    {
+      "name": "Signature Spells",
+      "level": 20,
+      "description": "You gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. You regain these free castings when you finish a short or long rest."
+    }
+  ],
+  "subclasses": [
+    { "id": "school-of-abjuration", "name": "School of Abjuration", "source": "PHB" },
+    { "id": "school-of-conjuration", "name": "School of Conjuration", "source": "PHB" },
+    { "id": "school-of-divination", "name": "School of Divination", "source": "PHB" },
+    { "id": "school-of-enchantment", "name": "School of Enchantment", "source": "PHB" },
+    { "id": "school-of-evocation", "name": "School of Evocation", "source": "PHB" },
+    { "id": "school-of-illusion", "name": "School of Illusion", "source": "PHB" },
+    { "id": "school-of-necromancy", "name": "School of Necromancy", "source": "PHB" },
+    { "id": "school-of-transmutation", "name": "School of Transmutation", "source": "PHB" },
+    { "id": "bladesinging", "name": "Bladesinging", "source": "TCE" },
+    { "id": "war-magic", "name": "War Magic", "source": "XGE" },
+    { "id": "order-of-scribes", "name": "Order of Scribes", "source": "TCE" },
+    { "id": "chronurgy-magic", "name": "Chronurgy Magic", "source": "EGW" },
+    { "id": "graviturgy-magic", "name": "Graviturgy Magic", "source": "EGW" }
+  ]
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beast Master — Ranger</title>
+<meta name="description" content="A ranger bonded to an animal companion that fights at their side. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Ranger</a> / <strong>Beast Master</strong></nav>
+<main>
+<h1 id="beast-master">Beast Master</h1>
+<p><em>Ranger Ranger Archetype — Player's Handbook, p. 93</em></p>
+<blockquote>A ranger bonded to an animal companion that fights at their side.</blockquote>
+<p>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike.</p>
+<p><strong>How it plays.</strong> The original animal companion subclass, and widely regarded as underpowered — the beast competes with you for actions and is fragile at higher levels. Tasha's <em>Primal Companion</em> (in the Ranger's optional features) is the recommended fix, or consider Drakewarden.</p>
+<h2 id="features">Features</h2>
+<h3 id="rangers-companion">Ranger's Companion</h3>
+<p><em>3rd level</em></p>
+<p>You gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower.</p>
+<p>The beast adds your proficiency bonus to its AC, attack rolls, damage rolls, saving throws, and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.</p>
+<p>The beast obeys your commands and takes its turn on your initiative. On your turn you can verbally command it to move (no action required); you must use your action to command it to take the Attack, Dash, Disengage, Dodge, or Help action. If you are incapacitated or absent, it acts on its own.</p>
+<h3 id="primal-companion-recommended-alternative">Primal Companion (recommended alternative)</h3>
+<p><em>3rd level</em> <sub><em>Optional class feature</em></sub></p>
+<p><em>Tasha's Cauldron of Everything</em> offers the Beast Master a much stronger companion option. Instead of a real beast, you magically summon a primal beast — Beast of the Land, Beast of the Sea, or Beast of the Sky — whose statistics scale automatically with your ranger level and proficiency bonus. It can attack as part of your bonus-action command rather than consuming your action, and you can resummon it after a long rest if it dies.</p>
+<h3 id="exceptional-training">Exceptional Training</h3>
+<p><em>7th level</em></p>
+<p>On any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, or Help action on its turn. In addition, the beast's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks.</p>
+<h3 id="bestial-fury">Bestial Fury</h3>
+<p><em>11th level</em></p>
+<p>When you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has one.</p>
+<h3 id="share-spells">Share Spells</h3>
+<p><em>15th level</em></p>
+<p>When you cast a spell targeting yourself, you can also affect your beast companion with the spell if it is within 30 feet of you.</p>
+<p><a href="index.html">← Back to Ranger</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

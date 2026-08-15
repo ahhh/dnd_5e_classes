@@ -1,0 +1,60 @@
+# Life Domain
+
+*Cleric Divine Domain — Player's Handbook, p. 60*
+
+> The definitive healer — every cure you cast is worth substantially more.
+
+The Life domain focuses on the vibrant positive energy that sustains all life. Gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath.
+
+**How it plays.** The simplest and most effective healing cleric. Disciple of Life adds a flat bonus to every healing spell, Preserve Life is a mass heal on a short-rest cycle, and you get heavy armor at 1st level.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 1st | bless, cure wounds |
+| 3rd | lesser restoration, spiritual weapon |
+| 5th | beacon of hope, revivify |
+| 7th | death ward, guardian of faith |
+| 9th | mass cure wounds, raise dead |
+
+## Features
+
+### Bonus Proficiency
+
+*1st level*
+
+You gain proficiency with heavy armor.
+
+### Disciple of Life
+
+*1st level*
+
+Whenever you use a spell of 1st level or higher to restore hit points to a creature, it regains additional hit points equal to 2 + the spell's level.
+
+### Channel Divinity: Preserve Life
+
+*2nd level*
+
+As an action, you present your holy symbol and evoke healing energy that restores a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet and divide those hit points among them. This feature can restore a creature to no more than half its hit point maximum, and it can't be used on undead or constructs.
+
+### Blessed Healer
+
+*6th level*
+
+The healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.
+
+### Divine Strike
+
+*8th level*
+
+Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage. This increases to 2d8 at 14th level.
+
+### Supreme Healing
+
+*17th level*
+
+When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, *cure wounds* at 1st level restores the maximum 8 hit points, plus your modifiers and Disciple of Life.
+
+
+[← Back to Cleric](index.md)

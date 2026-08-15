@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Path of the Zealot — Barbarian</title>
+<meta name="description" content="A divine warrior whose rage is holy fury — and who simply refuses to stay dead. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Barbarian</a> / <strong>Path of the Zealot</strong></nav>
+<main>
+<h1 id="path-of-the-zealot">Path of the Zealot</h1>
+<p><em>Barbarian Primal Path — Xanathar's Guide to Everything, p. 11</em></p>
+<blockquote>A divine warrior whose rage is holy fury — and who simply refuses to stay dead.</blockquote>
+<p>Some deities inspire their followers to pitch themselves into a ferocious battle fury. These zealots are channels for divine power, their rage a gift from a god of war, death, or destruction.</p>
+<p><strong>How it plays.</strong> Top-tier damage and survivability. Divine Fury adds damage on every turn, Zealous Presence is a once-per-rest party-wide advantage buff, and Rage Beyond Death makes you effectively immortal while raging.</p>
+<h2 id="features">Features</h2>
+<h3 id="divine-fury">Divine Fury</h3>
+<p><em>3rd level</em></p>
+<p>While raging, the first creature you hit on each of your turns takes extra damage equal to 1d6 + half your barbarian level. The damage is radiant or necrotic — you choose which when you gain the feature.</p>
+<h3 id="warrior-of-the-gods">Warrior of the Gods</h3>
+<p><em>3rd level</em></p>
+<p>Your soul is marked for a warrior's rest. If a spell such as <em>raise dead</em> has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components.</p>
+<h3 id="fanatical-focus">Fanatical Focus</h3>
+<p><em>6th level</em></p>
+<p>If you fail a saving throw while raging, you can reroll it and must use the new roll. You can use this once per rage.</p>
+<h3 id="zealous-presence">Zealous Presence</h3>
+<p><em>10th level</em></p>
+<p>As a bonus action, you unleash a battle cry charged with divine energy. Up to ten other creatures of your choice within 60 feet that can hear you gain advantage on attack rolls and saving throws until the start of your next turn. Once used, you can't use it again until you finish a long rest, unless you expend a use of your rage.</p>
+<h3 id="rage-beyond-death">Rage Beyond Death</h3>
+<p><em>14th level</em></p>
+<p>While raging, having 0 hit points doesn't knock you unconscious. You still make death saving throws and suffer the normal effects of taking damage at 0 hit points, but you die only if your rage ends and you still have 0 hit points.</p>
+<p><a href="index.html">← Back to Barbarian</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+# Phantom
+
+*Rogue Roguish Archetype — Tasha's Cauldron of Everything, p. 62*
+
+> A death-touched rogue who harvests soul trinkets, borrows skills from the dead, and deals necrotic damage.
+
+Uncertain whether you were touched by death or died and returned, you have gained a connection to the realm of the dead. Wisps of spirits gather around you, and you carry the trinkets of the dead — each one a fragment of a soul that whispers its secrets to you.
+
+**How it plays.** A flexible skill-monkey with a necromantic edge. Wails from the Grave adds free AoE-adjacent damage on Sneak Attack, and Tokens of the Departed lets you swap proficiencies to fit any situation.
+
+## Features
+
+### Whispers of the Dead
+
+*3rd level*
+
+Echoes of those who have died cling to you. Whenever you finish a short or long rest, you can gain one skill or tool proficiency of your choice, which lasts until you use this feature again.
+
+### Wails from the Grave
+
+*3rd level*
+
+Immediately after you deal Sneak Attack damage to a creature on your turn, you can target a second creature within 30 feet of the first. Roll half your Sneak Attack dice (rounded up) and deal that much necrotic damage to the second creature. You can use this a number of times equal to your proficiency bonus per long rest.
+
+### Tokens of the Departed
+
+*9th level*
+
+When a creature dies within 30 feet of you, you can capture a fragment of its departing soul as a **soul trinket** — a Tiny object of your choice. You can have a number of trinkets equal to your proficiency bonus.
+
+While you have any soul trinkets you have advantage on death saving throws and Constitution saving throws. You can also destroy one as a bonus action to regain a use of Wails from the Grave, or destroy one when you cast *speak with dead* to ask the dead creature one question without needing its corpse.
+
+### Ghost Walk
+
+*13th level*
+
+As a bonus action, you assume a spectral form: you gain a flying speed of 10 feet, can hover, and can move through creatures and objects as difficult terrain (taking 1d10 force damage if you end your turn inside one). Attack rolls against you have disadvantage. The form lasts 10 minutes or until you end it as a bonus action. Once used, you must destroy a soul trinket to use it again before a long rest.
+
+### Death's Friend
+
+*17th level*
+
+Your association with death has become so close that you gain the following benefits: when you use Wails from the Grave, you can deal the necrotic damage to both the first and second creature; and at the end of a long rest, you gain one soul trinket if you have none.
+
+
+[← Back to Rogue](index.md)

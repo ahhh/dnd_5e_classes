@@ -1,0 +1,49 @@
+{
+  "id": "oath-of-redemption",
+  "name": "Oath of Redemption",
+  "class": "paladin",
+  "label": "Sacred Oath",
+  "source": { "book": "XGE", "page": 38 },
+  "summary": "A pacifist knight who seeks peace first and punishes violence by absorbing it.",
+  "flavor": "The Oath of Redemption sets a paladin on a difficult path, one that requires a holy warrior to use violence only as a last resort. Paladins who dedicate themselves to this oath — sometimes called redeemers — believe that any evil creature might be redeemed, and that the path of benevolence can be shown even to those who walk in darkness.",
+  "playstyle": "A defensive, roleplay-forward oath and an outstanding party protector. Aura of the Guardian redirects damage from allies to you, and Protective Spirit heals you back up each round.",
+  "expandedSpells": {
+    "3rd": ["sanctuary", "sleep"],
+    "5th": ["calm emotions", "hold person"],
+    "9th": ["counterspell", "hypnotic pattern"],
+    "13th": ["Otiluke's resilient sphere", "stoneskin"],
+    "17th": ["hold monster", "wall of force"]
+  },
+  "features": [
+    {
+      "name": "Tenets of Redemption",
+      "level": 3,
+      "description": "**Peace.** Violence is a weapon of last resort. Diplomacy and understanding are the paths to long-lasting peace.\n**Innocence.** All people begin life in an innocent state, and it is their environment or the influence of dark forces that drives them to evil.\n**Patience.** Change takes time. Once you have planted the seed of righteousness in a creature, you must work day after day to allow it to survive and flourish.\n**Wisdom.** Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While there is life, there is hope, but you must know when a fight is hopeless."
+    },
+    {
+      "name": "Channel Divinity: Emissary of Peace",
+      "level": 3,
+      "description": "As a bonus action, you grant yourself a +5 bonus to Charisma (Persuasion) checks for the next 10 minutes."
+    },
+    {
+      "name": "Channel Divinity: Rebuke the Violent",
+      "level": 3,
+      "description": "You can rebuke those who use violence. Immediately after an attacker within 30 feet deals damage with an attack against a creature other than you, you can use your reaction to force the attacker to make a Wisdom saving throw. On a failure, it takes radiant damage equal to the damage it just dealt; on a success, it takes half as much."
+    },
+    {
+      "name": "Aura of the Guardian",
+      "level": 7,
+      "description": "You can shield your allies from harm at the cost of your own health. When a creature within 10 feet takes damage, you can use your reaction to magically take that damage instead. This damage can't be reduced in any way, though the damage still triggers any of your reactions or features. At 18th level, the range increases to 30 feet."
+    },
+    {
+      "name": "Protective Spirit",
+      "level": 15,
+      "description": "A holy presence mends your wounds in combat. You regain hit points equal to 1d6 + half your paladin level if you end your turn in combat with fewer than half your hit points remaining and you aren't incapacitated."
+    },
+    {
+      "name": "Emissary of Redemption",
+      "level": 20,
+      "description": "You become an avatar of peace, gaining two benefits: you have resistance to all damage dealt by other creatures, and whenever a creature hits you with an attack, it takes radiant damage equal to half the damage you take. If you attack a creature, cast a spell on it, or deal damage to it by any means but this feature, you lose both benefits until you finish a long rest."
+    }
+  ]
+}

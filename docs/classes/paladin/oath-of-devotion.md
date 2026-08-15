@@ -1,0 +1,64 @@
+# Oath of Devotion
+
+*Paladin Sacred Oath — Player's Handbook, p. 86*
+
+> The classic knight in shining armor — honesty, courage, and a blade of sacred weapon light.
+
+The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good.
+
+**How it plays.** A strong, straightforward oath. Sacred Weapon adds your Charisma modifier to attack rolls for a full minute, effectively doubling down on your best stat, and Holy Nimbus is a powerful capstone.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 3rd | protection from evil and good, sanctuary |
+| 5th | lesser restoration, zone of truth |
+| 9th | beacon of hope, dispel magic |
+| 13th | freedom of movement, guardian of faith |
+| 17th | commune, flame strike |
+
+## Features
+
+### Tenets of Devotion
+
+*3rd level*
+
+**Honesty.** Don't lie or cheat. Let your word be your promise.
+**Courage.** Never fear to act, though caution is wise.
+**Compassion.** Aid others, protect the weak, and punish those who threaten them.
+**Honor.** Treat others with fairness, and let your honorable deeds be an example.
+**Duty.** Be responsible for your actions and their consequences.
+
+### Channel Divinity: Sacred Weapon
+
+*3rd level*
+
+As an action, you can imbue one weapon you're holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls with that weapon (minimum +1). The weapon also emits bright light in a 20-foot radius and counts as magical. The effect ends early if you drop or stow the weapon, or if you are incapacitated.
+
+### Channel Divinity: Turn the Unholy
+
+*3rd level*
+
+As an action, you present your holy symbol and speak a prayer censuring fiends and undead. Each fiend or undead within 30 feet that can see or hear you must make a Wisdom saving throw. On a failure, it is turned for 1 minute or until it takes damage.
+
+### Aura of Devotion
+
+*7th level*
+
+You and friendly creatures within 10 feet can't be charmed while you are conscious. At 18th level, the range increases to 30 feet.
+
+### Purity of Spirit
+
+*15th level*
+
+You are always under the effects of a *protection from evil and good* spell.
+
+### Holy Nimbus
+
+*20th level*
+
+As an action, you emanate an aura of sunlight for 1 minute. Bright light shines in a 30-foot radius, and dim light for another 30 feet. Enemies that start their turn in the bright light take 10 radiant damage, and you have advantage on saving throws against spells cast by fiends and undead. Once used, you can't use this again until you finish a long rest.
+
+
+[← Back to Paladin](index.md)

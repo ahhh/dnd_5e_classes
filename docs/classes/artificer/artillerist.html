@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artillerist — Artificer</title>
+<meta name="description" content="A siege engineer who summons an Eldritch Cannon to blast, heal, or shield the party. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Artificer</a> / <strong>Artillerist</strong></nav>
+<main>
+<h1 id="artillerist">Artillerist</h1>
+<p><em>Artificer Artificer Specialist — Tasha's Cauldron of Everything, p. 14</em></p>
+<blockquote>A siege engineer who summons an Eldritch Cannon to blast, heal, or shield the party.</blockquote>
+<p>An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power is valued by armies in the wars on many worlds — and when war ends, artillerists often turn to arcane exploration and demolition.</p>
+<p><strong>How it plays.</strong> Excellent damage and battlefield control. The Eldritch Cannon adds a free attack every turn without costing your action, and the Force Ballista's push effect is strong control. Fortified Position is a party-wide half cover aura.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>shield, thunderwave</td></tr><tr><td>5th</td><td>scorching ray, shatter</td></tr><tr><td>9th</td><td>fireball, wind wall</td></tr><tr><td>13th</td><td>ice storm, wall of fire</td></tr><tr><td>17th</td><td>cone of cold, wall of force</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="tool-proficiency">Tool Proficiency</h3>
+<p><em>3rd level</em></p>
+<p>You gain proficiency with woodcarver's tools. If you already have it, you gain proficiency with one other type of artisan's tools of your choice.</p>
+<h3 id="eldritch-cannon">Eldritch Cannon</h3>
+<p><em>3rd level</em></p>
+<p>You've learned how to create a magical cannon. Using woodcarver's tools or smith's tools, you can take an action to magically create a Small or Tiny Eldritch Cannon in an unoccupied space within 5 feet.</p>
+<p>The cannon is an object with AC 18 and hit points equal to five times your artificer level. It disappears if reduced to 0 hit points or after 1 hour. You can create it once per long rest without cost, or by expending a spell slot of 1st level or higher.</p>
+<p>As a bonus action, you can activate the cannon if you are within 60 feet of it. Choose its type when you create it:</p>
+<p><strong>Flamethrower.</strong> Exhales fire in a 15-foot cone. Each creature must make a Dexterity save, taking 2d8 fire damage on a failure or half on a success.</p>
+<p><strong>Force Ballista.</strong> Makes a ranged spell attack against one creature within 120 feet, dealing 2d8 force damage and pushing it 5 feet away.</p>
+<p><strong>Protector.</strong> Emits positive energy, granting temporary hit points equal to 1d8 + your Intelligence modifier to each creature of your choice within 10 feet.</p>
+<h3 id="arcane-firearm">Arcane Firearm</h3>
+<p><em>5th level</em></p>
+<p>You know how to turn a wand, staff, or rod into an arcane firearm. After a 1-hour ritual, that object becomes your arcane firearm. When you cast an artificer spell through it, you can roll a d8 and add the number rolled to one of the spell's damage rolls.</p>
+<h3 id="explosive-cannon">Explosive Cannon</h3>
+<p><em>9th level</em></p>
+<p>Every eldritch cannon you create is more destructive: its damage rolls all increase by 1d8.</p>
+<p>Additionally, you can command the cannon to detonate. As an action, you can direct a cannon within 60 feet to explode. Each creature within 20 feet of it must make a Dexterity saving throw, taking 3d8 force damage on a failure or half on a success. The cannon is then destroyed.</p>
+<h3 id="fortified-position">Fortified Position</h3>
+<p><em>15th level</em></p>
+<p>You're a master at forming defensive perimeters. You and your allies have half cover while within 10 feet of a cannon you create, thanks to a shimmering field of magical protection.</p>
+<p>In addition, you can now have two cannons at the same time. You can create two with the same action (but not the same spell slot), and you can activate both with the same bonus action. You determine whether the cannons are identical or different.</p>
+<p><a href="index.html">← Back to Artificer</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

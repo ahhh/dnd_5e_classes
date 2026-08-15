@@ -1,0 +1,37 @@
+{
+  "id": "path-of-the-totem-warrior",
+  "name": "Path of the Totem Warrior",
+  "class": "barbarian",
+  "label": "Primal Path",
+  "source": { "book": "PHB", "page": 50 },
+  "summary": "A spirit animal grants you its gifts — bear toughness, eagle mobility, wolf pack tactics, and more.",
+  "flavor": "The totem warrior accepts a spirit animal as guide, protector, and inspiration. In battle, that totem spirit fills the barbarian with supernatural might, adding magical fuel to their rage.",
+  "playstyle": "The most customizable barbarian. Bear totem's near-universal damage resistance is famously the toughest option in the game; Eagle is the mobility pick; Wolf is the best team-support choice.",
+  "features": [
+    {
+      "name": "Spirit Seeker",
+      "level": 3,
+      "description": "You gain the ability to cast the *beast sense* and *speak with animals* spells as rituals."
+    },
+    {
+      "name": "Totem Spirit",
+      "level": 3,
+      "description": "Choose a totem animal. You must have a physical totem object — an amulet or similar — incorporating fur, feathers, claws, teeth, or bones of the animal.\n\n**Bear.** While raging, you have resistance to all damage except psychic. (The signature tank option.)\n\n**Eagle.** While raging and not wearing heavy armor, other creatures have disadvantage on opportunity attacks against you, and you can use the Dash action as a bonus action.\n\n**Wolf.** While raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you.\n\n**Elk.** *(SCAG/XGE)* While raging and not wearing heavy armor, your walking speed increases by 15 feet.\n\n**Tiger.** *(SCAG/XGE)* While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance."
+    },
+    {
+      "name": "Aspect of the Beast",
+      "level": 6,
+      "description": "You gain a magical benefit based on a totem animal of your choice — it need not be the same as the one chosen at 3rd level.\n\n**Bear.** Your carrying capacity doubles, and you have advantage on Strength checks made to push, pull, lift, or break objects.\n\n**Eagle.** You can see up to 1 mile away with no difficulty, discerning even fine details as though looking at something no more than 100 feet away. You also have no disadvantage on Perception checks in dim light.\n\n**Wolf.** You can track other creatures while travelling at a fast pace, and can move stealthily while travelling at a normal pace.\n\n**Elk.** *(SCAG/XGE)* Whether mounted or on foot, your travel pace is doubled, as is the pace of up to ten companions.\n\n**Tiger.** *(SCAG/XGE)* You gain proficiency in two skills from Athletics, Acrobatics, Stealth, and Survival."
+    },
+    {
+      "name": "Spirit Walker",
+      "level": 10,
+      "description": "You can cast the *commune with nature* spell as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to convey the information you seek."
+    },
+    {
+      "name": "Totemic Attunement",
+      "level": 14,
+      "description": "You gain a magical benefit based on a totem animal of your choice.\n\n**Bear.** While raging, any creature within 5 feet that is hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. A creature is immune if it can't see or hear you or can't be frightened.\n\n**Eagle.** While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts — you fall if you end your turn in the air and nothing else is holding you aloft.\n\n**Wolf.** While raging, you can use a bonus action after hitting a Large or smaller creature with a melee attack to knock that creature prone.\n\n**Elk.** *(SCAG/XGE)* While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength modifier + your proficiency bonus) or be knocked prone and take 1d12 + your Strength modifier bludgeoning damage.\n\n**Tiger.** *(SCAG/XGE)* While raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before attacking it, you can make an additional melee weapon attack against it as a bonus action."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "path-of-the-giant",
+  "name": "Path of the Giant",
+  "class": "barbarian",
+  "label": "Primal Path",
+  "source": { "book": "BGG", "page": 26 },
+  "summary": "You grow to giant size and wield elemental weapons drawn from the Ordning.",
+  "flavor": "Barbarians who walk this path draw on the primal power of giants — whether through a bloodline, a rune-carved pact, or time spent among the giant clans. Their rage swells their bodies and wreathes their weapons in elemental fury.",
+  "playstyle": "Big, loud, and satisfying. You literally grow (Large at 3rd, Huge at 14th), your weapons deal bonus elemental damage, and you can hurl enemies around the battlefield.",
+  "features": [
+    {
+      "name": "Giant's Power",
+      "level": 3,
+      "description": "You learn the Giant language if you don't already know it, and you learn one druid cantrip of your choice. Wisdom is your spellcasting ability for it."
+    },
+    {
+      "name": "Giant's Havoc",
+      "level": 3,
+      "description": "While raging, you gain two benefits.\n\n**Crushing Throw.** When you throw a weapon or an improvised weapon, you can add your Rage Damage bonus to the damage roll.\n\n**Giant Stature.** Your size becomes Large if you have room, and your reach increases by 5 feet."
+    },
+    {
+      "name": "Elemental Cleaver",
+      "level": 6,
+      "description": "When you enter your rage, choose one weapon you are holding and one damage type: acid, cold, fire, lightning, or thunder. The weapon deals that damage type instead of its normal type, and it deals an extra 1d6 damage of that type. As a bonus action you can change the damage type, and if you throw the weapon it reappears in your hand at the end of the turn."
+    },
+    {
+      "name": "Mighty Impel",
+      "level": 10,
+      "description": "As a bonus action while raging, you can move a Large or smaller creature within 10 feet to an unoccupied space within 30 feet. The target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be moved. If you move it into the air, it falls unless something stops it."
+    },
+    {
+      "name": "Demiurgic Colossus",
+      "level": 14,
+      "description": "Your giant power reaches its peak. Giant Stature now makes you Huge and increases your reach by 10 feet, Elemental Cleaver's extra damage rises to 2d6, and Mighty Impel can move a Huge or smaller creature within 30 feet."
+    }
+  ]
+}

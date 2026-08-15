@@ -1,0 +1,54 @@
+# Soulknife
+
+*Rogue Roguish Archetype — Tasha's Cauldron of Everything, p. 63*
+
+> A psionic assassin who manifests blades of pure mind-energy and speaks telepathically.
+
+Your mind is a weapon. Whether you were born with this power, awakened it through meditation, or had it forced upon you by a psychic entity, you can manifest blades of psychic energy and strike at both body and mind.
+
+**How it plays.** Excellent and self-sufficient. Psychic Blades are always available (no weapons to disarm), give you a free bonus-action attack every turn, and Psionic Power boosts your skill checks — a top-tier rogue.
+
+## Features
+
+### Psionic Power
+
+*3rd level*
+
+You harbor a wellspring of psionic energy, represented by your **Psionic Energy dice**. You have a number equal to twice your proficiency bonus, starting as d6s. You regain one die as a bonus action (once per short rest) and all of them on a long rest. The die size increases to d8 at 5th level, d10 at 11th, and d12 at 17th.
+
+**Psi-Bolstered Knack.** When your training lets you add your proficiency bonus to an ability check and you fail, you can roll one die and add it to the check, potentially turning failure into success.
+
+**Psychic Whispers.** You can establish telepathic communication with creatures — a number of them equal to your proficiency bonus — for a number of hours equal to the die roll. The first use each long rest is free.
+
+### Psychic Blades
+
+*3rd level*
+
+You can manifest shimmering blades of psychic energy. As part of the Attack action, you can manifest one and make a melee or ranged attack with it (range 60 feet). It counts as a simple weapon with the finesse and thrown properties, dealing 1d6 psychic damage on a hit. It vanishes immediately after the attack.
+
+Immediately after you attack with it on your turn, you can make a second attack with another psychic blade as a bonus action, dealing 1d4 psychic damage. Both blades scale with your rogue level.
+
+### Soul Blades
+
+*9th level*
+
+You can channel your psionic energy through your blades in two ways.
+
+**Homing Strikes.** If you miss with a Psychic Blades attack, you can roll one Psionic Energy die and add it to the attack roll, possibly turning the miss into a hit.
+
+**Psychic Teleportation.** As a bonus action, you manifest a blade and throw it at a point within 10 feet times the number rolled on a Psionic Energy die. You then teleport to that unoccupied space, and the blade vanishes.
+
+### Psychic Veil
+
+*13th level*
+
+As an action, you can magically become invisible, along with anything you are wearing or carrying, for 1 hour or until you dismiss it. The invisibility ends early if you deal damage to a creature or force one to make a saving throw. You can use this once per long rest without cost, or by expending a Psionic Energy die.
+
+### Rend Mind
+
+*17th level*
+
+When you use Psychic Blades to deal Sneak Attack damage to a creature, you can force it to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity modifier). On a failure, it is stunned for 1 minute, repeating the save at the end of each of its turns. You can use this once per long rest without cost, or by expending three Psionic Energy dice.
+
+
+[← Back to Rogue](index.md)

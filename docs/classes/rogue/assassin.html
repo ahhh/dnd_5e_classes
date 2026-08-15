@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assassin — Rogue</title>
+<meta name="description" content="A killer who turns surprise into an automatic critical hit and wears any face to get close. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Rogue</a> / <strong>Assassin</strong></nav>
+<main>
+<h1 id="assassin">Assassin</h1>
+<p><em>Rogue Roguish Archetype — Player's Handbook, p. 97</em></p>
+<blockquote>A killer who turns surprise into an automatic critical hit and wears any face to get close.</blockquote>
+<p>You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity.</p>
+<p><strong>How it plays.</strong> Enormous burst damage when you win initiative against a surprised target — an assassinated crit with Sneak Attack can end an encounter in one hit. Falls off if the party rarely gets surprise.</p>
+<h2 id="features">Features</h2>
+<h3 id="bonus-proficiencies">Bonus Proficiencies</h3>
+<p><em>3rd level</em></p>
+<p>You gain proficiency with the disguise kit and the poisoner's kit.</p>
+<h3 id="assassinate">Assassinate</h3>
+<p><em>3rd level</em></p>
+<p>You are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</p>
+<h3 id="infiltration-expertise">Infiltration Expertise</h3>
+<p><em>9th level</em></p>
+<p>You can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</p>
+<h3 id="impostor">Impostor</h3>
+<p><em>13th level</em></p>
+<p>You gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components, and your ruse is indiscernible to the casual observer. A wary creature can attempt a Wisdom (Insight) check contested by your Charisma (Deception) check to detect the ruse.</p>
+<h3 id="death-strike">Death Strike</h3>
+<p><em>17th level</em></p>
+<p>You become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</p>
+<p><a href="index.html">← Back to Rogue</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

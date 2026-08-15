@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oathbreaker — Paladin</title>
+<meta name="description" content="A fallen paladin who commands undead and turns their aura into a weapon of dread. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Paladin</a> / <strong>Oathbreaker</strong></nav>
+<main>
+<h1 id="oathbreaker">Oathbreaker</h1>
+<p><em>Paladin Sacred Oath — Dungeon Master's Guide, p. 97</em></p>
+<blockquote>A fallen paladin who commands undead and turns their aura into a weapon of dread.</blockquote>
+<p>An Oathbreaker is a paladin who breaks their sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in their heart has been extinguished. Only darkness remains. This option requires DM permission, and is normally reserved for villains or for a paladin who has fallen from grace.</p>
+<p><strong>How it plays.</strong> An evil-aligned oath with a necromantic flavour. Aura of Hate is enormous damage amplification for you and any fiends or undead nearby, and Control Undead gives you a personal minion.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>hellish rebuke, inflict wounds</td></tr><tr><td>5th</td><td>crown of madness, darkness</td></tr><tr><td>9th</td><td>animate dead, bestow curse</td></tr><tr><td>13th</td><td>blight, confusion</td></tr><tr><td>17th</td><td>contagion, dominate person</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="channel-divinity-control-undead">Channel Divinity: Control Undead</h3>
+<p><em>3rd level</em></p>
+<p>As an action, you target one undead creature within 30 feet that you can see. It must make a Wisdom saving throw unless its challenge rating is equal to or greater than your paladin level. On a failure, it must obey your commands for the next 24 hours or until you use this Channel Divinity option again.</p>
+<h3 id="channel-divinity-dreadful-aspect">Channel Divinity: Dreadful Aspect</h3>
+<p><em>3rd level</em></p>
+<p>As an action, you channel the darkest emotions and focus them into a burst of magical menace. Each creature of your choice within 30 feet that can see you must make a Wisdom saving throw or become frightened of you for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns if it is more than 30 feet away, ending the effect on a success.</p>
+<h3 id="aura-of-hate">Aura of Hate</h3>
+<p><em>7th level</em></p>
+<p>You, as well as any fiends and undead within 10 feet, gain a bonus to melee weapon damage rolls equal to your Charisma modifier (minimum +1). You must be conscious to grant this bonus. At 18th level, the range increases to 30 feet.</p>
+<h3 id="supernatural-resistance">Supernatural Resistance</h3>
+<p><em>15th level</em></p>
+<p>You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</p>
+<h3 id="dread-lord">Dread Lord</h3>
+<p><em>20th level</em></p>
+<p>As an action, you can surround yourself with an aura of gloom in a 30-foot radius for 1 minute. The area is dim light, and creatures other than you have disadvantage on Perception checks relying on sight. Enemies in the aura take 4d10 psychic damage if they start their turn there, and any attack roll made against you has disadvantage if the attacker is in the aura. As a bonus action, you can deal 3d10 psychic damage to one creature in the aura. Once used, you can't use this again until you finish a long rest.</p>
+<p><a href="index.html">← Back to Paladin</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

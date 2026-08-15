@@ -1,0 +1,44 @@
+{
+  "id": "knowledge-domain",
+  "name": "Knowledge Domain",
+  "class": "cleric",
+  "label": "Divine Domain",
+  "source": { "book": "PHB", "page": 59 },
+  "summary": "A scholar-priest who reads minds, borrows skills, and glimpses the history of any object.",
+  "flavor": "The gods of knowledge value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities; others that it should be kept secret, doled out only to the worthy.",
+  "playstyle": "The strongest out-of-combat utility domain, weak in a straight fight. Read Thoughts and Visions of the Past are investigation powerhouses.",
+  "expandedSpells": {
+    "1st": ["command", "identify"],
+    "3rd": ["augury", "suggestion"],
+    "5th": ["nondetection", "speak with dead"],
+    "7th": ["arcane eye", "confusion"],
+    "9th": ["legend lore", "scrying"]
+  },
+  "features": [
+    {
+      "name": "Blessings of Knowledge",
+      "level": 1,
+      "description": "You learn two languages of your choice. You also become proficient in two skills of your choice from Arcana, History, Nature, and Religion — and your proficiency bonus is doubled for any ability check using either of those skills."
+    },
+    {
+      "name": "Channel Divinity: Knowledge of the Ages",
+      "level": 2,
+      "description": "As an action, you choose one skill or tool. For 10 minutes, you have proficiency with that skill or tool."
+    },
+    {
+      "name": "Channel Divinity: Read Thoughts",
+      "level": 6,
+      "description": "As an action, choose one creature within 60 feet. It must make a Wisdom saving throw. On a failure, you can read its surface thoughts for 1 minute, gaining insight into its emotions and foremost concerns. As an action during that time, you can end the effect and cast *suggestion* on the creature without expending a slot — it automatically fails its save against that casting."
+    },
+    {
+      "name": "Potent Spellcasting",
+      "level": 8,
+      "description": "You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    },
+    {
+      "name": "Visions of the Past",
+      "level": 17,
+      "description": "After at least 1 minute of meditation, you can call up visions of the past relating to an object you hold or your immediate surroundings. *Object Reading* shows you the object's previous owners; *Area Reading* shows significant events that occurred within 50 feet in the past number of days equal to your Wisdom modifier. Each minute of concentration costs you one minute of the total; once you use the feature, you can't use it again until you finish a short or long rest."
+    }
+  ]
+}

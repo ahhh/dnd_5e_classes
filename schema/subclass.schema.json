@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schema/subclass.schema.json",
+  "title": "D&D 5e (2014) Subclass",
+  "type": "object",
+  "required": ["id", "name", "class", "source", "features"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "class": { "type": "string", "description": "Parent class id." },
+    "label": { "type": "string", "description": "Subclass category, e.g. 'Primal Path'." },
+    "source": {
+      "type": "object",
+      "required": ["book"],
+      "properties": {
+        "book": { "type": "string" },
+        "page": { "type": "integer" },
+        "setting": { "type": "string", "description": "Campaign setting, if setting-specific." }
+      }
+    },
+    "flavor": { "type": "string" },
+    "summary": { "type": "string", "description": "One-sentence hook for index pages." },
+    "playstyle": { "type": "string", "description": "Plain-language 'how this plays' note." },
+    "spellcasting": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "properties": {
+            "slotTable": { "enum": ["third"] },
+            "ability": { "type": "string" },
+            "school": { "type": "string" },
+            "notes": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "expandedSpells": {
+      "type": "object",
+      "description": "Domain/Circle/Oath/Patron bonus spell lists, keyed by the level or slot level they are gained.",
+      "additionalProperties": { "type": "array", "items": { "type": "string" } }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "level", "description"],
+        "properties": {
+          "name": { "type": "string" },
+          "level": { "type": "integer" },
+          "description": { "type": "string" },
+          "optional": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shadow Magic — Sorcerer</title>
+<meta name="description" content="A creature of the Shadowfell who refuses to die and summons a hound of ill omen. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Sorcerer</a> / <strong>Shadow Magic</strong></nav>
+<main>
+<h1 id="shadow-magic">Shadow Magic</h1>
+<p><em>Sorcerer Sorcerous Origin — Xanathar's Guide to Everything, p. 50</em></p>
+<blockquote>A creature of the Shadowfell who refuses to die and summons a hound of ill omen.</blockquote>
+<p>You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed. Whatever the cause, the shadow of death hangs over you.</p>
+<p><strong>How it plays.</strong> A resilient, atmospheric origin. Strength of the Grave keeps you standing at 0 hit points, and Hound of Ill Omen is an outstanding debuff — it gives one target disadvantage on all saves against your spells.</p>
+<h2 id="features">Features</h2>
+<h3 id="eyes-of-the-dark">Eyes of the Dark</h3>
+<p><em>1st level</em></p>
+<p>You have darkvision with a radius of 120 feet. At 3rd level, you learn the <em>darkness</em> spell, which doesn't count against your number of spells known. You can cast it by spending 2 sorcery points or by expending a spell slot — and if you cast it with sorcery points, you can see through the darkness it creates.</p>
+<h3 id="strength-of-the-grave">Strength of the Grave</h3>
+<p><em>1st level</em></p>
+<p>Your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you drop to 1 hit point instead. You can't use this feature if you are reduced to 0 by radiant damage or a critical hit. Once used, you can't use it again until you finish a long rest.</p>
+<h3 id="hound-of-ill-omen">Hound of Ill Omen</h3>
+<p><em>6th level</em></p>
+<p>As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see within 120 feet. It appears in an unoccupied space within 30 feet of the target, uses the dire wolf statistics with modifications, and has hit points equal to half your sorcerer level.</p>
+<p>The hound moves toward the target by the shortest route and can move through creatures and objects as though they were difficult terrain. While it is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears after 5 minutes, when it drops to 0 hit points, or when the target dies.</p>
+<h3 id="shadow-walk">Shadow Walk</h3>
+<p><em>14th level</em></p>
+<p>You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness.</p>
+<h3 id="umbral-form">Umbral Form</h3>
+<p><em>18th level</em></p>
+<p>You can spend 6 sorcery points as a bonus action to transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain (taking 5 force damage if you end your turn inside one). You remain in this form for 1 minute, or until you are incapacitated or end it as a bonus action.</p>
+<p><a href="index.html">← Back to Sorcerer</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

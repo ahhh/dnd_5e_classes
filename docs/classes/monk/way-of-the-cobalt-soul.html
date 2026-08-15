@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Way of the Cobalt Soul — Monk</title>
+<meta name="description" content="A scholar-spy of the Cobalt Reserve who beats an enemy's weaknesses out of them, literally. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Monk</a> / <strong>Way of the Cobalt Soul</strong></nav>
+<main>
+<h1 id="way-of-the-cobalt-soul">Way of the Cobalt Soul</h1>
+<p><em>Monk Monastic Tradition — Explorer's Guide to Wildemount, p. 184</em></p>
+<blockquote>A scholar-spy of the Cobalt Reserve who beats an enemy's weaknesses out of them, literally.</blockquote>
+<p>Monks of the Cobalt Soul are the militant arm of the Cobalt Reserve, an order of archivists dedicated to uncovering the truth of history. They are researchers, spies, and inquisitors who believe knowledge withheld is knowledge weaponized. Created by Matthew Mercer.</p>
+<p><strong>How it plays.</strong> The investigator monk. Extract Aspects reveals enemy immunities and vulnerabilities to the whole party, and Mystical Erudition adds languages and expertise for out-of-combat work.</p>
+<h2 id="features">Features</h2>
+<h3 id="extract-aspects">Extract Aspects</h3>
+<p><em>3rd level</em></p>
+<p>When you hit a creature with a Flurry of Blows, you can force it to make a Wisdom saving throw. On a failure, you learn certain information about it: its damage vulnerabilities, damage resistances, and damage immunities, as well as one special trait if it has one. Until the start of your next turn, your attacks against that creature deal extra damage when you have this information, and your allies gain advantage on the next attack against it.</p>
+<h3 id="extort-truth">Extort Truth</h3>
+<p><em>6th level</em></p>
+<p>You can use your ki to make a creature more forthcoming. As an action, you can spend 1 ki point and choose a creature within 30 feet that can see and hear you. It must succeed on a Charisma saving throw or be unable to speak a deliberate lie for 10 minutes. You know whether the target succeeds or fails.</p>
+<h3 id="mystical-erudition">Mystical Erudition</h3>
+<p><em>6th level</em></p>
+<p>Your extensive study grants you additional knowledge. You learn one language of your choice, and you gain proficiency in your choice of Arcana, History, Investigation, Nature, or Religion. You gain another language and skill at 11th level, and again at 17th. Your proficiency bonus is doubled for checks with skills chosen this way.</p>
+<h3 id="mind-of-mercury">Mind of Mercury</h3>
+<p><em>11th level</em></p>
+<p>Your instincts allow you to react to danger in multiple ways. You can take a number of additional reactions per round equal to your Intelligence modifier (minimum 1). You can take only one reaction per turn, and you must spend 1 ki point for each additional reaction beyond your first.</p>
+<h3 id="debilitating-barrage">Debilitating Barrage</h3>
+<p><em>17th level</em></p>
+<p>When you hit a creature with a melee attack, you can spend 3 ki points to force it to make a Constitution saving throw. On a failure, it becomes vulnerable to one damage type of your choice (other than bludgeoning, piercing, or slashing) until the end of your next turn, or until it takes damage of that type.</p>
+<p><a href="index.html">← Back to Monk</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Undying — Warlock</title>
+<meta name="description" content="A pact with a deathless being who has cheated the grave and shares that endurance with you. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Warlock</a> / <strong>The Undying</strong></nav>
+<main>
+<h1 id="the-undying">The Undying</h1>
+<p><em>Warlock Otherworldly Patron — Sword Coast Adventurer's Guide, p. 139</em></p>
+<blockquote>A pact with a deathless being who has cheated the grave and shares that endurance with you.</blockquote>
+<p>Your patron is a mortal who has, through some unnatural means, conquered death. Liches, vampires, and the deathless of Aerenal seek to unlock the secret of eternal life — and in exchange for your service, your patron shares a fragment of that unnatural persistence.</p>
+<p><strong>How it plays.</strong> A durability-focused patron, generally considered weaker than The Undead (which covers similar ground). Among the Dead is a solid anti-undead defense, and Indestructible Life provides bonus-action self-healing.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>false life, ray of sickness</td></tr><tr><td>2nd</td><td>blindness/deafness, silence</td></tr><tr><td>3rd</td><td>feign death, speak with dead</td></tr><tr><td>4th</td><td>aura of life, death ward</td></tr><tr><td>5th</td><td>contagion, legend lore</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="among-the-dead">Among the Dead</h3>
+<p><em>1st level</em></p>
+<p>You learn the <em>spare the dying</em> cantrip, which doesn't count against your number of cantrips known. You also have advantage on saving throws against any disease.</p>
+<p>Additionally, undead have difficulty harming you: if an undead targets you directly with an attack or a harmful spell, it must make a Wisdom saving throw against your spell save DC (it doesn't need to make the save for area effects). On a failure it must choose a new target or forfeit the attack, and on a success it is immune to this effect for 24 hours.</p>
+<h3 id="defy-death">Defy Death</h3>
+<p><em>6th level</em></p>
+<p>You can give yourself vitality when you cheat death or when you help someone else cheat it. You regain hit points equal to 1d8 + your Constitution modifier (minimum 1) when you succeed on a death saving throw, or when you stabilize a creature with <em>spare the dying</em>. Once used, you can't use this again until you finish a long rest.</p>
+<h3 id="undying-nature">Undying Nature</h3>
+<p><em>10th level</em></p>
+<p>You can hold your breath indefinitely, and you don't require food, water, or sleep — although you still require rest to reduce exhaustion and must sleep to gain the benefit of a long rest. You also age at a slower rate: for every 10 years that pass, your body ages only 1 year. And you are immune to disease.</p>
+<h3 id="indestructible-life">Indestructible Life</h3>
+<p><em>14th level</em></p>
+<p>You partake of some of the true secrets of the undying. As a bonus action, you can regain hit points equal to 1d8 + your warlock level. Additionally, if you place a severed body part of yours back where it belongs, it reattaches instantly. You can use this feature once per short or long rest.</p>
+<p><a href="index.html">← Back to Warlock</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

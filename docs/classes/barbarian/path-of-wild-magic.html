@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Path of Wild Magic — Barbarian</title>
+<meta name="description" content="Raw magic leaks out of you when you rage, producing an unpredictable surge every time. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Barbarian</a> / <strong>Path of Wild Magic</strong></nav>
+<main>
+<h1 id="path-of-wild-magic">Path of Wild Magic</h1>
+<p><em>Barbarian Primal Path — Tasha's Cauldron of Everything, p. 10</em></p>
+<blockquote>Raw magic leaks out of you when you rage, producing an unpredictable surge every time.</blockquote>
+<p>Many places in the multiverse abound with beauty, intense emotion, and rampant magic — the Feywild, Limbo, the Elemental Planes. Barbarians touched by such places find their rage opens a conduit to that chaotic power.</p>
+<p><strong>How it plays.</strong> Random but never bad — every Wild Surge option is useful, and at 14th level you get to pick from two rolls. Bolstering Magic is excellent support, handing spellcasters back expended spell slots.</p>
+<h2 id="features">Features</h2>
+<h3 id="magic-awareness">Magic Awareness</h3>
+<p><em>3rd level</em></p>
+<p>As an action, you can open your awareness to nearby magic. Until the end of your next turn, you know the location of any spell or magic item within 60 feet that isn't behind total cover, along with its school of magic or item category. You can use this a number of times equal to your proficiency bonus per long rest.</p>
+<h3 id="wild-surge">Wild Surge</h3>
+<p><em>3rd level</em></p>
+<p>When you enter your rage, roll on the Wild Magic table to determine the magical effect produced. Effects include: a damaging burst of force around you; teleportation as a bonus action each turn; a spectral flumph-like protector that damages foes; flowers and vines making the area difficult terrain; a retributive lightning arc when you're hit; darting shadows granting you a Dexterity save bonus; radiant motes that let you empower ally attacks; and an extra 1d6 force damage on your attacks. If your rage's effect requires a saving throw, the DC is 8 + your proficiency bonus + your Constitution modifier.</p>
+<h3 id="bolstering-magic">Bolstering Magic</h3>
+<p><em>6th level</em></p>
+<p>As an action, you can touch a creature (including yourself) and grant one of two benefits: for 10 minutes, it can add 1d3 to attack rolls and ability checks; or you restore one expended spell slot of 3rd level or lower (which can't be used again by that creature until it finishes a long rest). You can use this feature a number of times equal to your proficiency bonus per long rest.</p>
+<h3 id="unstable-backlash">Unstable Backlash</h3>
+<p><em>10th level</em></p>
+<p>When you are damaged or fail a saving throw while raging, you can use your reaction to roll a new effect on the Wild Magic table, replacing your current Wild Surge effect.</p>
+<h3 id="controlled-surge">Controlled Surge</h3>
+<p><em>14th level</em></p>
+<p>Whenever you roll on the Wild Magic table, you roll twice and choose which of the two effects to unleash. If you roll the same number on both dice, you can ignore it and choose any effect on the table.</p>
+<p><a href="index.html">← Back to Barbarian</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

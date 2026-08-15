@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Life Domain — Cleric</title>
+<meta name="description" content="The definitive healer — every cure you cast is worth substantially more. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Cleric</a> / <strong>Life Domain</strong></nav>
+<main>
+<h1 id="life-domain">Life Domain</h1>
+<p><em>Cleric Divine Domain — Player's Handbook, p. 60</em></p>
+<blockquote>The definitive healer — every cure you cast is worth substantially more.</blockquote>
+<p>The Life domain focuses on the vibrant positive energy that sustains all life. Gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath.</p>
+<p><strong>How it plays.</strong> The simplest and most effective healing cleric. Disciple of Life adds a flat bonus to every healing spell, Preserve Life is a mass heal on a short-rest cycle, and you get heavy armor at 1st level.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>bless, cure wounds</td></tr><tr><td>3rd</td><td>lesser restoration, spiritual weapon</td></tr><tr><td>5th</td><td>beacon of hope, revivify</td></tr><tr><td>7th</td><td>death ward, guardian of faith</td></tr><tr><td>9th</td><td>mass cure wounds, raise dead</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="bonus-proficiency">Bonus Proficiency</h3>
+<p><em>1st level</em></p>
+<p>You gain proficiency with heavy armor.</p>
+<h3 id="disciple-of-life">Disciple of Life</h3>
+<p><em>1st level</em></p>
+<p>Whenever you use a spell of 1st level or higher to restore hit points to a creature, it regains additional hit points equal to 2 + the spell's level.</p>
+<h3 id="channel-divinity-preserve-life">Channel Divinity: Preserve Life</h3>
+<p><em>2nd level</em></p>
+<p>As an action, you present your holy symbol and evoke healing energy that restores a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet and divide those hit points among them. This feature can restore a creature to no more than half its hit point maximum, and it can't be used on undead or constructs.</p>
+<h3 id="blessed-healer">Blessed Healer</h3>
+<p><em>6th level</em></p>
+<p>The healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.</p>
+<h3 id="divine-strike">Divine Strike</h3>
+<p><em>8th level</em></p>
+<p>Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage. This increases to 2d8 at 14th level.</p>
+<h3 id="supreme-healing">Supreme Healing</h3>
+<p><em>17th level</em></p>
+<p>When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, <em>cure wounds</em> at 1st level restores the maximum 8 hit points, plus your modifiers and Disciple of Life.</p>
+<p><a href="index.html">← Back to Cleric</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

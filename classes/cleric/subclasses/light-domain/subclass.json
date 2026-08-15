@@ -1,0 +1,49 @@
+{
+  "id": "light-domain",
+  "name": "Light Domain",
+  "class": "cleric",
+  "label": "Divine Domain",
+  "source": { "book": "PHB", "page": 60 },
+  "summary": "A blaster cleric armed with fire, radiance, and a reaction that blinds attackers.",
+  "flavor": "Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Their clerics bring light into dark places and burn away corruption.",
+  "playstyle": "The best damage-dealing cleric. Your domain spells are the wizard's best blasting spells, Warding Flare protects you every round, and Corona of Light shreds enemy resistances.",
+  "expandedSpells": {
+    "1st": ["burning hands", "faerie fire"],
+    "3rd": ["flaming sphere", "scorching ray"],
+    "5th": ["daylight", "fireball"],
+    "7th": ["guardian of faith", "wall of fire"],
+    "9th": ["flame strike", "scrying"]
+  },
+  "features": [
+    {
+      "name": "Bonus Cantrip",
+      "level": 1,
+      "description": "You learn the *light* cantrip if you don't already know it. It doesn't count against your number of cantrips known."
+    },
+    {
+      "name": "Warding Flare",
+      "level": 1,
+      "description": "When you are attacked by a creature within 30 feet that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before it hits or misses. An attacker immune to blindness is unaffected. You can use this a number of times equal to your Wisdom modifier (minimum once) per long rest."
+    },
+    {
+      "name": "Channel Divinity: Radiance of the Dawn",
+      "level": 2,
+      "description": "As an action, you present your holy symbol; any magical darkness within 30 feet is dispelled. Each hostile creature within 30 feet must make a Constitution saving throw, taking 2d10 + your cleric level radiant damage on a failure, or half as much on a success. A creature with total cover is unaffected."
+    },
+    {
+      "name": "Improved Warding Flare",
+      "level": 6,
+      "description": "You can also use Warding Flare when a creature you can see within 30 feet attacks a creature other than you."
+    },
+    {
+      "name": "Potent Spellcasting",
+      "level": 8,
+      "description": "You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    },
+    {
+      "name": "Corona of Light",
+      "level": 17,
+      "description": "As an action, you activate an aura of sunlight lasting 1 minute or until you dismiss it. You emit bright light in a 60-foot radius and dim light for another 30 feet. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."
+    }
+  ]
+}

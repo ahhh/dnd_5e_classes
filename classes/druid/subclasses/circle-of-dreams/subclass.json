@@ -1,0 +1,32 @@
+{
+  "id": "circle-of-dreams",
+  "name": "Circle of Dreams",
+  "class": "druid",
+  "label": "Druid Circle",
+  "source": { "book": "XGE", "page": 22 },
+  "summary": "A Feywild-touched healer who mends the party on rests and hides them in the twilight.",
+  "flavor": "Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild. The druids' guardianship of the natural world makes for a natural alliance with good-aligned fey, and these druids seek to fill the world with dreamlike wonder.",
+  "playstyle": "A rest and travel-focused support circle. Balm of the Summer Court is efficient bonus healing that costs no spell slots, and Hidden Paths gives the party reliable short-range teleportation.",
+  "features": [
+    {
+      "name": "Balm of the Summer Court",
+      "level": 2,
+      "description": "You have a pool of fey energy represented by a number of d6s equal to your druid level. As a bonus action, choose a creature within 120 feet and spend any number of those dice (up to half your druid level). The creature regains hit points equal to the total rolled, plus 1 hit point per die spent, and gains temporary hit points equal to the number of dice spent. You regain all expended dice on a long rest."
+    },
+    {
+      "name": "Hearth of Moonlight and Shadow",
+      "level": 6,
+      "description": "During a short or long rest, you can invoke a 30-foot-radius sphere of protection centered on you. It lasts for the duration of the rest. Creatures of your choice in the area have total cover from creatures outside it, all light within is extinguished at your option, and you and your companions have advantage on Stealth and Perception checks made within it."
+    },
+    {
+      "name": "Hidden Paths",
+      "level": 10,
+      "description": "As a bonus action, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your bonus action to teleport one willing creature you touch up to 30 feet to a space you can see. You can use this feature a number of times equal to your Wisdom modifier (minimum once) per long rest."
+    },
+    {
+      "name": "Walker in Dreams",
+      "level": 14,
+      "description": "The magic of the Feywild grants you the ability to travel mentally or physically through dreamlands. When you finish a short rest, you can cast one of the following spells without a spell slot or material components: *dream* (with you as the messenger), *scrying*, or *teleportation circle* (creating a portal to the last circle you entered in the past 30 days). Once used, you can't use it again until you finish a long rest."
+    }
+  ]
+}

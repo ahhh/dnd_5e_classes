@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Celestial — Warlock</title>
+<meta name="description" content="An empyrean patron makes you the rare warlock who heals — radiant light and healing dice. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Warlock</a> / <strong>The Celestial</strong></nav>
+<main>
+<h1 id="the-celestial">The Celestial</h1>
+<p><em>Warlock Otherworldly Patron — Xanathar's Guide to Everything, p. 54</em></p>
+<blockquote>An empyrean patron makes you the rare warlock who heals — radiant light and healing dice.</blockquote>
+<p>Your patron is a powerful being of the Upper Planes — a couatl, an empyrean, a solar. You have bound yourself to this being, and your soul is a beacon of light against the darkness. Your pact allows you to serve as a conduit for divine power.</p>
+<p><strong>How it plays.</strong> The support warlock. Healing Light is a substantial pool of bonus-action healing that refreshes on a long rest, and you get cleric-style radiant spells while keeping short-rest Pact Magic.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>cure wounds, guiding bolt</td></tr><tr><td>2nd</td><td>flaming sphere, lesser restoration</td></tr><tr><td>3rd</td><td>daylight, revivify</td></tr><tr><td>4th</td><td>guardian of faith, wall of fire</td></tr><tr><td>5th</td><td>flame strike, greater restoration</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="bonus-cantrips">Bonus Cantrips</h3>
+<p><em>1st level</em></p>
+<p>You learn the <em>light</em> and <em>sacred flame</em> cantrips. They count as warlock cantrips for you but don't count against your number of cantrips known.</p>
+<h3 id="healing-light">Healing Light</h3>
+<p><em>1st level</em></p>
+<p>You gain the ability to channel celestial energy to heal wounds. You have a pool of d6s equal to 1 + your warlock level.</p>
+<p>As a bonus action, you can heal one creature you can see within 60 feet, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum one). You regain all expended dice when you finish a long rest.</p>
+<h3 id="radiant-soul">Radiant Soul</h3>
+<p><em>6th level</em></p>
+<p>Your link to your patron allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you add your Charisma modifier to one radiant or fire damage roll of that spell.</p>
+<h3 id="celestial-resilience">Celestial Resilience</h3>
+<p><em>10th level</em></p>
+<p>You gain temporary hit points whenever you finish a short or long rest, equal to your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest; they each gain temporary hit points equal to half your warlock level + your Charisma modifier.</p>
+<h3 id="searing-vengeance">Searing Vengeance</h3>
+<p><em>14th level</em></p>
+<p>The radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum and then stand up if you so choose.</p>
+<p>Each creature of your choice within 30 feet must make a Constitution saving throw or take 2d8 + your Charisma modifier radiant damage and be blinded until the end of the current turn. Once used, you can't use this again until you finish a long rest.</p>
+<p><a href="index.html">← Back to Warlock</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

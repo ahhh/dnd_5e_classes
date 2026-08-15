@@ -1,0 +1,49 @@
+{
+  "id": "armorer",
+  "name": "Armorer",
+  "class": "artificer",
+  "label": "Artificer Specialist",
+  "source": { "book": "TCE", "page": 13 },
+  "summary": "You build powered armor — a Guardian bruiser suit or an Infiltrator stealth rig.",
+  "flavor": "An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the wearer's magic, unleash potent attacks, and generate a formidable defense. The suit is the artificer's masterwork, and it grows with them.",
+  "playstyle": "The front-line artificer. Arcane Armor removes Strength requirements and can't be removed against your will; Guardian mode gives you a taunt and thunder gauntlets, while Infiltrator adds ranged damage and stealth.",
+  "expandedSpells": {
+    "3rd": ["magic missile", "thunderwave"],
+    "5th": ["mirror image", "shatter"],
+    "9th": ["hypnotic pattern", "lightning bolt"],
+    "13th": ["fire shield", "greater invisibility"],
+    "17th": ["passwall", "wall of force"]
+  },
+  "features": [
+    {
+      "name": "Tools of the Trade",
+      "level": 3,
+      "description": "You gain proficiency with heavy armor and with smith's tools. If you already have smith's tools proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+    },
+    {
+      "name": "Arcane Armor",
+      "level": 3,
+      "description": "Your metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have smith's tools in hand. It confers these benefits:\n\n- You can don or doff it as an action.\n- It has no Strength requirement.\n- You can use it as a spellcasting focus.\n- It attaches to you and can't be removed against your will, and it replaces any missing limbs."
+    },
+    {
+      "name": "Armor Model",
+      "level": 3,
+      "description": "You can customize your Arcane Armor. When you do so, choose one of the following models. You can change the model whenever you finish a short or long rest, provided you have smith's tools in hand.\n\n**Guardian.** Designed for front-line combat.\n- *Thunder Gauntlets.* Each hand counts as a simple melee weapon dealing 1d8 thunder damage. A creature hit by them has disadvantage on attack rolls against targets other than you until the start of your next turn — a reliable taunt.\n- *Defensive Field.* As a bonus action, gain temporary hit points equal to your artificer level, a number of times equal to your proficiency bonus per long rest.\n\n**Infiltrator.** Designed for subtlety and precision.\n- *Lightning Launcher.* A gemlike node that is a simple ranged weapon (range 90/300) dealing 1d6 lightning damage; once per turn it deals an extra 1d6.\n- *Powered Steps.* Your walking speed increases by 5 feet.\n- *Dampening Field.* You have advantage on Stealth checks, and the armor makes no noise."
+    },
+    {
+      "name": "Extra Attack",
+      "level": 5,
+      "description": "You can attack twice, rather than once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Armor Modifications",
+      "level": 9,
+      "description": "You learn how to use your artificer infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Item feature: armor (helmet, boots, and the rest), the left arm's weapon, and the right arm's weapon. Each of those items can bear one of your infusions, and the infusions transfer if you change your armor model.\n\nIn addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor."
+    },
+    {
+      "name": "Perfected Armor",
+      "level": 15,
+      "description": "Your Arcane Armor gains additional benefits based on its model.\n\n**Guardian.** When a Huge or smaller creature you can see ends its turn within 30 feet of you, you can use your reaction to magically pull it up to 30 feet directly toward you. If it comes within 5 feet, you can make a melee weapon attack against it as part of the same reaction. You can use this a number of times equal to your proficiency bonus per long rest.\n\n**Infiltrator.** Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. It sheds dim light in a 5-foot radius, and attack rolls against it have advantage. If it is hit, it takes an extra 1d6 lightning damage."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "warlock",
+  "name": "Warlock",
+  "source": { "book": "PHB", "page": 105 },
+  "summary": "A pact-bound caster with few but always-maxed spell slots, refreshed on every short rest.",
+  "flavor": "A warlock is defined by a pact with an otherworldly being. Sometimes the relationship is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. More often, the arrangement is like that between a master and an apprentice — or a creditor and a debtor. The warlock gains power quickly and cheaply, and the price is rarely named up front.",
+  "hitDice": "d8",
+  "hitPointsAt1st": "8 + your Constitution modifier",
+  "hitPointsPerLevel": "1d8 (or 5) + your Constitution modifier",
+  "primaryAbility": ["Charisma"],
+  "savingThrows": ["Wisdom", "Charisma"],
+  "proficiencies": {
+    "armor": ["Light armor"],
+    "weapons": ["Simple weapons"],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": ["Arcana", "Deception", "History", "Intimidation", "Investigation", "Nature", "Religion"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a light crossbow and 20 bolts", "any simple weapon"] },
+      { "choose": 1, "from": ["a component pouch", "an arcane focus"] },
+      { "choose": 1, "from": ["a scholar's pack", "a dungeoneer's pack"] }
+    ],
+    "fixed": ["Leather armor", "Any simple weapon", "Two daggers"],
+    "goldAlternative": "4d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Charisma 13",
+    "proficienciesGained": ["Light armor", "Simple weapons"],
+    "spellcastingNote": "Pact Magic slots are tracked separately from normal spell slots. You can use either type to cast spells you know from any class."
+  },
+  "spellcasting": {
+    "ability": "Charisma",
+    "slotTable": "pact",
+    "type": "known",
+    "ritualCasting": false,
+    "focus": "An arcane focus",
+    "spellList": "Warlock",
+    "notes": "**Pact Magic** works differently from other spellcasting. You have very few slots — but they are always of the highest level you can cast, and you regain them all on a *short* rest, not just a long one. This makes the warlock the most sustainable caster over a long adventuring day."
+  },
+  "subclass": { "label": "Otherworldly Patron", "level": 1, "featureLevels": [1, 6, 10, 14] },
+  "progression": {
+    "columns": [
+      { "key": "cantrips", "label": "Cantrips Known" },
+      { "key": "known", "label": "Spells Known" },
+      { "key": "invocations", "label": "Invocations Known" }
+    ],
+    "levels": [
+      { "level": 1, "features": ["Otherworldly Patron", "Pact Magic"], "values": { "cantrips": "2", "known": "2", "invocations": "—" } },
+      { "level": 2, "features": ["Eldritch Invocations"], "values": { "cantrips": "2", "known": "3", "invocations": "2" } },
+      { "level": 3, "features": ["Pact Boon"], "values": { "cantrips": "2", "known": "4", "invocations": "2" } },
+      { "level": 4, "features": ["Ability Score Improvement", "Eldritch Versatility (optional)"], "values": { "cantrips": "3", "known": "5", "invocations": "2" } },
+      { "level": 5, "features": [], "values": { "cantrips": "3", "known": "6", "invocations": "3" } },
+      { "level": 6, "features": ["Otherworldly Patron feature"], "values": { "cantrips": "3", "known": "7", "invocations": "3" } },
+      { "level": 7, "features": [], "values": { "cantrips": "3", "known": "8", "invocations": "4" } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "cantrips": "3", "known": "9", "invocations": "4" } },
+      { "level": 9, "features": [], "values": { "cantrips": "3", "known": "10", "invocations": "5" } },
+      { "level": 10, "features": ["Otherworldly Patron feature"], "values": { "cantrips": "4", "known": "10", "invocations": "5" } },
+      { "level": 11, "features": ["Mystic Arcanum (6th level)"], "values": { "cantrips": "4", "known": "11", "invocations": "5" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "cantrips": "4", "known": "11", "invocations": "6" } },
+      { "level": 13, "features": ["Mystic Arcanum (7th level)"], "values": { "cantrips": "4", "known": "12", "invocations": "6" } },
+      { "level": 14, "features": ["Otherworldly Patron feature"], "values": { "cantrips": "4", "known": "12", "invocations": "6" } },
+      { "level": 15, "features": ["Mystic Arcanum (8th level)"], "values": { "cantrips": "4", "known": "13", "invocations": "7" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "cantrips": "4", "known": "13", "invocations": "7" } },
+      { "level": 17, "features": ["Mystic Arcanum (9th level)"], "values": { "cantrips": "4", "known": "14", "invocations": "7" } },
+      { "level": 18, "features": [], "values": { "cantrips": "4", "known": "14", "invocations": "8" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "cantrips": "4", "known": "15", "invocations": "8" } },
+      { "level": 20, "features": ["Eldritch Master"], "values": { "cantrips": "4", "known": "15", "invocations": "8" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Otherworldly Patron",
+      "level": 1,
+      "description": "You have struck a bargain with an otherworldly being. Your choice grants you expanded spells and features at 1st, 6th, 10th, and 14th level."
+    },
+    {
+      "name": "Pact Magic",
+      "level": 1,
+      "description": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See the Spell Slots and Slot Level columns — all your slots are the same level, and you regain them all when you finish a **short or long rest**.\n\nCharisma is your spellcasting ability. You know two cantrips and two 1st-level spells at 1st level, and you can replace one known spell whenever you gain a warlock level."
+    },
+    {
+      "name": "Eldritch Invocations",
+      "level": 2,
+      "description": "In your study of occult lore you have unearthed fragments of forbidden knowledge that imbue you with an abiding magical ability. You gain two invocations of your choice, and more as you level (see the table). Whenever you gain a warlock level, you can replace one invocation you know with another.\n\nSome invocations have prerequisites — a minimum warlock level or a specific Pact Boon."
+    },
+    {
+      "name": "Eldritch Invocation Options",
+      "level": 2,
+      "description": "| Invocation | Prerequisite | Effect |\n| :--- | :--- | :--- |\n| **Agonizing Blast** | *eldritch blast* | Add your Charisma modifier to *eldritch blast* damage. |\n| **Armor of Shadows** | — | Cast *mage armor* at will on yourself, without a slot. |\n| **Ascendant Step** | 9th level | Cast *levitate* on yourself at will. |\n| **Aspect of the Moon** *(XGE)* | Pact of the Tome | You no longer need to sleep and can't be forced to. |\n| **Beast Speech** | — | Cast *speak with animals* at will. |\n| **Beguiling Influence** | — | Gain proficiency in Deception and Persuasion. |\n| **Bewitching Whispers** | 7th level | Cast *compulsion* once per long rest using a warlock slot. |\n| **Book of Ancient Secrets** | Pact of the Tome | Inscribe and cast ritual spells from any class's list. |\n| **Cloak of Flies** *(XGE)* | 5th level | Bonus action: a 5-ft aura dealing poison damage and giving Intimidation advantage. |\n| **Devil's Sight** | — | See normally in magical and nonmagical darkness out to 120 feet. |\n| **Dreadful Word** | 7th level | Cast *confusion* once per long rest using a warlock slot. |\n| **Eldritch Mind** *(TCE)* | — | Advantage on Constitution saves to maintain concentration. |\n| **Eldritch Sight** | — | Cast *detect magic* at will. |\n| **Eldritch Spear** | *eldritch blast* | *Eldritch blast* range becomes 300 feet. |\n| **Eyes of the Rune Keeper** | — | You can read all writing. |\n| **Far Scribe** *(TCE)* | 5th level, Pact of the Tome | Send messages to names written in your Book of Shadows. |\n| **Fiendish Vigor** | — | Cast *false life* on yourself at will as a 1st-level spell. |\n| **Gaze of Two Minds** | — | Touch a willing humanoid to perceive through its senses. |\n| **Gift of the Depths** *(TCE)* | 5th level | Breathe underwater, gain a swim speed, cast *water breathing* once per long rest. |\n| **Gift of the Ever-Living Ones** *(XGE)* | Pact of the Chain | Regain the maximum number of hit points from any healing while your familiar is nearby. |\n| **Grasp of Hadar** *(XGE)* | *eldritch blast* | Once per turn, pull a creature hit by *eldritch blast* 10 feet toward you. |\n| **Improved Pact Weapon** *(XGE)* | Pact of the Blade | Your pact weapon is a +1 magic weapon and can be a shortbow or longbow. |\n| **Investment of the Chain Master** *(TCE)* | Pact of the Chain | Your familiar gains flight or swimming, magical attacks, and other benefits. |\n| **Lance of Lethargy** *(XGE)* | *eldritch blast* | Once per turn, reduce the speed of a creature hit by *eldritch blast* by 10 feet. |\n| **Lifedrinker** | 12th level, Pact of the Blade | Your pact weapon deals extra necrotic damage equal to your Charisma modifier. |\n| **Mask of Many Faces** | — | Cast *disguise self* at will. |\n| **Master of Myriad Forms** | 15th level | Cast *alter self* at will. |\n| **Maddening Hex** *(XGE)* | 5th level, *hex* or a hex feature | Bonus action: deal psychic damage to creatures near your hexed target. |\n| **Minions of Chaos** | 9th level | Cast *conjure elemental* once per long rest using a warlock slot. |\n| **Mire the Mind** | 5th level | Cast *slow* once per long rest using a warlock slot. |\n| **Misty Visions** | — | Cast *silent image* at will. |\n| **One with Shadows** | 5th level | Become invisible while in an area of dim light or darkness. |\n| **Otherworldly Leap** | 9th level | Cast *jump* on yourself at will. |\n| **Protection of the Talisman** *(TCE)* | 7th level, Pact of the Talisman | The talisman wearer adds a d4 to a failed saving throw. |\n| **Rebuke of the Talisman** *(TCE)* | Pact of the Talisman | Reaction: damage and push an attacker who hits the talisman's wearer. |\n| **Relentless Hex** *(XGE)* | 7th level, *hex* or a hex feature | Bonus action: teleport next to your hexed target. |\n| **Repelling Blast** | *eldritch blast* | Push a creature hit by *eldritch blast* up to 10 feet away. |\n| **Sculptor of Flesh** | 7th level | Cast *polymorph* once per long rest using a warlock slot. |\n| **Shroud of Shadow** *(XGE)* | 15th level | Cast *invisibility* at will. |\n| **Sign of Ill Omen** | 5th level | Cast *bestow curse* once per long rest using a warlock slot. |\n| **Thief of Five Fates** | — | Cast *bane* once per long rest using a warlock slot. |\n| **Thirsting Blade** | 5th level, Pact of the Blade | Attack twice with your pact weapon when you take the Attack action. |\n| **Tomb of Levistus** *(XGE)* | 5th level | Reaction: gain temporary hit points encased in ice. |\n| **Trickster's Escape** *(XGE)* | 7th level | Cast *freedom of movement* on yourself once per long rest. |\n| **Visions of Distant Realms** | 15th level | Cast *arcane eye* at will. |\n| **Voice of the Chain Master** | Pact of the Chain | Communicate telepathically with your familiar and perceive through its senses. |\n| **Whispers of the Grave** | 9th level | Cast *speak with dead* at will. |\n| **Witch Sight** | 15th level | See the true form of shapechangers and creatures concealed by illusion within 30 feet. |"
+    },
+    {
+      "name": "Pact Boon",
+      "level": 3,
+      "description": "Your otherworldly patron bestows a gift upon you for your loyal service. Choose one.\n\n**Pact of the Chain.** You learn *find familiar* and can cast it as a ritual. Your familiar can take additional forms — an imp, pseudodragon, quasit, or sprite. When you take the Attack action, you can forgo one of your own attacks to let your familiar make one attack with its reaction.\n\n**Pact of the Blade.** You can use your action to create a pact weapon in your empty hand — any melee weapon you choose. You are proficient with it, it counts as magical, and it can be dismissed or transformed at will. You can also perform a 1-hour ritual to bond an existing magic weapon to yourself.\n\n**Pact of the Tome.** Your patron gives you a Book of Shadows containing three cantrips of your choice from *any* class's spell list. They count as warlock cantrips for you and don't count against your cantrips known.\n\n**Pact of the Talisman** *(TCE).* Your patron gives you an amulet. When the wearer fails an ability check, it can add a d4 to the roll, a number of times equal to your proficiency bonus per long rest."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Eldritch Versatility",
+      "level": 4,
+      "source": "TCE",
+      "optional": true,
+      "description": "Whenever you gain an Ability Score Improvement, you can replace one cantrip you learned from this class's Pact Magic feature with another warlock cantrip, or change your choice of Pact Boon, or change the ability used by a feature. If the change would invalidate an invocation you know, you can also replace that invocation."
+    },
+    {
+      "name": "Mystic Arcanum",
+      "level": 11,
+      "description": "Your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum. You can cast it once without expending a spell slot, regaining the ability on a long rest.\n\nYou gain a 7th-level arcanum at 13th level, an 8th-level at 15th, and a 9th-level at 17th."
+    },
+    {
+      "name": "Eldritch Master",
+      "level": 20,
+      "description": "You can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended Pact Magic spell slots. Once you regain slots with this feature, you must finish a long rest before you can do so again."
+    }
+  ],
+  "subclasses": [
+    { "id": "the-archfey", "name": "The Archfey", "source": "PHB" },
+    { "id": "the-fiend", "name": "The Fiend", "source": "PHB" },
+    { "id": "the-great-old-one", "name": "The Great Old One", "source": "PHB" },
+    { "id": "the-undying", "name": "The Undying", "source": "SCAG" },
+    { "id": "the-celestial", "name": "The Celestial", "source": "XGE" },
+    { "id": "the-hexblade", "name": "The Hexblade", "source": "XGE" },
+    { "id": "the-fathomless", "name": "The Fathomless", "source": "TCE" },
+    { "id": "the-genie", "name": "The Genie", "source": "TCE" },
+    { "id": "the-undead", "name": "The Undead", "source": "VRGR" }
+  ]
+}

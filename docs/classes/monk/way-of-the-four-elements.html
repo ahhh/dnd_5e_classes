@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Way of the Four Elements — Monk</title>
+<meta name="description" content="An elemental bender who spends ki to hurl fire, ride the wind, and shape stone. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Monk</a> / <strong>Way of the Four Elements</strong></nav>
+<main>
+<h1 id="way-of-the-four-elements">Way of the Four Elements</h1>
+<p><em>Monk Monastic Tradition — Player's Handbook, p. 80</em></p>
+<blockquote>An elemental bender who spends ki to hurl fire, ride the wind, and shape stone.</blockquote>
+<p>You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body.</p>
+<p><strong>How it plays.</strong> The most flavourful monk and the weakest mechanically — disciplines are expensive in ki and the save DCs lag behind dedicated casters. Tasha's suggested fix is to let you swap disciplines when you level up.</p>
+<h2 id="features">Features</h2>
+<h3 id="disciple-of-the-elements">Disciple of the Elements</h3>
+<p><em>3rd level</em></p>
+<p>You learn magical disciplines that harness the power of the four elements. You learn one discipline at 3rd level and one additional discipline at 6th, 11th, and 17th level.</p>
+<p>Whenever you learn a new discipline, you can replace one discipline you already know with a different one. Casting a spell through a discipline costs ki points equal to the spell's level, plus additional ki as noted; you can spend additional ki to cast at a higher level, limited by your monk level (max 3 ki at 5th level, 4 at 9th, 5 at 13th, 6 at 17th).</p>
+<h3 id="elemental-disciplines">Elemental Disciplines</h3>
+<p><em>3rd level</em></p>
+<div class="table-wrap"><table><thead><tr><th>Discipline</th><th>Cost</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Elemental Attunement</strong></td><td>—</td><td>Minor elemental control: snuff a flame, chill an object, shape earth.</td></tr><tr><td><strong>Breath of Winter</strong> <em>(17th)</em></td><td>6 ki</td><td>Cast <em>cone of cold</em>.</td></tr><tr><td><strong>Clench of the North Wind</strong> <em>(6th)</em></td><td>3 ki</td><td>Cast <em>hold person</em>.</td></tr><tr><td><strong>Eternal Mountain Defense</strong> <em>(17th)</em></td><td>5 ki</td><td>Cast <em>stoneskin</em> on yourself.</td></tr><tr><td><strong>Fangs of the Fire Snake</strong></td><td>1 ki</td><td>Attacks gain 10 ft. reach and deal fire damage; 1 ki more for +1d10 fire.</td></tr><tr><td><strong>Fist of Four Thunders</strong></td><td>2 ki</td><td>Cast <em>thunderwave</em>.</td></tr><tr><td><strong>Fist of Unbroken Air</strong></td><td>2 ki</td><td>Ranged bludgeoning damage, push, and possible prone.</td></tr><tr><td><strong>Flames of the Phoenix</strong> <em>(11th)</em></td><td>4 ki</td><td>Cast <em>fireball</em>.</td></tr><tr><td><strong>Gong of the Summit</strong> <em>(6th)</em></td><td>3 ki</td><td>Cast <em>shatter</em>.</td></tr><tr><td><strong>Mist Stance</strong> <em>(11th)</em></td><td>4 ki</td><td>Cast <em>gaseous form</em> on yourself.</td></tr><tr><td><strong>Ride the Wind</strong> <em>(11th)</em></td><td>4 ki</td><td>Cast <em>fly</em> on yourself.</td></tr><tr><td><strong>River of Hungry Flame</strong> <em>(17th)</em></td><td>5 ki</td><td>Cast <em>wall of fire</em>.</td></tr><tr><td><strong>Rush of the Gale Spirits</strong></td><td>2 ki</td><td>Cast <em>gust of wind</em>.</td></tr><tr><td><strong>Shape the Flowing River</strong></td><td>1 ki</td><td>Freeze, thaw, and shape water within 120 feet.</td></tr><tr><td><strong>Sweeping Cinder Strike</strong></td><td>2 ki</td><td>Cast <em>burning hands</em>.</td></tr><tr><td><strong>Water Whip</strong></td><td>2 ki</td><td>Bludgeoning damage plus pull or knock prone.</td></tr><tr><td><strong>Wave of Rolling Earth</strong> <em>(17th)</em></td><td>6 ki</td><td>Cast <em>wall of stone</em>.</td></tr></tbody></table></div>
+<p><a href="index.html">← Back to Monk</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

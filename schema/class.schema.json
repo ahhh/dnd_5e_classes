@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schema/class.schema.json",
+  "title": "D&D 5e (2014) Class",
+  "type": "object",
+  "required": ["id", "name", "source", "hitDice", "primaryAbility", "savingThrows", "proficiencies", "progression", "features"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "source": {
+      "type": "object",
+      "required": ["book"],
+      "properties": {
+        "book": { "type": "string", "description": "Abbreviation, e.g. PHB, XGE, TCE, ERLW" },
+        "page": { "type": "integer" }
+      }
+    },
+    "flavor": { "type": "string", "description": "One-paragraph description of the class." },
+    "summary": { "type": "string", "description": "One-sentence hook used on index pages." },
+    "hitDice": { "type": "string", "pattern": "^d(4|6|8|10|12)$" },
+    "hitPointsAt1st": { "type": "string" },
+    "hitPointsPerLevel": { "type": "string" },
+    "primaryAbility": { "type": "array", "items": { "type": "string" } },
+    "savingThrows": {
+      "type": "array",
+      "items": { "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"] },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "proficiencies": {
+      "type": "object",
+      "properties": {
+        "armor": { "type": "array", "items": { "type": "string" } },
+        "weapons": { "type": "array", "items": { "type": "string" } },
+        "tools": { "type": "array", "items": { "type": "string" } },
+        "skills": {
+          "type": "object",
+          "required": ["choose", "from"],
+          "properties": {
+            "choose": { "type": "integer" },
+            "from": { "type": "array", "items": { "type": "string" } },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    },
+    "startingEquipment": {
+      "type": "object",
+      "properties": {
+        "choices": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "choose": { "type": "integer" },
+              "from": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "fixed": { "type": "array", "items": { "type": "string" } },
+        "goldAlternative": { "type": "string", "description": "e.g. '5d4 x 10 gp'" }
+      }
+    },
+    "multiclassing": {
+      "type": "object",
+      "properties": {
+        "prerequisite": { "type": "string" },
+        "proficienciesGained": { "type": "array", "items": { "type": "string" } },
+        "spellcastingNote": { "type": "string" }
+      }
+    },
+    "spellcasting": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["ability", "slotTable"],
+          "properties": {
+            "ability": { "type": "string" },
+            "slotTable": { "enum": ["full", "half", "half-early", "third", "pact"] },
+            "type": { "enum": ["known", "prepared"] },
+            "ritualCasting": { "type": "boolean" },
+            "focus": { "type": "string" },
+            "preparedFormula": { "type": "string" },
+            "spellList": { "type": "string" },
+            "notes": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "subclass": {
+      "type": "object",
+      "required": ["label", "level"],
+      "properties": {
+        "label": { "type": "string", "description": "In-world name, e.g. 'Primal Path'" },
+        "level": { "type": "integer", "description": "Level the subclass is chosen" },
+        "featureLevels": { "type": "array", "items": { "type": "integer" } }
+      }
+    },
+    "progression": {
+      "type": "object",
+      "required": ["columns", "levels"],
+      "properties": {
+        "columns": {
+          "type": "array",
+          "description": "Extra table columns beyond Level / Proficiency Bonus / Features.",
+          "items": {
+            "type": "object",
+            "required": ["key", "label"],
+            "properties": {
+              "key": { "type": "string" },
+              "label": { "type": "string" }
+            }
+          }
+        },
+        "levels": {
+          "type": "array",
+          "minItems": 20,
+          "maxItems": 20,
+          "items": {
+            "type": "object",
+            "required": ["level", "features"],
+            "properties": {
+              "level": { "type": "integer" },
+              "features": { "type": "array", "items": { "type": "string" } },
+              "values": { "type": "object", "description": "Keyed by progression.columns[].key" }
+            }
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "level", "description"],
+        "properties": {
+          "name": { "type": "string" },
+          "level": { "type": "integer" },
+          "description": { "type": "string", "description": "Markdown permitted." },
+          "source": { "type": "string" },
+          "optional": { "type": "boolean", "description": "True for Tasha's optional class features." },
+          "replaces": { "type": "string" }
+        }
+      }
+    },
+    "subclasses": {
+      "type": "array",
+      "description": "Index of subclass folders; full data lives in subclasses/<id>/subclass.json",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "source"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "source": { "type": "string" }
+        }
+      }
+    }
+  }
+}

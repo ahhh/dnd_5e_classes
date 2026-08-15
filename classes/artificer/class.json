@@ -1,0 +1,153 @@
+{
+  "id": "artificer",
+  "name": "Artificer",
+  "source": { "book": "TCE", "page": 9 },
+  "summary": "An inventor who infuses mundane objects with magic and treats items as spells.",
+  "flavor": "Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and harnessed — expressed in whirling gears, alchemical reactions, and infused gear. Artificers are the only class that creates permanent magic items as a core feature, and the only Intelligence-based half caster. First published in *Eberron: Rising from the Last War*, then revised in *Tasha's Cauldron of Everything*.",
+  "hitDice": "d8",
+  "hitPointsAt1st": "8 + your Constitution modifier",
+  "hitPointsPerLevel": "1d8 (or 5) + your Constitution modifier",
+  "primaryAbility": ["Intelligence"],
+  "savingThrows": ["Constitution", "Intelligence"],
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Shields"],
+    "weapons": ["Simple weapons"],
+    "tools": ["Thieves' tools", "Tinker's tools", "One type of artisan's tools of your choice"],
+    "skills": {
+      "choose": 2,
+      "from": ["Arcana", "History", "Investigation", "Medicine", "Nature", "Perception", "Sleight of Hand"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["any two simple weapons"] },
+      { "choose": 1, "from": ["a light crossbow and 20 bolts"] },
+      { "choose": 1, "from": ["studded leather armor", "scale mail"] }
+    ],
+    "fixed": ["Thieves' tools", "A dungeoneer's pack"],
+    "goldAlternative": "5d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Intelligence 13",
+    "proficienciesGained": ["Light armor", "Medium armor", "Shields", "Thieves' tools", "Tinker's tools"],
+    "spellcastingNote": "Add half your artificer level, rounded up, when determining shared multiclass spell slots — the artificer rounds up where other half casters round down."
+  },
+  "spellcasting": {
+    "ability": "Intelligence",
+    "slotTable": "half-early",
+    "type": "prepared",
+    "ritualCasting": false,
+    "focus": "Thieves' tools or artisan's tools you are proficient with",
+    "preparedFormula": "Intelligence modifier + half your artificer level, rounded down (minimum 1)",
+    "spellList": "Artificer",
+    "notes": "Uniquely, artificers can use tools as a spellcasting focus, and they can replace a spell's material components with those tools. They are half casters who gain spellcasting at 1st level rather than 2nd."
+  },
+  "subclass": { "label": "Artificer Specialist", "level": 3, "featureLevels": [3, 5, 9, 15] },
+  "progression": {
+    "columns": [
+      { "key": "cantrips", "label": "Cantrips Known" },
+      { "key": "infusions", "label": "Infusions Known" },
+      { "key": "infused", "label": "Infused Items" }
+    ],
+    "levels": [
+      { "level": 1, "features": ["Magical Tinkering", "Spellcasting"], "values": { "cantrips": "2", "infusions": "—", "infused": "—" } },
+      { "level": 2, "features": ["Infuse Item"], "values": { "cantrips": "2", "infusions": "4", "infused": "2" } },
+      { "level": 3, "features": ["Artificer Specialist", "The Right Tool for the Job"], "values": { "cantrips": "2", "infusions": "4", "infused": "2" } },
+      { "level": 4, "features": ["Ability Score Improvement"], "values": { "cantrips": "2", "infusions": "4", "infused": "2" } },
+      { "level": 5, "features": ["Artificer Specialist feature"], "values": { "cantrips": "2", "infusions": "4", "infused": "2" } },
+      { "level": 6, "features": ["Tool Expertise"], "values": { "cantrips": "3", "infusions": "6", "infused": "3" } },
+      { "level": 7, "features": ["Flash of Genius"], "values": { "cantrips": "3", "infusions": "6", "infused": "3" } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "cantrips": "3", "infusions": "6", "infused": "3" } },
+      { "level": 9, "features": ["Artificer Specialist feature"], "values": { "cantrips": "3", "infusions": "6", "infused": "3" } },
+      { "level": 10, "features": ["Magic Item Adept"], "values": { "cantrips": "4", "infusions": "8", "infused": "4" } },
+      { "level": 11, "features": ["Spell-Storing Item"], "values": { "cantrips": "4", "infusions": "8", "infused": "4" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "cantrips": "4", "infusions": "8", "infused": "4" } },
+      { "level": 13, "features": [], "values": { "cantrips": "4", "infusions": "8", "infused": "4" } },
+      { "level": 14, "features": ["Magic Item Savant"], "values": { "cantrips": "5", "infusions": "10", "infused": "5" } },
+      { "level": 15, "features": ["Artificer Specialist feature"], "values": { "cantrips": "5", "infusions": "10", "infused": "5" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "cantrips": "5", "infusions": "10", "infused": "5" } },
+      { "level": 17, "features": [], "values": { "cantrips": "5", "infusions": "10", "infused": "5" } },
+      { "level": 18, "features": ["Magic Item Master"], "values": { "cantrips": "5", "infusions": "12", "infused": "6" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "cantrips": "5", "infusions": "12", "infused": "6" } },
+      { "level": 20, "features": ["Soul of Artifice"], "values": { "cantrips": "5", "infusions": "12", "infused": "6" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Magical Tinkering",
+      "level": 1,
+      "description": "You have learned how to invest a spark of magic into mundane objects. At the end of a long rest — or with 1 minute of work — you can touch a Tiny nonmagical object and give it one of the following properties:\n\n- It sheds bright light in a 5-foot radius and dim light for an additional 5 feet.\n- Whenever tapped, it emits a recorded message up to 6 seconds long, audible within 10 feet.\n- It continuously emits an odor or a nonverbal sound of your choice.\n- A static visual effect appears on one of its surfaces.\n\nYou can have a number of objects affected equal to your Intelligence modifier (minimum one)."
+    },
+    {
+      "name": "Spellcasting",
+      "level": 1,
+      "description": "You have studied the workings of magic and how to cast spells, channeling that magic through objects. You know two artificer cantrips and prepare a number of spells equal to your Intelligence modifier + half your artificer level (rounded down).\n\n**Tools Required.** You produce your artificer spell effects through your tools. You must have a spellcasting focus — specifically thieves' tools or some kind of artisan's tool — in hand when you cast an artificer spell."
+    },
+    {
+      "name": "Infuse Item",
+      "level": 2,
+      "description": "You gain the ability to imbue mundane items with certain magical infusions, turning them into magic items.\n\nWhenever you finish a long rest, you can touch a number of nonmagical objects equal to your Infused Items number and imbue each with one of your known infusions. An infusion works on only certain kinds of objects, as specified in its description. If the item requires attunement, you can attune to it the instant you infuse it.\n\nYou learn new infusions as you level (see the table), and whenever you gain an artificer level you can replace one infusion you know with another."
+    },
+    {
+      "name": "Infusion Options",
+      "level": 2,
+      "description": "| Infusion | Prerequisite | Effect |\n| :--- | :--- | :--- |\n| **Arcane Propulsion Armor** | 14th level | Armor grants +5 speed, gives you magical gauntlet attacks that return when thrown, and replaces missing limbs. |\n| **Armor of Magical Strength** | — | Armor grants a pool of Intelligence-based points to boost Strength checks and saves, or to react to being knocked prone. |\n| **Boots of the Winding Path** | 6th level | Wearer can teleport 15 feet to an unoccupied space it can see. |\n| **Enhanced Arcane Focus** | — | Rod, staff, or wand grants +1 (later +2) to spell attack rolls and lets you ignore half cover. |\n| **Enhanced Defense** | — | Armor or shield grants +1 (later +2) to AC. |\n| **Enhanced Weapon** | — | Simple or martial weapon grants +1 (later +2) to attack and damage rolls. |\n| **Helm of Awareness** | 10th level | Wearer has advantage on initiative rolls. |\n| **Homunculus Servant** | — | Create a tiny construct companion that acts on your turn and can deliver your touch spells. |\n| **Mind Sharpener** | — | Armor or robes can be used to automatically succeed on a concentration save, four charges per day. |\n| **Radiant Weapon** | 6th level | Weapon is +1, sheds light, and can blind an attacker as a reaction. |\n| **Repeating Shot** | — | A ranged weapon with ammunition needs no reloading and produces its own ammunition. |\n| **Repulsion Shield** | 6th level | Shield is +1 and can push an attacker 15 feet away as a reaction. |\n| **Replicate Magic Item** | — | Reproduce a specific existing magic item from an allowed list, which expands at 6th, 10th, and 14th level. |\n| **Resistant Armor** | 6th level | Armor grants resistance to one damage type of your choice. |\n| **Returning Weapon** | — | A thrown weapon is +1 and returns to your hand immediately after a ranged attack. |\n| **Spell-Refueling Ring** | 6th level | Wearer can regain one expended spell slot of 3rd level or lower, once per day. |"
+    },
+    {
+      "name": "Artificer Specialist",
+      "level": 3,
+      "description": "You choose the type of specialist you are. It grants you features at 3rd, 5th, 9th, and 15th level, along with additional spells that are always prepared."
+    },
+    {
+      "name": "The Right Tool for the Job",
+      "level": 3,
+      "description": "You've learned how to produce exactly the tool you need. With thieves' tools or artisan's tools in hand, you can magically create one set of artisan's tools in an unoccupied space within 5 feet, over the course of 1 hour (which can be part of a short or long rest). The tools disappear after 1 hour or when you use this feature again."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Tool Expertise",
+      "level": 6,
+      "description": "Your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool."
+    },
+    {
+      "name": "Flash of Genius",
+      "level": 7,
+      "description": "You gain the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll. You can use this a number of times equal to your Intelligence modifier (minimum once) per long rest."
+    },
+    {
+      "name": "Magic Item Adept",
+      "level": 10,
+      "description": "You can attune to up to four magic items at once, rather than three. In addition, when you craft a common or uncommon magic item, it takes you a quarter of the normal time and costs you only half the usual gold."
+    },
+    {
+      "name": "Spell-Storing Item",
+      "level": 11,
+      "description": "You can now store a spell in an object. Whenever you finish a long rest, you can touch one simple or martial weapon, or an item you can use as a spellcasting focus, and store a 1st- or 2nd-level artificer spell in it (one that has a casting time of 1 action).\n\nA creature holding the item can use an action to cast the spell using your spellcasting ability modifier. The item can be used a number of times equal to twice your Intelligence modifier, then the spell ends."
+    },
+    {
+      "name": "Magic Item Savant",
+      "level": 14,
+      "description": "You can attune to up to five magic items at once. In addition, you ignore all class, race, spell, and level requirements on attuning to or using a magic item."
+    },
+    {
+      "name": "Magic Item Master",
+      "level": 18,
+      "description": "You can attune to up to six magic items at once."
+    },
+    {
+      "name": "Soul of Artifice",
+      "level": 20,
+      "description": "You develop a mystical connection to your magic items, which you can draw on for protection. You gain a +1 bonus to all saving throws per magic item you are currently attuned to.\n\nIn addition, if you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead."
+    }
+  ],
+  "subclasses": [
+    { "id": "alchemist", "name": "Alchemist", "source": "TCE" },
+    { "id": "armorer", "name": "Armorer", "source": "TCE" },
+    { "id": "artillerist", "name": "Artillerist", "source": "TCE" },
+    { "id": "battle-smith", "name": "Battle Smith", "source": "TCE" }
+  ]
+}

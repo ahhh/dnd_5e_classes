@@ -1,0 +1,44 @@
+{
+  "id": "clockwork-soul",
+  "name": "Clockwork Soul",
+  "class": "sorcerer",
+  "label": "Sorcerous Origin",
+  "source": { "book": "TCE", "page": 68 },
+  "summary": "Mechanus order flows through you, cancelling advantage and disadvantage and warding allies.",
+  "flavor": "The cosmic force of order has suffused you with magic. That power comes from Mechanus or a realm like it — a plane of clockwork precision. You might have consorted with a modron, entered a portal to Mechanus, or been touched by the plane's absolute regularity.",
+  "playstyle": "A defensive support origin with excellent action economy. Restore Balance shuts down enemy advantage as a reaction, and Bastion of Law hands out a pool of damage-reduction dice to any ally.",
+  "expandedSpells": {
+    "1st": ["alarm", "protection from evil and good"],
+    "2nd": ["aid", "lesser restoration"],
+    "3rd": ["dispel magic", "protection from energy"],
+    "4th": ["freedom of movement", "summon construct"],
+    "5th": ["greater restoration", "wall of force"]
+  },
+  "features": [
+    {
+      "name": "Clockwork Magic",
+      "level": 1,
+      "description": "You learn additional spells as you gain sorcerer levels (see the expanded list above). Each counts as a sorcerer spell for you but doesn't count against your number of spells known.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level from the abjuration or transmutation school."
+    },
+    {
+      "name": "Restore Balance",
+      "level": 1,
+      "description": "Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet is about to roll a d20 with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage. You can use this a number of times equal to your proficiency bonus per long rest."
+    },
+    {
+      "name": "Bastion of Law",
+      "level": 6,
+      "description": "You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet. The ward is represented by a number of d8s equal to the number of sorcery points spent, and lasts until you finish a long rest.\n\nWhen the warded creature takes damage, it can expend any number of those dice, rolling them and reducing the damage taken by the total rolled."
+    },
+    {
+      "name": "Trance of Order",
+      "level": 14,
+      "description": "You gain the ability to enter a heightened state in which the cosmic forces of order guide you. As a bonus action, you can enter this state for 1 minute. During it, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a roll of 9 or lower on the d20 as a 10. Once used, you can't use this again until you finish a long rest, unless you spend 5 sorcery points."
+    },
+    {
+      "name": "Clockwork Cavalcade",
+      "level": 18,
+      "description": "You summon spirits of order to expunge disorder around you. As an action, you summon the spirits in a 30-foot cube originating from you. They restore up to 100 hit points, divided as you choose among any number of creatures in the cube; end every spell of 6th level or lower on those creatures; and repair every damaged object in the cube. Once used, you can't use this again until you finish a long rest, unless you spend 7 sorcery points."
+    }
+  ]
+}

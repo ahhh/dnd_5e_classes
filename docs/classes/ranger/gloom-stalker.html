@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gloom Stalker — Ranger</title>
+<meta name="description" content="A shadow-hunter who strikes devastatingly in the first round and is invisible in darkness. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Ranger</a> / <strong>Gloom Stalker</strong></nav>
+<main>
+<h1 id="gloom-stalker">Gloom Stalker</h1>
+<p><em>Ranger Ranger Archetype — Xanathar's Guide to Everything, p. 41</em></p>
+<blockquote>A shadow-hunter who strikes devastatingly in the first round and is invisible in darkness.</blockquote>
+<p>Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most people enter such places with trepidation; a gloom stalker enters and dominates.</p>
+<p><strong>How it plays.</strong> Consistently rated the strongest ranger archetype. Dread Ambusher gives you a huge alpha strike — bonus initiative, extra speed, and an additional attack with 1d8 damage on the first turn of every fight.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>disguise self</td></tr><tr><td>5th</td><td>rope trick</td></tr><tr><td>9th</td><td>fear</td></tr><tr><td>13th</td><td>greater invisibility</td></tr><tr><td>17th</td><td>seeming</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="dread-ambusher">Dread Ambusher</h3>
+<p><em>3rd level</em></p>
+<p>You master the art of the first strike. You gain a bonus to your initiative rolls equal to your Wisdom modifier.</p>
+<p>At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action, and that attack deals an extra 1d8 damage of the weapon's type.</p>
+<h3 id="umbral-sight">Umbral Sight</h3>
+<p><em>3rd level</em></p>
+<p>You gain darkvision out to 60 feet, or an additional 30 feet if you already have it. You are also adept at evading creatures that rely on darkvision: while in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness.</p>
+<h3 id="iron-mind">Iron Mind</h3>
+<p><em>7th level</em></p>
+<p>You gain proficiency in Wisdom saving throws. If you already have it, you gain proficiency in Intelligence or Charisma saving throws (your choice).</p>
+<h3 id="stalkers-flurry">Stalker's Flurry</h3>
+<p><em>11th level</em></p>
+<p>Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action.</p>
+<h3 id="shadowy-dodge">Shadowy Dodge</h3>
+<p><em>15th level</em></p>
+<p>When a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.</p>
+<p><a href="index.html">← Back to Ranger</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

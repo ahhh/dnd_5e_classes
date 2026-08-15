@@ -1,0 +1,63 @@
+# Oath of the Ancients
+
+*Paladin Sacred Oath — Player's Handbook, p. 86*
+
+> A fey-touched green knight who halves all spell damage to the party and never truly dies.
+
+The Oath of the Ancients is as old as the race of elves and the rituals of druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of light in the cosmic struggle, fighting for the beauty and life of the world.
+
+**How it plays.** Exceptionally durable. Aura of Warding gives the entire party resistance to spell damage — one of the strongest defensive auras in the game — and Undying Sentinel keeps you standing.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 3rd | ensnaring strike, speak with animals |
+| 5th | moonbeam, misty step |
+| 9th | plant growth, protection from energy |
+| 13th | ice storm, stoneskin |
+| 17th | commune with nature, tree stride |
+
+## Features
+
+### Tenets of the Ancients
+
+*3rd level*
+
+**Kindle the Light.** Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world.
+**Shelter the Light.** Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it.
+**Preserve Your Own Light.** Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world.
+**Be the Light.** Be a glorious beacon for all who live in despair.
+
+### Channel Divinity: Nature's Wrath
+
+*3rd level*
+
+As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet. It must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained, it repeats the saving throw at the end of each of its turns, ending the effect on a success.
+
+### Channel Divinity: Turn the Faithless
+
+*3rd level*
+
+As an action, you present your holy symbol and each fey or fiend within 30 feet that can see or hear you must make a Wisdom saving throw. On a failure, it is turned for 1 minute or until it takes damage. A turned creature that has a disguise or illusion concealing its true form has that disguise dispelled.
+
+### Aura of Warding
+
+*7th level*
+
+Ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet have resistance to damage from spells. At 18th level, the range increases to 30 feet.
+
+### Undying Sentinel
+
+*15th level*
+
+When you are reduced to 0 hit points and not killed outright, you can choose to drop to 1 hit point instead. Once used, you can't use this again until you finish a long rest. Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically.
+
+### Elder Champion
+
+*20th level*
+
+As an action, you can assume the form of a nature spirit for 1 minute. You gain three benefits: at the start of each of your turns you regain 10 hit points; whenever you cast a paladin spell with a casting time of 1 action, you can cast it as a bonus action instead; and enemies within 10 feet have disadvantage on saving throws against your paladin spells and Channel Divinity options. Once used, you can't use this again until you finish a long rest.
+
+
+[← Back to Paladin](index.md)

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Path of the Battlerager — Barbarian</title>
+<meta name="description" content="Dwarven spiked-armor specialist who weaponizes their own body and armor. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Barbarian</a> / <strong>Path of the Battlerager</strong></nav>
+<main>
+<h1 id="path-of-the-battlerager">Path of the Battlerager</h1>
+<p><em>Barbarian Primal Path — Sword Coast Adventurer's Guide, p. 121</em></p>
+<blockquote>Dwarven spiked-armor specialist who weaponizes their own body and armor.</blockquote>
+<p>Battleragers are dwarves who wear spiked armor and hurl themselves into combat, delighting in the chaos of the melee. Most are devoted to the dwarven gods of war and take a grim joy in grappling their foes and impaling them on their own plates.</p>
+<p><strong>How it plays.</strong> Very narrow — restricted to dwarves by the book's flavor and dependent on spiked armor. Damage output is low compared to other paths, but it is thematic and fun in grapple-heavy builds.</p>
+<h2 id="features">Features</h2>
+<h3 id="restriction-dwarves-only">Restriction: Dwarves Only</h3>
+<p><em>3rd level</em></p>
+<p>As written in the <em>Sword Coast Adventurer's Guide</em>, only dwarves may take this path. Many tables waive this restriction.</p>
+<h3 id="battlerager-armor">Battlerager Armor</h3>
+<p><em>3rd level</em></p>
+<p>You gain the ability to use spiked armor (a form of medium armor) as a weapon. While wearing spiked armor and raging, you can use a bonus action to make one melee weapon attack with your armor spikes, dealing 1d4 piercing damage plus your Strength modifier. Additionally, when you use the Attack action to grapple a creature, you deal 3 piercing damage to it if the grapple succeeds.</p>
+<h3 id="reckless-abandon">Reckless Abandon</h3>
+<p><em>6th level</em></p>
+<p>When you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum 1). They vanish when your rage ends.</p>
+<h3 id="battlerager-charge">Battlerager Charge</h3>
+<p><em>10th level</em></p>
+<p>You can take the Dash action as a bonus action while raging.</p>
+<h3 id="spiked-retribution">Spiked Retribution</h3>
+<p><em>14th level</em></p>
+<p>When a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, not incapacitated, and wearing spiked armor.</p>
+<p><a href="index.html">← Back to Barbarian</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

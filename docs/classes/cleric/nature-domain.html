@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nature Domain — Cleric</title>
+<meta name="description" content="A druidic priest with heavy armor, druid cantrips, and command over beasts and plants. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Cleric</a> / <strong>Nature Domain</strong></nav>
+<main>
+<h1 id="nature-domain">Nature Domain</h1>
+<p><em>Cleric Divine Domain — Player's Handbook, p. 62</em></p>
+<blockquote>A druidic priest with heavy armor, druid cantrips, and command over beasts and plants.</blockquote>
+<p>Gods of nature are as varied as the natural world itself. Their clerics might be druidic in outlook, or they might be crusaders devoted to a single aspect of nature — the hunt, the storm, the deep forest.</p>
+<p><strong>How it plays.</strong> A heavily armoured cleric with a druid flavour. Charm Animals and Plants is strong in wilderness campaigns, and Dampen Elements is excellent party protection against elemental damage.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>animal friendship, speak with animals</td></tr><tr><td>3rd</td><td>barkskin, spike growth</td></tr><tr><td>5th</td><td>plant growth, wind wall</td></tr><tr><td>7th</td><td>dominate beast, grasping vine</td></tr><tr><td>9th</td><td>insect plague, tree stride</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="acolyte-of-nature">Acolyte of Nature</h3>
+<p><em>1st level</em></p>
+<p>You learn one druid cantrip of your choice, which doesn't count against your cantrips known. You also gain proficiency in one skill from Animal Handling, Nature, and Survival.</p>
+<h3 id="bonus-proficiency">Bonus Proficiency</h3>
+<p><em>1st level</em></p>
+<p>You gain proficiency with heavy armor.</p>
+<h3 id="channel-divinity-charm-animals-and-plants">Channel Divinity: Charm Animals and Plants</h3>
+<p><em>2nd level</em></p>
+<p>As an action, each beast or plant creature within 30 feet that can see you must make a Wisdom saving throw. On a failure it is charmed by you for 1 minute or until it takes damage. While charmed, it is friendly to you and your companions.</p>
+<h3 id="dampen-elements">Dampen Elements</h3>
+<p><em>6th level</em></p>
+<p>When you or a creature within 30 feet takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant that creature resistance to that instance of damage.</p>
+<h3 id="divine-strike">Divine Strike</h3>
+<p><em>8th level</em></p>
+<p>Once on each of your turns when you hit with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice). This increases to 2d8 at 14th level.</p>
+<h3 id="master-of-nature">Master of Nature</h3>
+<p><em>17th level</em></p>
+<p>You gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants, you can use a bonus action on your turn to verbally command what each of them will do on its next turn.</p>
+<p><a href="index.html">← Back to Cleric</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

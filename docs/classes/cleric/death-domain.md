@@ -1,0 +1,60 @@
+# Death Domain
+
+*Cleric Divine Domain — Dungeon Master's Guide, p. 96*
+
+> A necrotic specialist whose cantrips strike two targets and whose spells bypass resistance.
+
+The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and Wee Jas are patrons of necromancers, death knights, liches, and vampires. This domain is intended primarily for villains, and DM permission is normally required.
+
+**How it plays.** An offensive caster domain aimed at NPCs and evil campaigns. Reaper doubles your damage cantrips, and Improved Reaper makes single-target necromancy hit two creatures at once.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 1st | false life, ray of sickness |
+| 3rd | blindness/deafness, ray of enfeeblement |
+| 5th | animate dead, vampiric touch |
+| 7th | blight, death ward |
+| 9th | antilife shell, cloudkill |
+
+## Features
+
+### Bonus Proficiency
+
+*1st level*
+
+You gain proficiency with martial weapons.
+
+### Reaper
+
+*1st level*
+
+You learn one necromancy cantrip of your choice from any spell list. When you cast a necromancy cantrip that normally targets only one creature, it can instead target two creatures within 5 feet of each other.
+
+### Channel Divinity: Touch of Death
+
+*2nd level*
+
+When you hit a creature with a melee attack, you can use Channel Divinity to deal extra necrotic damage equal to 5 + twice your cleric level.
+
+### Inescapable Destruction
+
+*6th level*
+
+Your ability to channel negative energy becomes more potent. Necrotic damage dealt by your cleric spells and Channel Divinity options ignores resistance to necrotic damage.
+
+### Divine Strike
+
+*8th level*
+
+Once on each of your turns when you hit with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage. This increases to 2d8 at 14th level.
+
+### Improved Reaper
+
+*17th level*
+
+When you cast a necromancy spell of 1st through 5th level that targets only one creature, it can instead target two creatures within 5 feet of each other. If the spell consumes material components, you must provide them for each target.
+
+
+[← Back to Cleric](index.md)

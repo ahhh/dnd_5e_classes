@@ -1,0 +1,37 @@
+{
+  "id": "way-of-the-ascendant-dragon",
+  "name": "Way of the Ascendant Dragon",
+  "class": "monk",
+  "label": "Monastic Tradition",
+  "source": { "book": "FTD", "page": 25 },
+  "summary": "A monk who channels draconic might — breath weapons, a frightful presence, and wings of ki.",
+  "flavor": "Monks of the Way of the Ascendant Dragon study the ancient magic of dragons, learning to emulate their might. Some train in monasteries founded by dragons; others learn from a dragon mentor or from studying draconic relics.",
+  "playstyle": "A well-rounded tradition with strong AoE. Breath of the Dragon gives you a repeatable cone or line attack at no ki cost, and Aspect of the Wyrm provides a party-wide resistance or fear aura.",
+  "features": [
+    {
+      "name": "Draconic Disciple",
+      "level": 3,
+      "description": "You gain three benefits.\n\n**Draconic Presence.** You can speak, read, and write Draconic, or you learn one other language if you already know it. Additionally, whenever you make a Charisma check, you can treat a d20 roll of 7 or lower as an 8.\n\n**Draconic Strike.** When you deal damage with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.\n\n**Ascendant Step.** As a bonus action, you can spend 1 ki point to gain a flying speed equal to your walking speed for 10 minutes (at 11th level)."
+    },
+    {
+      "name": "Breath of the Dragon",
+      "level": 3,
+      "description": "You can channel destructive waves of energy. When you take the Attack action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Each creature in that area must make a Dexterity saving throw, taking damage equal to your Martial Arts die on a failure. The damage increases as you gain levels, and the type matches your Draconic Disciple choice.\n\nYou can use this a number of times equal to your proficiency bonus per long rest, and you can spend 1 ki point for additional uses."
+    },
+    {
+      "name": "Wings Unfurled",
+      "level": 6,
+      "description": "When you use your Step of the Wind, you can unfurl spectral draconic wings from your back, gaining a flying speed equal to your walking speed until the end of your turn. You can use this a number of times equal to your proficiency bonus per long rest."
+    },
+    {
+      "name": "Aspect of the Wyrm",
+      "level": 11,
+      "description": "As a bonus action, you can create an aura of draconic power in a 30-foot radius for 1 minute. Choose one effect when you activate it:\n\n**Frightful Presence.** Enemies of your choice in the aura must succeed on a Wisdom saving throw or be frightened of you for 1 minute.\n\n**Resistance.** You and your allies in the aura gain resistance to the damage type of your Draconic Disciple.\n\nYou can use this once per long rest, or by spending 3 ki points."
+    },
+    {
+      "name": "Ascendant Aspect",
+      "level": 17,
+      "description": "Your draconic power reaches its apex.\n\n**Augment Breath.** When you use Breath of the Dragon, you can spend 1 ki point to increase the area (60-foot cone or 90-foot line) and increase the damage by one roll of your Martial Arts die.\n\n**Blindsight.** You gain blindsight out to 10 feet.\n\n**Explosive Fury.** When your Aspect of the Wyrm is active, each enemy that starts its turn in the aura takes damage equal to your proficiency bonus, of the type chosen for Draconic Disciple."
+    }
+  ]
+}

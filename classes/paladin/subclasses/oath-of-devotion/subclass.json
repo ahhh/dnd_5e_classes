@@ -1,0 +1,49 @@
+{
+  "id": "oath-of-devotion",
+  "name": "Oath of Devotion",
+  "class": "paladin",
+  "label": "Sacred Oath",
+  "source": { "book": "PHB", "page": 86 },
+  "summary": "The classic knight in shining armor — honesty, courage, and a blade of sacred weapon light.",
+  "flavor": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good.",
+  "playstyle": "A strong, straightforward oath. Sacred Weapon adds your Charisma modifier to attack rolls for a full minute, effectively doubling down on your best stat, and Holy Nimbus is a powerful capstone.",
+  "expandedSpells": {
+    "3rd": ["protection from evil and good", "sanctuary"],
+    "5th": ["lesser restoration", "zone of truth"],
+    "9th": ["beacon of hope", "dispel magic"],
+    "13th": ["freedom of movement", "guardian of faith"],
+    "17th": ["commune", "flame strike"]
+  },
+  "features": [
+    {
+      "name": "Tenets of Devotion",
+      "level": 3,
+      "description": "**Honesty.** Don't lie or cheat. Let your word be your promise.\n**Courage.** Never fear to act, though caution is wise.\n**Compassion.** Aid others, protect the weak, and punish those who threaten them.\n**Honor.** Treat others with fairness, and let your honorable deeds be an example.\n**Duty.** Be responsible for your actions and their consequences."
+    },
+    {
+      "name": "Channel Divinity: Sacred Weapon",
+      "level": 3,
+      "description": "As an action, you can imbue one weapon you're holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls with that weapon (minimum +1). The weapon also emits bright light in a 20-foot radius and counts as magical. The effect ends early if you drop or stow the weapon, or if you are incapacitated."
+    },
+    {
+      "name": "Channel Divinity: Turn the Unholy",
+      "level": 3,
+      "description": "As an action, you present your holy symbol and speak a prayer censuring fiends and undead. Each fiend or undead within 30 feet that can see or hear you must make a Wisdom saving throw. On a failure, it is turned for 1 minute or until it takes damage."
+    },
+    {
+      "name": "Aura of Devotion",
+      "level": 7,
+      "description": "You and friendly creatures within 10 feet can't be charmed while you are conscious. At 18th level, the range increases to 30 feet."
+    },
+    {
+      "name": "Purity of Spirit",
+      "level": 15,
+      "description": "You are always under the effects of a *protection from evil and good* spell."
+    },
+    {
+      "name": "Holy Nimbus",
+      "level": 20,
+      "description": "As an action, you emanate an aura of sunlight for 1 minute. Bright light shines in a 30-foot radius, and dim light for another 30 feet. Enemies that start their turn in the bright light take 10 radiant damage, and you have advantage on saving throws against spells cast by fiends and undead. Once used, you can't use this again until you finish a long rest."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "circle-of-the-moon",
+  "name": "Circle of the Moon",
+  "class": "druid",
+  "label": "Druid Circle",
+  "source": { "book": "PHB", "page": 69 },
+  "summary": "The shapeshifting combat druid — transform as a bonus action into ever-deadlier beasts.",
+  "flavor": "Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings, and they are as unpredictable as the moon's changing face — a gnarled tree one moment, a dire wolf the next.",
+  "playstyle": "The strongest early-game melee druid. Bonus-action Wild Shape plus a much higher CR limit makes you a genuine front-liner, and your beast form's hit points act as a second health bar.",
+  "features": [
+    {
+      "name": "Combat Wild Shape",
+      "level": 2,
+      "description": "You can use Wild Shape as a bonus action rather than an action. Additionally, while transformed, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the slot expended."
+    },
+    {
+      "name": "Circle Forms",
+      "level": 2,
+      "description": "You can transform into beasts with a challenge rating as high as 1 (ignoring the Wild Shape column's CR restriction). Starting at 6th level, you can transform into a beast with a CR as high as your druid level divided by 3, rounded down."
+    },
+    {
+      "name": "Primal Strike",
+      "level": 6,
+      "description": "Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks."
+    },
+    {
+      "name": "Elemental Wild Shape",
+      "level": 10,
+      "description": "You can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental."
+    },
+    {
+      "name": "Thousand Forms",
+      "level": 14,
+      "description": "You have learned to use magic to alter your physical form in more subtle ways. You can cast the *alter self* spell at will."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College of Creation — Bard</title>
+<meta name="description" content="You sing the Song of Creation, conjuring dancing objects and animate helpers out of nothing. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Bard</a> / <strong>College of Creation</strong></nav>
+<main>
+<h1 id="college-of-creation">College of Creation</h1>
+<p><em>Bard Bard College — Tasha's Cauldron of Everything, p. 15</em></p>
+<blockquote>You sing the Song of Creation, conjuring dancing objects and animate helpers out of nothing.</blockquote>
+<p>Bards of the College of Creation draw on the Song of Creation — the primordial melody that gave form to the multiverse. Every note they play is an echo of that first music, and it can call new things into being.</p>
+<p><strong>How it plays.</strong> A summoner-support bard. The Dancing Item is a persistent, resizable helper that can carry allies and make its own attacks, while Note of Potential adds a rider to every Bardic Inspiration you hand out.</p>
+<h2 id="features">Features</h2>
+<h3 id="note-of-potential">Note of Potential</h3>
+<p><em>3rd level</em></p>
+<p>When a creature uses your Bardic Inspiration die, you can choose one additional effect: <strong>Mote of Potential</strong> (the creature and each ally within 5 feet gain temporary hit points equal to the die roll if used on an ability check), <strong>on an attack roll</strong> the target takes thunder damage equal to the die roll, or <strong>on a saving throw</strong> the creature and allies within 5 feet gain temporary hit points.</p>
+<h3 id="performance-of-creation">Performance of Creation</h3>
+<p><em>3rd level</em></p>
+<p>As an action, you can create one nonmagical item of your choice in an unoccupied space within 10 feet. The item must be Medium or smaller (larger at higher levels) and worth no more than 20 gp x your bard level. It is visibly magical and shimmers faintly, lasting for a number of hours equal to your proficiency bonus. You can have only one such item at a time. You can use this feature once per long rest, or by expending a use of Bardic Inspiration.</p>
+<h3 id="animating-performance">Animating Performance</h3>
+<p><em>6th level</em></p>
+<p>As an action, you can animate one Large or smaller nonmagical item within 30 feet, creating a Dancing Item — a creature that acts on your turn, has its own statistics scaling with your bard level, can make a slam attack, and can carry creatures. It lasts 1 hour, until it drops to 0 hit points, until you die, or until you dismiss it. You can use this once per long rest, or by expending a use of Bardic Inspiration.</p>
+<h3 id="creative-crescendo">Creative Crescendo</h3>
+<p><em>14th level</em></p>
+<p>When you use Performance of Creation, you can create a number of items equal to your Charisma modifier (minimum two) instead of one, and the items are no longer limited by size or the gp value restriction — though your DM may object to anything unreasonable.</p>
+<p><a href="index.html">← Back to Bard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

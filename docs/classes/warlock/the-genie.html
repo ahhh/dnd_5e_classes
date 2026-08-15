@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Genie — Warlock</title>
+<meta name="description" content="A noble genie grants elemental damage, a private demiplane vessel, and eventually a wish. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Warlock</a> / <strong>The Genie</strong></nav>
+<main>
+<h1 id="the-genie">The Genie</h1>
+<p><em>Warlock Otherworldly Patron — Tasha's Cauldron of Everything, p. 74</em></p>
+<blockquote>A noble genie grants elemental damage, a private demiplane vessel, and eventually a wish.</blockquote>
+<p>You have made a pact with one of the rarest kinds of genie, a noble genie — a dao of earth, djinni of air, efreeti of fire, or marid of water. Such beings are capricious and mighty, and your bond is sealed in a vessel that is now yours to command.</p>
+<p><strong>How it plays.</strong> Excellent and flexible. Genie's Vessel gives free bonus damage every turn, the Bottled Respite demiplane is one of the best utility features in the game, and Limited Wish is an extraordinary capstone.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>detect evil and good, plus your genie kind's spell</td></tr><tr><td>2nd</td><td>phantasmal force, plus your genie kind's spell</td></tr><tr><td>3rd</td><td>create food and water, plus your genie kind's spell</td></tr><tr><td>4th</td><td>phantasmal killer, plus your genie kind's spell</td></tr><tr><td>5th</td><td>creation, plus your genie kind's spell</td></tr><tr><td>Dao (earth)</td><td>sanctuary, spike growth, meld into stone, stone shape, wall of stone</td></tr><tr><td>Djinni (air)</td><td>thunderwave, gust of wind, wind wall, greater invisibility, seeming</td></tr><tr><td>Efreeti (fire)</td><td>burning hands, scorching ray, fireball, fire shield, flame strike</td></tr><tr><td>Marid (water)</td><td>fog cloud, blur, sleet storm, control water, cone of cold</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="genies-vessel">Genie's Vessel</h3>
+<p><em>1st level</em></p>
+<p>Your patron gifts you a magical vessel that grants you a measure of the genie's power. It is a Tiny object, and you can use it as a spellcasting focus. It has a hit point maximum equal to your warlock level, an AC of 18, and it is immune to poison and psychic damage.</p>
+<p><strong>Bottled Respite.</strong> As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior is an extradimensional space in the shape of a 20-foot-radius cylinder, furnished as you like. You can remain there for up to twice your proficiency bonus in hours, and can bring along creatures up to your proficiency bonus. You exit when the duration ends, when you use an action to leave, or when the vessel is destroyed. Usable once per long rest.</p>
+<p><strong>Genie's Wrath.</strong> Once per turn when you hit with an attack roll, you can deal extra damage equal to your proficiency bonus. The damage type depends on your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).</p>
+<h3 id="elemental-gift">Elemental Gift</h3>
+<p><em>6th level</em></p>
+<p>You gain resistance to a damage type based on your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid). As a bonus action, you also gain a flying speed of 30 feet and can hover for 10 minutes, a number of times equal to your proficiency bonus per long rest.</p>
+<h3 id="sanctuary-vessel">Sanctuary Vessel</h3>
+<p><em>10th level</em></p>
+<p>When you enter your Genie's Vessel via Bottled Respite, you can now choose up to five willing creatures you can see within 30 feet to be drawn in with you.</p>
+<p>In addition, if you and your companions spend at least 10 minutes inside the vessel, each creature gains the benefit of finishing a short rest, and you regain expended uses of Genie's Vessel more readily — the vessel is a portable safe haven.</p>
+<h3 id="limited-wish">Limited Wish</h3>
+<p><em>14th level</em></p>
+<p>You entreat your patron to grant you a small wish. As an action, you can speak your desire and replicate any spell of 6th level or lower. The spell doesn't require a spell slot, and you don't need to provide components. You can't cast a spell that would normally require a level higher than 6th. Once used, you can't use this again until you finish 1d4 long rests.</p>
+<p><a href="index.html">← Back to Warlock</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

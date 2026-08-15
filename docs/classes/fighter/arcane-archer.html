@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arcane Archer — Fighter</title>
+<meta name="description" content="An elven-trained bowman who infuses arrows with magical effects — banishing, seeking, or shadowing. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Fighter</a> / <strong>Arcane Archer</strong></nav>
+<main>
+<h1 id="arcane-archer">Arcane Archer</h1>
+<p><em>Fighter Martial Archetype — Xanathar's Guide to Everything, p. 28</em></p>
+<blockquote>An elven-trained bowman who infuses arrows with magical effects — banishing, seeking, or shadowing.</blockquote>
+<p>An Arcane Archer studies a unique elven method of archery that weaves magic into attacks. Elite scouts and spies, they use their magic arrows to fell monsters and mortals with a single shot.</p>
+<p><strong>How it plays.</strong> Thematically strong but mechanically limited — Arcane Shot is usable only twice per short rest. Best played as flavour rather than optimization; Seeking Arrow and Banishing Arrow are the standouts.</p>
+<h2 id="features">Features</h2>
+<h3 id="arcane-archer-lore">Arcane Archer Lore</h3>
+<p><em>3rd level</em></p>
+<p>You gain proficiency in either the Arcana or the Nature skill, and you learn either the <em>prestidigitation</em> or the <em>druidcraft</em> cantrip.</p>
+<h3 id="arcane-shot">Arcane Shot</h3>
+<p><em>3rd level</em></p>
+<p>You learn two Arcane Shot options and can use one of them per shot, twice per short or long rest. You learn an additional option at 7th, 10th, 15th, and 18th level, and can replace one option whenever you gain a fighter level. The save DC is 8 + your proficiency bonus + your Intelligence modifier.</p>
+<div class="table-wrap"><table><thead><tr><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Banishing Arrow</strong></td><td>Force damage; target makes a Charisma save or is banished to a harmless demiplane until the end of your next turn.</td></tr><tr><td><strong>Beguiling Arrow</strong></td><td>Psychic damage; target makes a Wisdom save or is charmed by an ally of your choice.</td></tr><tr><td><strong>Bursting Arrow</strong></td><td>Force damage to the target and every creature within 10 feet of it.</td></tr><tr><td><strong>Enfeebling Arrow</strong></td><td>Necrotic damage; target makes a Constitution save or deals half weapon damage until your next turn ends.</td></tr><tr><td><strong>Grasping Arrow</strong></td><td>Poison damage plus thorny brambles; the target takes slashing damage and has reduced speed.</td></tr><tr><td><strong>Piercing Arrow</strong></td><td>The arrow passes through creatures in a 30-foot line; each makes a Dexterity save.</td></tr><tr><td><strong>Seeking Arrow</strong></td><td>The arrow curves to find a target you name but can't see, ignoring cover.</td></tr><tr><td><strong>Shadow Arrow</strong></td><td>Psychic damage; target makes a Wisdom save or can't see beyond 5 feet until your next turn ends.</td></tr></tbody></table></div>
+<h3 id="magic-arrow">Magic Arrow</h3>
+<p><em>7th level</em></p>
+<p>Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks. The magic fades from the arrow immediately after it hits or misses.</p>
+<h3 id="curving-shot">Curving Shot</h3>
+<p><em>7th level</em></p>
+<p>When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.</p>
+<h3 id="ever-ready-shot">Ever-Ready Shot</h3>
+<p><em>15th level</em></p>
+<p>If you roll initiative and have no uses of Arcane Shot remaining, you regain one use.</p>
+<p><a href="index.html">← Back to Fighter</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

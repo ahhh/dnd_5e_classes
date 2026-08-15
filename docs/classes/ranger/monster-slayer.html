@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monster Slayer — Ranger</title>
+<meta name="description" content="A witcher-style hunter who reads a monster's weaknesses and shuts down its magic. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Ranger</a> / <strong>Monster Slayer</strong></nav>
+<main>
+<h1 id="monster-slayer">Monster Slayer</h1>
+<p><em>Ranger Ranger Archetype — Xanathar's Guide to Everything, p. 42</em></p>
+<blockquote>A witcher-style hunter who reads a monster's weaknesses and shuts down its magic.</blockquote>
+<p>You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A monster slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats, training to detect their weaknesses and counter their supernatural powers.</p>
+<p><strong>How it plays.</strong> Excellent against spellcasters and single big monsters. Slayer's Prey is reliable damage with no concentration cost, and Supernatural Defense plus Magic-User's Nemesis make you an anti-caster specialist.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>protection from evil and good</td></tr><tr><td>5th</td><td>zone of truth</td></tr><tr><td>9th</td><td>magic circle</td></tr><tr><td>13th</td><td>banishment</td></tr><tr><td>17th</td><td>hold monster</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="hunters-sense">Hunter's Sense</h3>
+<p><em>3rd level</em></p>
+<p>As an action, choose one creature you can see within 60 feet. You immediately learn whether it has any damage immunities, resistances, or vulnerabilities, and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities. You can use this a number of times equal to your Wisdom modifier (minimum once) per long rest.</p>
+<h3 id="slayers-prey">Slayer's Prey</h3>
+<p><em>3rd level</em></p>
+<p>As a bonus action, you can designate one creature you can see within 60 feet as the target of this feature. The first time each turn that you hit that creature with a weapon attack, it takes an extra 1d6 damage from the weapon. This benefit lasts until you finish a short or long rest, and it ends early if you designate a different creature.</p>
+<h3 id="supernatural-defense">Supernatural Defense</h3>
+<p><em>7th level</em></p>
+<p>Whenever the target of your Slayer's Prey forces you to make a saving throw, and whenever you make an ability check to escape that target's grapple, add 1d6 to your roll.</p>
+<h3 id="magic-users-nemesis">Magic-User's Nemesis</h3>
+<p><em>11th level</em></p>
+<p>When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted. Once used, you can't use this again until you finish a short or long rest.</p>
+<h3 id="slayers-counter">Slayer's Counter</h3>
+<p><em>15th level</em></p>
+<p>If the target of your Slayer's Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw, and if the attack hits, your save automatically succeeds.</p>
+<p><a href="index.html">← Back to Ranger</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

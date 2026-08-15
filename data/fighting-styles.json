@@ -1,0 +1,70 @@
+{
+  "$comment": "Shared Fighting Style options. Classes reference these by id in class.fightingStyles.",
+  "styles": {
+    "archery": {
+      "name": "Archery",
+      "source": "PHB",
+      "description": "You gain a +2 bonus to attack rolls you make with ranged weapons."
+    },
+    "defense": {
+      "name": "Defense",
+      "source": "PHB",
+      "description": "While you are wearing armor, you gain a +1 bonus to AC."
+    },
+    "dueling": {
+      "name": "Dueling",
+      "source": "PHB",
+      "description": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+    },
+    "great-weapon-fighting": {
+      "name": "Great Weapon Fighting",
+      "source": "PHB",
+      "description": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property."
+    },
+    "protection": {
+      "name": "Protection",
+      "source": "PHB",
+      "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+    },
+    "two-weapon-fighting": {
+      "name": "Two-Weapon Fighting",
+      "source": "PHB",
+      "description": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+    },
+    "blind-fighting": {
+      "name": "Blind Fighting",
+      "source": "TCE",
+      "description": "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness, and you can see an invisible creature unless it successfully hides from you."
+    },
+    "interception": {
+      "name": "Interception",
+      "source": "TCE",
+      "description": "When a creature you can see hits a target other than you within 5 feet of you, you can use your reaction to reduce the damage by 1d10 + your proficiency bonus (to a minimum of 0). You must be wielding a shield or a simple or martial weapon."
+    },
+    "superior-technique": {
+      "name": "Superior Technique",
+      "source": "TCE",
+      "description": "You learn one maneuver of your choice from among those available to the Battle Master archetype. You gain one superiority die (a d6), which is regained on a short or long rest."
+    },
+    "thrown-weapon-fighting": {
+      "name": "Thrown Weapon Fighting",
+      "source": "TCE",
+      "description": "You can draw a weapon that has the thrown property as part of the attack you make with it. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
+    },
+    "unarmed-fighting": {
+      "name": "Unarmed Fighting",
+      "source": "TCE",
+      "description": "Your unarmed strikes deal 1d6 + your Strength modifier bludgeoning damage (1d8 if you have no weapon or shield in either hand). At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature you are grappling."
+    },
+    "druidic-warrior": {
+      "name": "Druidic Warrior",
+      "source": "TCE",
+      "description": "You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another druid cantrip."
+    },
+    "blessed-warrior": {
+      "name": "Blessed Warrior",
+      "source": "TCE",
+      "description": "You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cleric cantrip."
+    }
+  }
+}

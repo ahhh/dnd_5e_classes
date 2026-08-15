@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College of Whispers — Bard</title>
+<meta name="description" content="Spies and blackmailers who feed on fear and wear the faces of the dead. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Bard</a> / <strong>College of Whispers</strong></nav>
+<main>
+<h1 id="college-of-whispers">College of Whispers</h1>
+<p><em>Bard Bard College — Xanathar's Guide to Everything, p. 16</em></p>
+<blockquote>Spies and blackmailers who feed on fear and wear the faces of the dead.</blockquote>
+<p>Most folk are happy to welcome a bard, but this rare breed uses that goodwill as a weapon. Bards of the College of Whispers gather secrets, terrify with whispered truths, and steal the identities of those they kill.</p>
+<p><strong>How it plays.</strong> An intrigue and infiltration subclass. Psychic Blades adds burst damage, Words of Terror sets up manipulation out of combat, and Mantle of Whispers is a genuinely unique disguise mechanic.</p>
+<h2 id="features">Features</h2>
+<h3 id="psychic-blades">Psychic Blades</h3>
+<p><em>3rd level</em></p>
+<p>When you hit a creature with a weapon attack, you can expend one use of Bardic Inspiration to deal extra psychic damage: 2d6 at 3rd level, 3d6 at 5th, 5d6 at 10th, and 8d6 at 15th. You can do this only once per turn.</p>
+<h3 id="words-of-terror">Words of Terror</h3>
+<p><em>3rd level</em></p>
+<p>If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia. It must succeed on a Wisdom saving throw (your spell save DC) or become frightened of you or another creature of your choice for 1 hour — or 8 hours if it fails by 5 or more. Once used, you can't use it again until you finish a short or long rest.</p>
+<h3 id="mantle-of-whispers">Mantle of Whispers</h3>
+<p><em>6th level</em></p>
+<p>When a humanoid dies within 30 feet of you, you can use your reaction to capture its shadow. For the next hour you can use an action to don that shadow as a disguise, appearing as the dead creature was in life and gaining enough of its memories to make Deception checks to impersonate it (with advantage). A creature that suspects you can make a contested Insight check against your Deception. Once used, you can't use it again until you finish a short or long rest.</p>
+<h3 id="shadow-lore">Shadow Lore</h3>
+<p><em>14th level</em></p>
+<p>As an action, you whisper a phrase of terrible power to one creature within 30 feet that can hear and understand you. It must succeed on a Wisdom saving throw or be charmed for 8 hours, convinced you know its darkest secret. While charmed it is friendly and obeys your commands, though it won't act suicidally. The effect ends if it takes damage or you give a command that is obviously self-destructive. Once used, you can't use it again until you finish a long rest.</p>
+<p><a href="index.html">← Back to Bard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

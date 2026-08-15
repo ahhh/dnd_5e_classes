@@ -1,0 +1,55 @@
+# Arcane Archer
+
+*Fighter Martial Archetype — Xanathar's Guide to Everything, p. 28*
+
+> An elven-trained bowman who infuses arrows with magical effects — banishing, seeking, or shadowing.
+
+An Arcane Archer studies a unique elven method of archery that weaves magic into attacks. Elite scouts and spies, they use their magic arrows to fell monsters and mortals with a single shot.
+
+**How it plays.** Thematically strong but mechanically limited — Arcane Shot is usable only twice per short rest. Best played as flavour rather than optimization; Seeking Arrow and Banishing Arrow are the standouts.
+
+## Features
+
+### Arcane Archer Lore
+
+*3rd level*
+
+You gain proficiency in either the Arcana or the Nature skill, and you learn either the *prestidigitation* or the *druidcraft* cantrip.
+
+### Arcane Shot
+
+*3rd level*
+
+You learn two Arcane Shot options and can use one of them per shot, twice per short or long rest. You learn an additional option at 7th, 10th, 15th, and 18th level, and can replace one option whenever you gain a fighter level. The save DC is 8 + your proficiency bonus + your Intelligence modifier.
+
+| Option | Effect |
+| :--- | :--- |
+| **Banishing Arrow** | Force damage; target makes a Charisma save or is banished to a harmless demiplane until the end of your next turn. |
+| **Beguiling Arrow** | Psychic damage; target makes a Wisdom save or is charmed by an ally of your choice. |
+| **Bursting Arrow** | Force damage to the target and every creature within 10 feet of it. |
+| **Enfeebling Arrow** | Necrotic damage; target makes a Constitution save or deals half weapon damage until your next turn ends. |
+| **Grasping Arrow** | Poison damage plus thorny brambles; the target takes slashing damage and has reduced speed. |
+| **Piercing Arrow** | The arrow passes through creatures in a 30-foot line; each makes a Dexterity save. |
+| **Seeking Arrow** | The arrow curves to find a target you name but can't see, ignoring cover. |
+| **Shadow Arrow** | Psychic damage; target makes a Wisdom save or can't see beyond 5 feet until your next turn ends. |
+
+### Magic Arrow
+
+*7th level*
+
+Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks. The magic fades from the arrow immediately after it hits or misses.
+
+### Curving Shot
+
+*7th level*
+
+When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.
+
+### Ever-Ready Shot
+
+*15th level*
+
+If you roll initiative and have no uses of Arcane Shot remaining, you regain one use.
+
+
+[← Back to Fighter](index.md)

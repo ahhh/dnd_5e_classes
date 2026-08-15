@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School of Enchantment — Wizard</title>
+<meta name="description" content="A charmer who bends minds, redirects attacks, and can split an enchantment across two targets. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Wizard</a> / <strong>School of Enchantment</strong></nav>
+<main>
+<h1 id="school-of-enchantment">School of Enchantment</h1>
+<p><em>Wizard Arcane Tradition — Player's Handbook, p. 117</em></p>
+<blockquote>A charmer who bends minds, redirects attacks, and can split an enchantment across two targets.</blockquote>
+<p>As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms; others are tyrants who magically bind the unwilling into their service.</p>
+<p><strong>How it plays.</strong> A social and control specialist. Split Enchantment doubles the reach of your best save-or-lose spells, and Instinctive Charm is a strong defensive reaction that redirects attacks away from you.</p>
+<h2 id="features">Features</h2>
+<h3 id="enchantment-savant">Enchantment Savant</h3>
+<p><em>2nd level</em></p>
+<p>The gold and time you must spend to copy an enchantment spell into your spellbook is halved.</p>
+<h3 id="hypnotic-gaze">Hypnotic Gaze</h3>
+<p><em>2nd level</em></p>
+<p>As an action, choose one creature that you can see within 5 feet. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or be charmed by you until the end of your next turn. The charmed creature's speed drops to 0, and it is incapacitated and visibly dazed.</p>
+<p>On subsequent turns you can use your action to maintain the effect, extending it until the end of your next turn. Once the effect ends or the creature succeeds on its save, you can't use this feature on it again until you finish a long rest.</p>
+<h3 id="instinctive-charm">Instinctive Charm</h3>
+<p><em>6th level</em></p>
+<p>When a creature you can see within 30 feet makes an attack roll against you, you can use your reaction to divert the attack, provided another creature is within the attack's range. The attacker must make a Wisdom saving throw against your spell save DC. On a failure, the attacker must target the creature nearest to it, excluding you and itself. Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot of 1st level or higher.</p>
+<h3 id="split-enchantment">Split Enchantment</h3>
+<p><em>10th level</em></p>
+<p>When you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature.</p>
+<h3 id="alter-memories">Alter Memories</h3>
+<p><em>14th level</em></p>
+<p>You gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being charmed.</p>
+<p>Additionally, once before the spell expires, you can use your action to try to make the creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw or lose a number of hours equal to 1 + your Charisma modifier (minimum 1).</p>
+<p><a href="index.html">← Back to Wizard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

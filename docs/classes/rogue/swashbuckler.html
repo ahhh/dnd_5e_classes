@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swashbuckler — Rogue</title>
+<meta name="description" content="A dashing duelist who sneak attacks in single combat and disengages for free after striking. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Rogue</a> / <strong>Swashbuckler</strong></nav>
+<main>
+<h1 id="swashbuckler">Swashbuckler</h1>
+<p><em>Rogue Roguish Archetype — Xanathar's Guide to Everything, p. 47</em></p>
+<blockquote>A dashing duelist who sneak attacks in single combat and disengages for free after striking.</blockquote>
+<p>You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype. Originally published in the <em>Sword Coast Adventurer's Guide</em>.</p>
+<p><strong>How it plays.</strong> The melee rogue that actually works. Rakish Audacity lets you Sneak Attack in a one-on-one duel with no ally needed, and Fancy Footwork means you can strike and walk away untouched every turn.</p>
+<h2 id="features">Features</h2>
+<h3 id="fancy-footwork">Fancy Footwork</h3>
+<p><em>3rd level</em></p>
+<p>During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn.</p>
+<h3 id="rakish-audacity">Rakish Audacity</h3>
+<p><em>3rd level</em></p>
+<p>Your confidence propels you into battle. You add your Charisma modifier to your initiative rolls.</p>
+<p>In addition, you don't need advantage on the attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other Sneak Attack rules still apply.</p>
+<h3 id="panache">Panache</h3>
+<p><em>9th level</em></p>
+<p>As an action, you can make a Persuasion check contested by a creature's Insight check. The creature must be able to hear you and you must be within 60 feet.</p>
+<p>If you succeed and the creature is hostile, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you, for 1 minute or until it takes damage.</p>
+<p>If the creature isn't hostile, it becomes charmed by you for 1 minute, regarding you as a friendly acquaintance.</p>
+<h3 id="elegant-maneuver">Elegant Maneuver</h3>
+<p><em>13th level</em></p>
+<p>You can use a bonus action on your turn to gain advantage on the next Acrobatics or Athletics check you make during the same turn.</p>
+<h3 id="master-duelist">Master Duelist</h3>
+<p><em>17th level</em></p>
+<p>Your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</p>
+<p><a href="index.html">← Back to Rogue</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

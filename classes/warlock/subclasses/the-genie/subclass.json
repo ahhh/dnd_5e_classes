@@ -1,0 +1,43 @@
+{
+  "id": "the-genie",
+  "name": "The Genie",
+  "class": "warlock",
+  "label": "Otherworldly Patron",
+  "source": { "book": "TCE", "page": 74 },
+  "summary": "A noble genie grants elemental damage, a private demiplane vessel, and eventually a wish.",
+  "flavor": "You have made a pact with one of the rarest kinds of genie, a noble genie — a dao of earth, djinni of air, efreeti of fire, or marid of water. Such beings are capricious and mighty, and your bond is sealed in a vessel that is now yours to command.",
+  "playstyle": "Excellent and flexible. Genie's Vessel gives free bonus damage every turn, the Bottled Respite demiplane is one of the best utility features in the game, and Limited Wish is an extraordinary capstone.",
+  "expandedSpells": {
+    "1st": ["detect evil and good", "plus your genie kind's spell"],
+    "2nd": ["phantasmal force", "plus your genie kind's spell"],
+    "3rd": ["create food and water", "plus your genie kind's spell"],
+    "4th": ["phantasmal killer", "plus your genie kind's spell"],
+    "5th": ["creation", "plus your genie kind's spell"],
+    "Dao (earth)": ["sanctuary, spike growth, meld into stone, stone shape, wall of stone"],
+    "Djinni (air)": ["thunderwave, gust of wind, wind wall, greater invisibility, seeming"],
+    "Efreeti (fire)": ["burning hands, scorching ray, fireball, fire shield, flame strike"],
+    "Marid (water)": ["fog cloud, blur, sleet storm, control water, cone of cold"]
+  },
+  "features": [
+    {
+      "name": "Genie's Vessel",
+      "level": 1,
+      "description": "Your patron gifts you a magical vessel that grants you a measure of the genie's power. It is a Tiny object, and you can use it as a spellcasting focus. It has a hit point maximum equal to your warlock level, an AC of 18, and it is immune to poison and psychic damage.\n\n**Bottled Respite.** As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior is an extradimensional space in the shape of a 20-foot-radius cylinder, furnished as you like. You can remain there for up to twice your proficiency bonus in hours, and can bring along creatures up to your proficiency bonus. You exit when the duration ends, when you use an action to leave, or when the vessel is destroyed. Usable once per long rest.\n\n**Genie's Wrath.** Once per turn when you hit with an attack roll, you can deal extra damage equal to your proficiency bonus. The damage type depends on your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid)."
+    },
+    {
+      "name": "Elemental Gift",
+      "level": 6,
+      "description": "You gain resistance to a damage type based on your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid). As a bonus action, you also gain a flying speed of 30 feet and can hover for 10 minutes, a number of times equal to your proficiency bonus per long rest."
+    },
+    {
+      "name": "Sanctuary Vessel",
+      "level": 10,
+      "description": "When you enter your Genie's Vessel via Bottled Respite, you can now choose up to five willing creatures you can see within 30 feet to be drawn in with you.\n\nIn addition, if you and your companions spend at least 10 minutes inside the vessel, each creature gains the benefit of finishing a short rest, and you regain expended uses of Genie's Vessel more readily — the vessel is a portable safe haven."
+    },
+    {
+      "name": "Limited Wish",
+      "level": 14,
+      "description": "You entreat your patron to grant you a small wish. As an action, you can speak your desire and replicate any spell of 6th level or lower. The spell doesn't require a spell slot, and you don't need to provide components. You can't cast a spell that would normally require a level higher than 6th. Once used, you can't use this again until you finish 1d4 long rests."
+    }
+  ]
+}

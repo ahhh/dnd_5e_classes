@@ -1,0 +1,165 @@
+{
+  "id": "barbarian",
+  "name": "Barbarian",
+  "source": { "book": "PHB", "page": 46 },
+  "summary": "A fierce warrior who channels primal rage into devastating melee combat and near-unkillable durability.",
+  "flavor": "Barbarians draw on a wellspring of fury that lives just beneath the skin. That rage grants them supernatural toughness, ferocious strength, and an instinct for danger that no amount of training can teach. Some are tribal warriors from the untamed frontier; others are city-born brawlers who discovered something wild inside themselves. All of them are at their best when the fighting starts.",
+  "hitDice": "d12",
+  "hitPointsAt1st": "12 + your Constitution modifier",
+  "hitPointsPerLevel": "1d12 (or 7) + your Constitution modifier",
+  "primaryAbility": ["Strength"],
+  "savingThrows": ["Strength", "Constitution"],
+  "proficiencies": {
+    "armor": ["Light armor", "Medium armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": ["Animal Handling", "Athletics", "Intimidation", "Nature", "Perception", "Survival"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a greataxe", "any martial melee weapon"] },
+      { "choose": 1, "from": ["two handaxes", "any simple weapon"] }
+    ],
+    "fixed": ["An explorer's pack", "Four javelins"],
+    "goldAlternative": "2d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Strength 13",
+    "proficienciesGained": ["Shields", "Simple weapons", "Martial weapons"]
+  },
+  "spellcasting": null,
+  "subclass": {
+    "label": "Primal Path",
+    "level": 3,
+    "featureLevels": [3, 6, 10, 14]
+  },
+  "progression": {
+    "columns": [
+      { "key": "rages", "label": "Rages" },
+      { "key": "rageDamage", "label": "Rage Damage" }
+    ],
+    "levels": [
+      { "level": 1, "features": ["Rage", "Unarmored Defense"], "values": { "rages": "2", "rageDamage": "+2" } },
+      { "level": 2, "features": ["Reckless Attack", "Danger Sense"], "values": { "rages": "2", "rageDamage": "+2" } },
+      { "level": 3, "features": ["Primal Path", "Primal Knowledge (optional)"], "values": { "rages": "3", "rageDamage": "+2" } },
+      { "level": 4, "features": ["Ability Score Improvement"], "values": { "rages": "3", "rageDamage": "+2" } },
+      { "level": 5, "features": ["Extra Attack", "Fast Movement"], "values": { "rages": "3", "rageDamage": "+2" } },
+      { "level": 6, "features": ["Path feature"], "values": { "rages": "4", "rageDamage": "+2" } },
+      { "level": 7, "features": ["Feral Instinct", "Instinctive Pounce (optional)"], "values": { "rages": "4", "rageDamage": "+2" } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "rages": "4", "rageDamage": "+2" } },
+      { "level": 9, "features": ["Brutal Critical (1 die)"], "values": { "rages": "4", "rageDamage": "+3" } },
+      { "level": 10, "features": ["Path feature"], "values": { "rages": "4", "rageDamage": "+3" } },
+      { "level": 11, "features": ["Relentless Rage"], "values": { "rages": "4", "rageDamage": "+3" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "rages": "5", "rageDamage": "+3" } },
+      { "level": 13, "features": ["Brutal Critical (2 dice)"], "values": { "rages": "5", "rageDamage": "+3" } },
+      { "level": 14, "features": ["Path feature"], "values": { "rages": "5", "rageDamage": "+3" } },
+      { "level": 15, "features": ["Persistent Rage"], "values": { "rages": "5", "rageDamage": "+3" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "rages": "5", "rageDamage": "+4" } },
+      { "level": 17, "features": ["Brutal Critical (3 dice)"], "values": { "rages": "6", "rageDamage": "+4" } },
+      { "level": 18, "features": ["Indomitable Might"], "values": { "rages": "6", "rageDamage": "+4" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "rages": "6", "rageDamage": "+4" } },
+      { "level": 20, "features": ["Primal Champion"], "values": { "rages": "Unlimited", "rageDamage": "+4" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Rage",
+      "level": 1,
+      "description": "As a bonus action you enter a rage lasting up to 1 minute. While raging and not wearing heavy armor you gain: advantage on Strength checks and Strength saving throws; a bonus to melee weapon damage with Strength-based attacks (see the Rage Damage column); and resistance to bludgeoning, piercing, and slashing damage.\n\nYou cannot cast or concentrate on spells while raging. The rage ends early if your turn ends and you have not attacked a hostile creature or taken damage since your last turn, and you can end it as a bonus action. You have a limited number of rages per long rest (see the Rages column)."
+    },
+    {
+      "name": "Unarmored Defense",
+      "level": 1,
+      "description": "While you wear no armor, your AC equals 10 + your Dexterity modifier + your Constitution modifier. You can still use a shield and gain its bonus."
+    },
+    {
+      "name": "Reckless Attack",
+      "level": 2,
+      "description": "When you make your first attack on your turn, you can decide to attack recklessly: you gain advantage on melee weapon attack rolls using Strength this turn, but attack rolls against you have advantage until your next turn."
+    },
+    {
+      "name": "Danger Sense",
+      "level": 2,
+      "description": "You have advantage on Dexterity saving throws against effects you can see, such as traps and spells. You must not be blinded, deafened, or incapacitated."
+    },
+    {
+      "name": "Primal Path",
+      "level": 3,
+      "description": "Choose a path that shapes the nature of your rage. Your choice grants features at 3rd, 6th, 10th, and 14th level."
+    },
+    {
+      "name": "Primal Knowledge",
+      "level": 3,
+      "source": "TCE",
+      "optional": true,
+      "description": "You gain proficiency in one more skill of your choice from the barbarian skill list. Additionally, while raging, you can channel primal power into Strength-based checks: you can make an Acrobatics, Intimidation, Perception, Stealth, or Survival check using Strength instead of its normal ability."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. You can instead take a feat if your DM allows it. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Extra Attack",
+      "level": 5,
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Fast Movement",
+      "level": 5,
+      "description": "Your speed increases by 10 feet while you are not wearing heavy armor."
+    },
+    {
+      "name": "Feral Instinct",
+      "level": 7,
+      "description": "You have advantage on initiative rolls. If you are surprised at the start of combat and are not incapacitated, you can act normally on your first turn provided you enter your rage before doing anything else on that turn."
+    },
+    {
+      "name": "Instinctive Pounce",
+      "level": 7,
+      "source": "TCE",
+      "optional": true,
+      "description": "As part of the bonus action you take to enter your rage, you can move up to half your speed."
+    },
+    {
+      "name": "Brutal Critical",
+      "level": 9,
+      "description": "When you score a critical hit with a melee attack, roll one additional weapon damage die and add it to the extra damage. This increases to two additional dice at 13th level and three at 17th level."
+    },
+    {
+      "name": "Relentless Rage",
+      "level": 11,
+      "description": "If you drop to 0 hit points while raging and don't die outright, you can make a DC 10 Constitution saving throw. On a success you drop to 1 hit point instead. Each time you use this feature after the first, the DC increases by 5; it resets to 10 after a short or long rest."
+    },
+    {
+      "name": "Persistent Rage",
+      "level": 15,
+      "description": "Your rage ends early only if you fall unconscious or choose to end it."
+    },
+    {
+      "name": "Indomitable Might",
+      "level": 18,
+      "description": "If your total for a Strength check is less than your Strength score, you can use your Strength score in place of the total."
+    },
+    {
+      "name": "Primal Champion",
+      "level": 20,
+      "description": "You become the embodiment of primal power. Your Strength and Constitution scores increase by 4, and your maximum for those scores becomes 24."
+    }
+  ],
+  "subclasses": [
+    { "id": "path-of-the-berserker", "name": "Path of the Berserker", "source": "PHB" },
+    { "id": "path-of-the-totem-warrior", "name": "Path of the Totem Warrior", "source": "PHB" },
+    { "id": "path-of-the-battlerager", "name": "Path of the Battlerager", "source": "SCAG" },
+    { "id": "path-of-the-ancestral-guardian", "name": "Path of the Ancestral Guardian", "source": "XGE" },
+    { "id": "path-of-the-storm-herald", "name": "Path of the Storm Herald", "source": "XGE" },
+    { "id": "path-of-the-zealot", "name": "Path of the Zealot", "source": "XGE" },
+    { "id": "path-of-the-beast", "name": "Path of the Beast", "source": "TCE" },
+    { "id": "path-of-wild-magic", "name": "Path of Wild Magic", "source": "TCE" },
+    { "id": "path-of-the-juggernaut", "name": "Path of the Juggernaut", "source": "EGW" },
+    { "id": "path-of-the-giant", "name": "Path of the Giant", "source": "BGG" }
+  ]
+}

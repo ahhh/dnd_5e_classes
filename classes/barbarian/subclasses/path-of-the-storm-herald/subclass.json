@@ -1,0 +1,32 @@
+{
+  "id": "path-of-the-storm-herald",
+  "name": "Path of the Storm Herald",
+  "class": "barbarian",
+  "label": "Primal Path",
+  "source": { "book": "XGE", "page": 10 },
+  "summary": "Your rage projects an aura of desert heat, arctic cold, or crackling sea-storm.",
+  "flavor": "Storm heralds learn to transform their rage into a mantle of primal magic that swirls around them. When in a fury, the barbarian taps into the forces of nature to create powerful magical effects centered on themselves.",
+  "playstyle": "Turns rage into an automatic-damage or team-support aura. Sea does single-target lightning, Desert deals passive AoE, and Tundra hands out temporary hit points to the whole party every round.",
+  "features": [
+    {
+      "name": "Storm Aura",
+      "level": 3,
+      "description": "While raging, you emit a 10-foot-radius aura. Choose Desert, Sea, or Tundra when you gain this feature (you can change it whenever you gain a level in this class). The aura activates when you enter your rage, and you can activate its effect again as a bonus action on later turns.\n\n**Desert.** Each other creature in your aura takes 2 fire damage. Increases at higher levels.\n\n**Sea.** Choose one other creature in the aura; it must make a Dexterity save or take 1d6 lightning damage (half on a success).\n\n**Tundra.** Each creature of your choice in the aura gains 2 temporary hit points."
+    },
+    {
+      "name": "Storm Soul",
+      "level": 6,
+      "description": "You gain resistance and an environmental benefit matching your aura.\n\n**Desert.** Fire resistance; you and up to ten friendly creatures are unharmed by temperatures as high as 120°F.\n\n**Sea.** Lightning resistance; you can breathe underwater and gain a swimming speed equal to your walking speed.\n\n**Tundra.** Cold resistance; you can turn 5 cubic feet of water into ice, and you and up to ten friendly creatures are unharmed by temperatures as low as -50°F."
+    },
+    {
+      "name": "Shielding Storm",
+      "level": 10,
+      "description": "Each creature of your choice within your Storm Aura has the damage resistance you gained from Storm Soul (fire, lightning, or cold)."
+    },
+    {
+      "name": "Raging Storm",
+      "level": 14,
+      "description": "Your aura gains an additional effect.\n\n**Desert.** When a creature within the aura hits you with an attack, you can use your reaction to force it to make a Dexterity save or take fire damage equal to half your barbarian level.\n\n**Sea.** When you hit a creature in your aura with an attack, you can use your reaction to force it to make a Strength save or be knocked prone.\n\n**Tundra.** Whenever the aura deals its temporary hit points, you can choose one creature affected by it; that creature must succeed on a Strength save or have its speed reduced to 0 until the start of your next turn."
+    }
+  ]
+}

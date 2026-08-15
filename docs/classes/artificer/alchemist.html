@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alchemist — Artificer</title>
+<meta name="description" content="A master of potions and reagents who heals, buffs, and hurls experimental elixirs. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Artificer</a> / <strong>Alchemist</strong></nav>
+<main>
+<h1 id="alchemist">Alchemist</h1>
+<p><em>Artificer Artificer Specialist — Tasha's Cauldron of Everything, p. 12</em></p>
+<blockquote>A master of potions and reagents who heals, buffs, and hurls experimental elixirs.</blockquote>
+<p>An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.</p>
+<p><strong>How it plays.</strong> The support and healing artificer. Experimental Elixirs give you free random potions every day, and Alchemical Savant adds your Intelligence modifier to all your healing and acid/fire/necrotic/poison damage.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>healing word, ray of sickness</td></tr><tr><td>5th</td><td>flaming sphere, Melf's acid arrow</td></tr><tr><td>9th</td><td>gaseous form, mass healing word</td></tr><tr><td>13th</td><td>blight, death ward</td></tr><tr><td>17th</td><td>cloudkill, raise dead</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="tool-proficiency">Tool Proficiency</h3>
+<p><em>3rd level</em></p>
+<p>You gain proficiency with alchemist's supplies. If you already have it, you gain proficiency with one other type of artisan's tools of your choice.</p>
+<h3 id="experimental-elixir">Experimental Elixir</h3>
+<p><em>3rd level</em></p>
+<p>Whenever you finish a long rest, you can magically produce an experimental elixir in an empty flask you touch. Roll on the Experimental Elixir table for its effect, which is determined at random — healing, swiftness, resilience, boldness, flight, or transformation.</p>
+<p>You can create additional elixirs by expending a spell slot of 1st level or higher (one elixir per slot level), and when you do you can choose the effect rather than rolling. You create one free elixir at 3rd level, two at 6th, and three at 15th.</p>
+<h3 id="alchemical-savant">Alchemical Savant</h3>
+<p><em>5th level</em></p>
+<p>You have developed masterful command of magical chemicals. When you cast a spell using your alchemist's supplies as the spellcasting focus, you gain a bonus to one roll of the spell equal to your Intelligence modifier (minimum +1). The roll must restore hit points or be a damage roll dealing acid, fire, necrotic, or poison damage.</p>
+<h3 id="restorative-reagents">Restorative Reagents</h3>
+<p><em>9th level</em></p>
+<p>You can incorporate restorative reagents into some of your works. Whenever a creature drinks an experimental elixir you created, it gains temporary hit points equal to 2d6 + your Intelligence modifier (minimum 1).</p>
+<p>You can also cast <em>lesser restoration</em> without expending a spell slot and without preparing it, a number of times equal to your Intelligence modifier (minimum once) per long rest.</p>
+<h3 id="chemical-mastery">Chemical Mastery</h3>
+<p><em>15th level</em></p>
+<p>You have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments. You gain resistance to acid damage and poison damage, and you are immune to the poisoned condition.</p>
+<p>You can also cast <em>greater restoration</em> and <em>heal</em> without expending a spell slot and without preparing them. Once you cast either spell with this feature, you can't cast that spell again with it until you finish a long rest.</p>
+<p><a href="index.html">← Back to Artificer</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

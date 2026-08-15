@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swarmkeeper — Ranger</title>
+<meta name="description" content="A ranger accompanied by a magical swarm of insects, spirits, or tiny beasts. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Ranger</a> / <strong>Swarmkeeper</strong></nav>
+<main>
+<h1 id="swarmkeeper">Swarmkeeper</h1>
+<p><em>Ranger Ranger Archetype — Tasha's Cauldron of Everything, p. 59</em></p>
+<blockquote>A ranger accompanied by a magical swarm of insects, spirits, or tiny beasts.</blockquote>
+<p>A mysterious swarm of nature spirits has bonded itself to you and lends you its power. The swarm might take the form of fireflies, gnats, hummingbirds, or even tiny fey — whatever its shape, it moves with you and fights beside you.</p>
+<p><strong>How it plays.</strong> A control-focused ranger with excellent battlefield repositioning. Gathered Swarm lets you push, pull, or teleport on every hit, and the free movement scales into strong kiting at higher levels.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>mage hand (cantrip), faerie fire</td></tr><tr><td>5th</td><td>web</td></tr><tr><td>9th</td><td>gaseous form</td></tr><tr><td>13th</td><td>Arcane Eye</td></tr><tr><td>17th</td><td>insect plague</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="gathered-swarm">Gathered Swarm</h3>
+<p><em>3rd level</em></p>
+<p>A swarm of intangible nature spirits has bonded itself to you. Once on each of your turns, you can cause the swarm to assist you when you hit a creature with an attack or force it to make a saving throw. Choose one effect:</p>
+<ul><li>The target takes 1d6 piercing damage from the swarm.</li><li>The target must succeed on a Strength saving throw or be moved 15 feet horizontally in a direction of your choice.</li><li>You are moved 5 feet horizontally in a direction of your choice.</li></ul>
+<p>The damage increases to 1d8 at 11th level.</p>
+<h3 id="swarmkeeper-magic">Swarmkeeper Magic</h3>
+<p><em>3rd level</em></p>
+<p>You learn the <em>mage hand</em> cantrip if you don't already know it, and you can make the hand invisible when you cast it. You also gain additional spells at 3rd, 5th, 9th, 13th, and 17th level, which don't count against the number of ranger spells you know.</p>
+<h3 id="writhing-tide">Writhing Tide</h3>
+<p><em>7th level</em></p>
+<p>You can condense part of your swarm into a focused mass that lifts you up. As a bonus action, you gain a flying speed of 10 feet and can hover for 1 minute. You can use this a number of times equal to your proficiency bonus per long rest.</p>
+<h3 id="mighty-swarm">Mighty Swarm</h3>
+<p><em>11th level</em></p>
+<p>Your Gathered Swarm grows mightier. When a creature fails its save against being moved by the swarm, it is also knocked prone. If the swarm moves you, it also gives you half cover until the start of your next turn. And the swarm's damage increases to 1d8.</p>
+<h3 id="swarming-dispersal">Swarming Dispersal</h3>
+<p><em>15th level</em></p>
+<p>When you take damage, you can use your reaction to give yourself resistance to that damage. You then teleport to an unoccupied space you can see within 30 feet, momentarily dispersing into your swarm and reforming. You can use this a number of times equal to your proficiency bonus per long rest.</p>
+<p><a href="index.html">← Back to Ranger</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

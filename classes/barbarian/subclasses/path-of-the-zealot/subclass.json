@@ -1,0 +1,37 @@
+{
+  "id": "path-of-the-zealot",
+  "name": "Path of the Zealot",
+  "class": "barbarian",
+  "label": "Primal Path",
+  "source": { "book": "XGE", "page": 11 },
+  "summary": "A divine warrior whose rage is holy fury — and who simply refuses to stay dead.",
+  "flavor": "Some deities inspire their followers to pitch themselves into a ferocious battle fury. These zealots are channels for divine power, their rage a gift from a god of war, death, or destruction.",
+  "playstyle": "Top-tier damage and survivability. Divine Fury adds damage on every turn, Zealous Presence is a once-per-rest party-wide advantage buff, and Rage Beyond Death makes you effectively immortal while raging.",
+  "features": [
+    {
+      "name": "Divine Fury",
+      "level": 3,
+      "description": "While raging, the first creature you hit on each of your turns takes extra damage equal to 1d6 + half your barbarian level. The damage is radiant or necrotic — you choose which when you gain the feature."
+    },
+    {
+      "name": "Warrior of the Gods",
+      "level": 3,
+      "description": "Your soul is marked for a warrior's rest. If a spell such as *raise dead* has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components."
+    },
+    {
+      "name": "Fanatical Focus",
+      "level": 6,
+      "description": "If you fail a saving throw while raging, you can reroll it and must use the new roll. You can use this once per rage."
+    },
+    {
+      "name": "Zealous Presence",
+      "level": 10,
+      "description": "As a bonus action, you unleash a battle cry charged with divine energy. Up to ten other creatures of your choice within 60 feet that can hear you gain advantage on attack rolls and saving throws until the start of your next turn. Once used, you can't use it again until you finish a long rest, unless you expend a use of your rage."
+    },
+    {
+      "name": "Rage Beyond Death",
+      "level": 14,
+      "description": "While raging, having 0 hit points doesn't knock you unconscious. You still make death saving throws and suffer the normal effects of taking damage at 0 hit points, but you die only if your rage ends and you still have 0 hit points."
+    }
+  ]
+}

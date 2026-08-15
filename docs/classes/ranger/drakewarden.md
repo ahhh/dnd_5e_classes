@@ -1,0 +1,50 @@
+# Drakewarden
+
+*Ranger Ranger Archetype — Fizban's Treasury of Dragons, p. 12*
+
+> A ranger bonded to a growing draconic companion you can eventually ride into battle.
+
+The bond between a Drakewarden and their drake is a wondrous thing. A spark of draconic power, given form and life, grows alongside the ranger — from a Tiny companion perched on a shoulder to a Large steed that carries them through the sky.
+
+**How it plays.** The best animal-companion ranger by a wide margin. The drake scales with your level, deals bonus elemental damage that you can share with allies, and becomes a flying mount at 15th level.
+
+## Features
+
+### Draconic Gift
+
+*3rd level*
+
+The bond with your drake creates a link to dragonkind. You learn the *thaumaturgy* cantrip, and you gain the ability to speak, read, and write Draconic.
+
+### Drake Companion
+
+*3rd level*
+
+As an action, you can magically summon your drake, which appears in an unoccupied space within 30 feet. It is friendly to you and your companions and obeys your commands.
+
+The drake is Tiny (Medium at 7th level, Large at 15th) and has statistics that scale with your ranger level and proficiency bonus. Choose a damage type when you summon it — acid, cold, fire, lightning, or poison — which determines its Infusion of Draconic Essence.
+
+In combat, the drake acts on your initiative. It can move and use its reaction on its own, but the only action it takes is the Dodge action unless you use a bonus action to command it to take another action, such as Attack.
+
+You can summon the drake once per long rest without cost, or by expending a spell slot of 1st level or higher.
+
+### Bond of Fang and Scale
+
+*7th level*
+
+While your drake is summoned, you gain these benefits: you have resistance to the damage type chosen for the drake; your weapon attacks deal an extra 1d6 damage of that type; and the drake grows to Medium size, gains a flying speed of 40 feet, and can serve as a mount for a Small or smaller creature.
+
+### Drake's Breath
+
+*11th level*
+
+As an action, you can exhale a 30-foot cone of damaging breath, or cause your drake to do so. Each creature in the area must make a Dexterity saving throw against your spell save DC, taking 8d6 damage of your drake's damage type on a failure, or half as much on a success. You can use this once per long rest without cost, or by expending a spell slot of 3rd level or higher (increasing the damage by 1d6 per level above 3rd).
+
+### Perfected Bond
+
+*15th level*
+
+Your bond reaches its zenith. The drake grows to Large size and can serve as a mount for a Medium or smaller creature. Additionally, when you or the drake takes damage while within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that damage. And whenever the drake uses its Bite attack, it deals extra damage equal to your proficiency bonus.
+
+
+[← Back to Ranger](index.md)

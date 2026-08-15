@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circle of Stars — Druid</title>
+<meta name="description" content="An astronomer-druid who takes on constellation forms for archery, healing, or spell power. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Druid</a> / <strong>Circle of Stars</strong></nav>
+<main>
+<h1 id="circle-of-stars">Circle of Stars</h1>
+<p><em>Druid Druid Circle — Tasha's Cauldron of Everything, p. 37</em></p>
+<blockquote>An astronomer-druid who takes on constellation forms for archery, healing, or spell power.</blockquote>
+<p>The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations and recording them in star charts of their own making.</p>
+<p><strong>How it plays.</strong> A versatile ranged druid that doesn't need Wild Shape to contribute. The Archer form gives you a free bonus-action attack, the Chalice heals, and the Dragon form guarantees you never lose concentration.</p>
+<h2 id="features">Features</h2>
+<h3 id="star-map">Star Map</h3>
+<p><em>2nd level</em></p>
+<p>You create a star chart as a spellcasting focus. You know the <em>guidance</em> cantrip, and you always have <em>guiding bolt</em> prepared — you can cast it without a spell slot a number of times equal to your proficiency bonus per long rest. If the map is lost, you can perform a 1-hour ceremony to replace it.</p>
+<h3 id="starry-form">Starry Form</h3>
+<p><em>2nd level</em></p>
+<p>As a bonus action, you can expend a use of Wild Shape to take on a luminous starry form rather than transforming into a beast. It lasts 10 minutes and sheds bright light in a 10-foot radius. Choose a constellation each time:</p>
+<p><strong>Archer.</strong> As a bonus action, make a ranged spell attack against a creature within 60 feet, dealing 1d8 + your Wisdom modifier radiant damage.</p>
+<p><strong>Chalice.</strong> Whenever you cast a spell that restores hit points, you or another creature within 30 feet regains 1d8 + your Wisdom modifier hit points.</p>
+<p><strong>Dragon.</strong> When you make an Intelligence or Wisdom check or a Constitution saving throw to maintain concentration, you can treat a roll of 9 or lower on the d20 as a 10.</p>
+<h3 id="cosmic-omen">Cosmic Omen</h3>
+<p><em>6th level</em></p>
+<p>After a long rest, you can consult your Star Map and roll a die to determine an omen — Weal (even) or Woe (odd). Whenever a creature you can see within 30 feet makes an attack roll, saving throw, or ability check, you can use your reaction to roll a d6 and either add it (Weal) or subtract it (Woe). You can use this a number of times equal to your proficiency bonus per long rest.</p>
+<h3 id="twinkling-constellations">Twinkling Constellations</h3>
+<p><em>10th level</em></p>
+<p>Your Starry Form improves: the Archer and Chalice dice become 2d8, and while in Dragon form you gain a flying speed of 20 feet and can hover. Additionally, at the start of each of your turns while in a Starry Form, you can change which constellation you are using.</p>
+<h3 id="full-of-stars">Full of Stars</h3>
+<p><em>14th level</em></p>
+<p>While in your Starry Form, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage.</p>
+<p><a href="index.html">← Back to Druid</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

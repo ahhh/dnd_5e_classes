@@ -1,0 +1,37 @@
+{
+  "id": "college-of-swords",
+  "name": "College of Swords",
+  "class": "bard",
+  "label": "Bard College",
+  "source": { "book": "XGE", "page": 15 },
+  "summary": "Blade-dancing entertainers who spend inspiration dice on damaging combat flourishes.",
+  "flavor": "Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess — sword-swallowing, knife-throwing, mock combats. Many use their showmanship as a cover for far more dangerous work.",
+  "playstyle": "The damage-dealing bard. Blade Flourish adds movement and turns Bardic Inspiration dice into extra damage plus a rider effect, so your dice fuel your own offense rather than allies' rolls.",
+  "features": [
+    {
+      "name": "Bonus Proficiencies",
+      "level": 3,
+      "description": "You gain proficiency with medium armor and the scimitar. If you're proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells."
+    },
+    {
+      "name": "Fighting Style",
+      "level": 3,
+      "description": "Choose Dueling (+2 damage with a single one-handed melee weapon) or Two-Weapon Fighting (add your ability modifier to the off-hand attack's damage)."
+    },
+    {
+      "name": "Blade Flourish",
+      "level": 3,
+      "description": "Whenever you take the Attack action, your walking speed increases by 10 feet until the end of the turn. If you hit with a weapon attack, you can expend one use of Bardic Inspiration for one of these flourishes (the die is added to the attack's damage roll in each case):\n\n**Defensive Flourish.** You add the die to your AC until the start of your next turn.\n\n**Slashing Flourish.** You also deal damage equal to the die to one other creature of your choice within 5 feet.\n\n**Mobile Flourish.** You push the target up to 5 feet plus the number rolled, and can then use your reaction to move up to your walking speed to a space within 5 feet of it."
+    },
+    {
+      "name": "Extra Attack",
+      "level": 6,
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Master's Flourish",
+      "level": 14,
+      "description": "Whenever you use a Blade Flourish option, you can roll a d6 and use it instead of expending a Bardic Inspiration die."
+    }
+  ]
+}

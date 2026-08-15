@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Path of the Giant — Barbarian</title>
+<meta name="description" content="You grow to giant size and wield elemental weapons drawn from the Ordning. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Barbarian</a> / <strong>Path of the Giant</strong></nav>
+<main>
+<h1 id="path-of-the-giant">Path of the Giant</h1>
+<p><em>Barbarian Primal Path — Bigby Presents: Glory of the Giants, p. 26</em></p>
+<blockquote>You grow to giant size and wield elemental weapons drawn from the Ordning.</blockquote>
+<p>Barbarians who walk this path draw on the primal power of giants — whether through a bloodline, a rune-carved pact, or time spent among the giant clans. Their rage swells their bodies and wreathes their weapons in elemental fury.</p>
+<p><strong>How it plays.</strong> Big, loud, and satisfying. You literally grow (Large at 3rd, Huge at 14th), your weapons deal bonus elemental damage, and you can hurl enemies around the battlefield.</p>
+<h2 id="features">Features</h2>
+<h3 id="giants-power">Giant's Power</h3>
+<p><em>3rd level</em></p>
+<p>You learn the Giant language if you don't already know it, and you learn one druid cantrip of your choice. Wisdom is your spellcasting ability for it.</p>
+<h3 id="giants-havoc">Giant's Havoc</h3>
+<p><em>3rd level</em></p>
+<p>While raging, you gain two benefits.</p>
+<p><strong>Crushing Throw.</strong> When you throw a weapon or an improvised weapon, you can add your Rage Damage bonus to the damage roll.</p>
+<p><strong>Giant Stature.</strong> Your size becomes Large if you have room, and your reach increases by 5 feet.</p>
+<h3 id="elemental-cleaver">Elemental Cleaver</h3>
+<p><em>6th level</em></p>
+<p>When you enter your rage, choose one weapon you are holding and one damage type: acid, cold, fire, lightning, or thunder. The weapon deals that damage type instead of its normal type, and it deals an extra 1d6 damage of that type. As a bonus action you can change the damage type, and if you throw the weapon it reappears in your hand at the end of the turn.</p>
+<h3 id="mighty-impel">Mighty Impel</h3>
+<p><em>10th level</em></p>
+<p>As a bonus action while raging, you can move a Large or smaller creature within 10 feet to an unoccupied space within 30 feet. The target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be moved. If you move it into the air, it falls unless something stops it.</p>
+<h3 id="demiurgic-colossus">Demiurgic Colossus</h3>
+<p><em>14th level</em></p>
+<p>Your giant power reaches its peak. Giant Stature now makes you Huge and increases your reach by 10 feet, Elemental Cleaver's extra damage rises to 2d6, and Mighty Impel can move a Huge or smaller creature within 30 feet.</p>
+<p><a href="index.html">← Back to Barbarian</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

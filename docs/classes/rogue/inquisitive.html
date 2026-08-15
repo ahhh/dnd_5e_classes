@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inquisitive — Rogue</title>
+<meta name="description" content="A detective who reads a foe's tells to enable Sneak Attack and spots any lie or disguise. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Rogue</a> / <strong>Inquisitive</strong></nav>
+<main>
+<h1 id="inquisitive">Inquisitive</h1>
+<p><em>Rogue Roguish Archetype — Xanathar's Guide to Everything, p. 45</em></p>
+<blockquote>A detective who reads a foe's tells to enable Sneak Attack and spots any lie or disguise.</blockquote>
+<p>As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent.</p>
+<p><strong>How it plays.</strong> The investigation rogue. Insightful Fighting is a self-sufficient Sneak Attack enabler that lasts a full minute, and Ear for Deceit plus Eye for Detail make you the definitive mystery-solver.</p>
+<h2 id="features">Features</h2>
+<h3 id="ear-for-deceit">Ear for Deceit</h3>
+<p><em>3rd level</em></p>
+<p>You develop a keen ear for picking out lies. Whenever you make a Wisdom (Insight) check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8.</p>
+<h3 id="eye-for-detail">Eye for Detail</h3>
+<p><em>3rd level</em></p>
+<p>You can use a bonus action to make a Wisdom (Perception) check to spot a hidden creature or object, or to make an Intelligence (Investigation) check to uncover or decipher clues.</p>
+<h3 id="insightful-fighting">Insightful Fighting</h3>
+<p><em>3rd level</em></p>
+<p>As a bonus action, you make a Wisdom (Insight) check against a creature you can see that isn't incapacitated, contested by its Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage. The benefit lasts for 1 minute or until you successfully use this feature against a different target.</p>
+<h3 id="steady-eye">Steady Eye</h3>
+<p><em>9th level</em></p>
+<p>You have advantage on any Perception or Investigation check if you move no more than half your speed on the same turn.</p>
+<h3 id="unerring-eye">Unerring Eye</h3>
+<p><em>13th level</em></p>
+<p>Your senses are almost impossible to foil. As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet, provided you aren't blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden. You can use this a number of times equal to your Wisdom modifier (minimum once) per long rest.</p>
+<h3 id="eye-for-weakness">Eye for Weakness</h3>
+<p><em>17th level</em></p>
+<p>You learn to exploit a creature's weaknesses by carefully studying its tactics and movement. While your Insightful Fighting feature applies to a creature, your Sneak Attack damage against that creature increases by 3d6.</p>
+<p><a href="index.html">← Back to Rogue</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

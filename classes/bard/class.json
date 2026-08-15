@@ -1,0 +1,155 @@
+{
+  "id": "bard",
+  "name": "Bard",
+  "source": { "book": "PHB", "page": 51 },
+  "summary": "A magical performer whose words inspire allies, unravel enemies, and bend reality itself.",
+  "flavor": "Whether scholar, skald, or scoundrel, a bard weaves magic through words and music. Bards are the ultimate generalists — capable of filling nearly any role at the table thanks to a spell list that spans healing, control, and illusion, plus a talent for talking their way into and out of almost anything.",
+  "hitDice": "d8",
+  "hitPointsAt1st": "8 + your Constitution modifier",
+  "hitPointsPerLevel": "1d8 (or 5) + your Constitution modifier",
+  "primaryAbility": ["Charisma"],
+  "savingThrows": ["Dexterity", "Charisma"],
+  "proficiencies": {
+    "armor": ["Light armor"],
+    "weapons": ["Simple weapons", "Hand crossbows", "Longswords", "Rapiers", "Shortswords"],
+    "tools": ["Three musical instruments of your choice"],
+    "skills": {
+      "choose": 3,
+      "from": ["Any"],
+      "note": "Bards may choose any three skills in the game"
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a rapier", "a longsword", "any simple weapon"] },
+      { "choose": 1, "from": ["a diplomat's pack", "an entertainer's pack"] },
+      { "choose": 1, "from": ["a lute", "any other musical instrument"] }
+    ],
+    "fixed": ["Leather armor", "A dagger"],
+    "goldAlternative": "5d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Charisma 13",
+    "proficienciesGained": ["Light armor", "One skill of your choice", "One musical instrument of your choice"],
+    "spellcastingNote": "Add your full bard level when determining shared multiclass spell slots."
+  },
+  "spellcasting": {
+    "ability": "Charisma",
+    "slotTable": "full",
+    "type": "known",
+    "ritualCasting": true,
+    "focus": "A musical instrument",
+    "spellList": "Bard",
+    "notes": "You know a fixed number of spells (see the Spells Known column) and can swap one for another whenever you gain a bard level."
+  },
+  "subclass": { "label": "Bard College", "level": 3, "featureLevels": [3, 6, 14] },
+  "progression": {
+    "columns": [
+      { "key": "cantrips", "label": "Cantrips Known" },
+      { "key": "known", "label": "Spells Known" }
+    ],
+    "levels": [
+      { "level": 1, "features": ["Spellcasting", "Bardic Inspiration (d6)"], "values": { "cantrips": "2", "known": "4" } },
+      { "level": 2, "features": ["Jack of All Trades", "Song of Rest (d6)", "Magical Inspiration (optional)"], "values": { "cantrips": "2", "known": "5" } },
+      { "level": 3, "features": ["Bard College", "Expertise"], "values": { "cantrips": "2", "known": "6" } },
+      { "level": 4, "features": ["Ability Score Improvement", "Bardic Versatility (optional)"], "values": { "cantrips": "3", "known": "7" } },
+      { "level": 5, "features": ["Bardic Inspiration (d8)", "Font of Inspiration"], "values": { "cantrips": "3", "known": "8" } },
+      { "level": 6, "features": ["Countercharm", "Bard College feature"], "values": { "cantrips": "3", "known": "9" } },
+      { "level": 7, "features": [], "values": { "cantrips": "3", "known": "10" } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "cantrips": "3", "known": "11" } },
+      { "level": 9, "features": ["Song of Rest (d8)"], "values": { "cantrips": "3", "known": "12" } },
+      { "level": 10, "features": ["Bardic Inspiration (d10)", "Expertise", "Magical Secrets"], "values": { "cantrips": "4", "known": "14" } },
+      { "level": 11, "features": [], "values": { "cantrips": "4", "known": "15" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "cantrips": "4", "known": "15" } },
+      { "level": 13, "features": ["Song of Rest (d10)"], "values": { "cantrips": "4", "known": "16" } },
+      { "level": 14, "features": ["Magical Secrets", "Bard College feature"], "values": { "cantrips": "4", "known": "18" } },
+      { "level": 15, "features": ["Bardic Inspiration (d12)"], "values": { "cantrips": "4", "known": "19" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "cantrips": "4", "known": "19" } },
+      { "level": 17, "features": ["Song of Rest (d12)"], "values": { "cantrips": "4", "known": "20" } },
+      { "level": 18, "features": ["Magical Secrets"], "values": { "cantrips": "4", "known": "22" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "cantrips": "4", "known": "22" } },
+      { "level": 20, "features": ["Superior Inspiration"], "values": { "cantrips": "4", "known": "22" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Spellcasting",
+      "level": 1,
+      "description": "You have learned to untangle and reshape the fabric of reality in harmony with your music. You know two cantrips and a growing list of bard spells (see the table). Charisma is your spellcasting ability, and you can use a musical instrument as a spellcasting focus. You can cast any bard spell you know as a ritual if it has the ritual tag."
+    },
+    {
+      "name": "Bardic Inspiration",
+      "level": 1,
+      "description": "As a bonus action, you can inspire one other creature within 60 feet that can hear you, giving it a Bardic Inspiration die (a d6). Within the next 10 minutes, it can roll that die and add the result to one ability check, attack roll, or saving throw — it can decide to do so after seeing the roll but before knowing the outcome.\n\nYou can use this a number of times equal to your Charisma modifier (minimum once) per long rest. The die improves to a d8 at 5th level, a d10 at 10th, and a d12 at 15th."
+    },
+    {
+      "name": "Jack of All Trades",
+      "level": 2,
+      "description": "You can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+    },
+    {
+      "name": "Song of Rest",
+      "level": 2,
+      "description": "If you or any friendly creatures who can hear your performance regain hit points at the end of a short rest by spending Hit Dice, each of those creatures regains an extra 1d6 hit points. The die improves to a d8 at 9th level, a d10 at 13th, and a d12 at 17th."
+    },
+    {
+      "name": "Magical Inspiration",
+      "level": 2,
+      "source": "TCE",
+      "optional": true,
+      "description": "If a creature has a Bardic Inspiration die from you and casts a spell that restores hit points or deals damage, it can roll that die and either add the number to the healing or add it to one damage roll of the spell."
+    },
+    {
+      "name": "Bard College",
+      "level": 3,
+      "description": "Choose a college that shapes your art. It grants features at 3rd, 6th, and 14th level."
+    },
+    {
+      "name": "Expertise",
+      "level": 3,
+      "description": "Choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check using either. You choose two more at 10th level."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Bardic Versatility",
+      "level": 4,
+      "source": "TCE",
+      "optional": true,
+      "description": "Whenever you gain an Ability Score Improvement, you can replace one of your Expertise skills with another skill you're proficient in, or replace one cantrip you learned from this class with another bard cantrip."
+    },
+    {
+      "name": "Font of Inspiration",
+      "level": 5,
+      "description": "You regain all expended uses of Bardic Inspiration when you finish a short or long rest, rather than only on a long rest."
+    },
+    {
+      "name": "Countercharm",
+      "level": 6,
+      "description": "As an action, you can start a performance that lasts until the end of your next turn. During it, you and any friendly creatures within 30 feet that can hear you have advantage on saving throws against being frightened or charmed. The performance ends early if you are incapacitated or silenced."
+    },
+    {
+      "name": "Magical Secrets",
+      "level": 10,
+      "description": "Choose two spells from any class, of a level you can cast. They count as bard spells for you and don't count against the number of bard spells you know. You learn two more at 14th level and two more at 18th."
+    },
+    {
+      "name": "Superior Inspiration",
+      "level": 20,
+      "description": "When you roll initiative and have no uses of Bardic Inspiration left, you regain one use."
+    }
+  ],
+  "subclasses": [
+    { "id": "college-of-lore", "name": "College of Lore", "source": "PHB" },
+    { "id": "college-of-valor", "name": "College of Valor", "source": "PHB" },
+    { "id": "college-of-glamour", "name": "College of Glamour", "source": "XGE" },
+    { "id": "college-of-swords", "name": "College of Swords", "source": "XGE" },
+    { "id": "college-of-whispers", "name": "College of Whispers", "source": "XGE" },
+    { "id": "college-of-creation", "name": "College of Creation", "source": "TCE" },
+    { "id": "college-of-eloquence", "name": "College of Eloquence", "source": "TCE" },
+    { "id": "college-of-spirits", "name": "College of Spirits", "source": "VRGR" }
+  ]
+}

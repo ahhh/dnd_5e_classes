@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eldritch Knight — Fighter</title>
+<meta name="description" content="A warrior-mage who binds weapons to their soul and casts wizard spells between sword strokes. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Fighter</a> / <strong>Eldritch Knight</strong></nav>
+<main>
+<h1 id="eldritch-knight">Eldritch Knight</h1>
+<p><em>Fighter Martial Archetype — Player's Handbook, p. 74</em></p>
+<blockquote>A warrior-mage who binds weapons to their soul and casts wizard spells between sword strokes.</blockquote>
+<p>Eldritch Knights study the arcane alongside the martial arts, combining rigorous weapon training with wizardry. They focus on abjuration and evocation — magic that shields their allies and destroys their enemies.</p>
+<p><strong>How it plays.</strong> The classic gish. <em>Shield</em> and <em>absorbed</em> defensive spells make you extremely durable, and War Magic lets you cast a cantrip and swing in the same turn. Intelligence is a third stat to manage.</p>
+<h2 id="spellcasting">Spellcasting</h2>
+<p><strong>Ability:</strong> Intelligence · <strong>Progression:</strong> Third Caster · <strong>School focus:</strong> Abjuration and Evocation</p>
+<p>You learn spells from the wizard spell list. Most must be from the abjuration or evocation schools, though at 3rd, 8th, 14th, and 20th level you may choose from any school. You know 3 spells at 3rd level, rising to 13 by 20th, plus 2 cantrips (3 at 10th level).</p>
+<h2 id="features">Features</h2>
+<h3 id="spellcasting">Spellcasting</h3>
+<p><em>3rd level</em></p>
+<p>You augment your martial prowess with the ability to cast spells, using the third-caster progression above. Intelligence is your spellcasting ability.</p>
+<h3 id="weapon-bond">Weapon Bond</h3>
+<p><em>3rd level</em></p>
+<p>You learn a ritual that creates a magical bond between yourself and one weapon, performed over 1 hour during a short rest. Once bonded, you can't be disarmed of that weapon unless you are incapacitated, and you can summon it as a bonus action if it is on the same plane, causing it to teleport into your hand. You can have up to two bonded weapons but can summon only one at a time.</p>
+<h3 id="war-magic">War Magic</h3>
+<p><em>7th level</em></p>
+<p>When you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</p>
+<h3 id="eldritch-strike">Eldritch Strike</h3>
+<p><em>10th level</em></p>
+<p>When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</p>
+<h3 id="arcane-charge">Arcane Charge</h3>
+<p><em>15th level</em></p>
+<p>When you use your Action Surge, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action.</p>
+<h3 id="improved-war-magic">Improved War Magic</h3>
+<p><em>18th level</em></p>
+<p>When you use your action to cast a spell of 1st level or higher, you can make one weapon attack as a bonus action.</p>
+<p><a href="index.html">← Back to Fighter</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

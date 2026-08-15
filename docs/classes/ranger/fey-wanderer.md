@@ -1,0 +1,54 @@
+# Fey Wanderer
+
+*Ranger Ranger Archetype — Tasha's Cauldron of Everything, p. 57*
+
+> A ranger touched by the Feywild — psychic damage on every hit and a mind full of charm.
+
+A fey mystery is at the heart of every Fey Wanderer. Perhaps you were raised in the Feywild, or a fey creature blessed you at birth. However it happened, the magic of that realm clings to you, and you carry a piece of its whimsy and its danger wherever you go.
+
+**How it plays.** One of the strongest rangers. Dreadful Strikes adds free damage on every hit with no resource cost, and adding your Wisdom modifier to Charisma checks makes you an unexpectedly excellent party face.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 3rd | charm person |
+| 5th | misty step |
+| 9th | dispel magic |
+| 13th | dimension door |
+| 17th | mislead |
+
+## Features
+
+### Dreadful Strikes
+
+*3rd level*
+
+You can augment your weapon strikes with mind-scarring magic drawn from the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 at 11th level.
+
+### Otherworldly Glamour
+
+*3rd level*
+
+Your fey qualities give you a supernatural charm. Whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum +1). You also gain proficiency in one of these skills: Deception, Performance, or Persuasion.
+
+### Beguiling Twist
+
+*7th level*
+
+The magic of the Feywild guards your mind. You have advantage on saving throws against being charmed or frightened. In addition, whenever you or a creature you can see within 120 feet succeeds on a saving throw against being charmed or frightened, you can use your reaction to force a different creature within 120 feet to make a Wisdom saving throw against your spell save DC. On a failure, it is charmed or frightened by you (your choice) for 1 minute.
+
+### Fey Reinforcements
+
+*11th level*
+
+You can cast *summon fey* without a spell slot, and you always have the spell prepared. You can also cast it using spell slots as normal. Whenever you start casting it, you can modify it so it doesn't require concentration; the spell then lasts for 1 minute.
+
+### Misty Wanderer
+
+*15th level*
+
+You can slip in and out of the Feywild. As a bonus action, you can cast *misty step* without expending a spell slot, and you can bring along one willing creature within 5 feet of you, teleporting it to an unoccupied space within 5 feet of your destination. You can use this a number of times equal to your Wisdom modifier (minimum once) per long rest.
+
+
+[← Back to Ranger](index.md)

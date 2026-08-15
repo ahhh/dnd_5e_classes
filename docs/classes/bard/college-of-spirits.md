@@ -1,0 +1,44 @@
+# College of Spirits
+
+*Bard Bard College — Van Richten's Guide to Ravenloft, p. 32*
+
+> A medium who channels the tales of the dead through a spectral focus, with randomly drawn effects.
+
+Bards of the College of Spirits seek the stories of those who have passed beyond the veil. Using tarokka decks, séances, and candlelit rituals, they draw the dead into their performances — and the spirits repay them with fragments of power.
+
+**How it plays.** A flavourful, random-effect subclass fitting Ravenloft's gothic tone. Spirit Session lets you learn any divination or necromancy spell, and Tales from Beyond delivers a different useful effect every short rest.
+
+## Features
+
+### Guiding Whispers
+
+*3rd level*
+
+You learn the *guidance* cantrip, which doesn't count against your cantrips known. Its range for you becomes 60 feet.
+
+### Spiritual Focus
+
+*3rd level*
+
+You can use a candle, crystal ball, skull, spirit board, or tarokka deck as a spellcasting focus. Starting at 6th level, when you cast a bard spell that deals damage or restores hit points through the focus, you can add a d6 to one damage or healing roll.
+
+### Tales from Beyond
+
+*3rd level*
+
+As a bonus action, expend one use of Bardic Inspiration and roll on the Spirit Tales table (rolling your Bardic Inspiration die). You learn the tale corresponding to the number rolled and can use your action to tell it to a creature within 30 feet. Tales include effects such as forcing a creature to flee, restoring hit points, granting temporary hit points, dealing psychic damage, or granting advantage. You retain the tale until you use it or finish a short or long rest.
+
+### Spirit Session
+
+*6th level*
+
+You can conduct an hour-long séance with at least one other willing creature. At the end, you and your participants each learn one divination or necromancy spell of your choice of a level no higher than the number of participants (max your highest spell slot level). You can cast that spell once without a slot, and you retain it until you finish a long rest. You can use this feature once per long rest.
+
+### Mystical Connection
+
+*14th level*
+
+When you roll on the Spirit Tales table, you can roll the die twice and choose which tale to use. If you roll the same number on both dice, you can choose any tale on the table.
+
+
+[← Back to Bard](index.md)

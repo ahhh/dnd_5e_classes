@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circle of Spores — Druid</title>
+<meta name="description" content="A fungal druid who wreathes themselves in necrotic spores and animates the dead. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Druid</a> / <strong>Circle of Spores</strong></nav>
+<main>
+<h1 id="circle-of-spores">Circle of Spores</h1>
+<p><em>Druid Druid Circle — Tasha's Cauldron of Everything, p. 36</em></p>
+<blockquote>A fungal druid who wreathes themselves in necrotic spores and animates the dead.</blockquote>
+<p>Druids of the Circle of Spores find beauty in decay. They see fungi as the agents that transform decaying matter into new life, and they view undeath as a perversion only when it defies that cycle. Originally published in <em>Guildmasters' Guide to Ravnica</em>.</p>
+<p><strong>How it plays.</strong> A melee-capable druid that doesn't rely on Wild Shape for combat — instead you use Symbiotic Entity to boost your own body. Halo of Spores gives you reliable reaction damage every round.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>2nd</td><td>chill touch (cantrip), blindness/deafness, gentle repose</td></tr><tr><td>3rd</td><td>animate dead, gaseous form</td></tr><tr><td>4th</td><td>blight, confusion</td></tr><tr><td>5th</td><td>cloudkill, contagion</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="circle-spells">Circle Spells</h3>
+<p><em>2nd level</em></p>
+<p>You learn the <em>chill touch</em> cantrip, and you gain circle spells at 3rd, 5th, 7th, and 9th level. They are always prepared and don't count against the number of spells you can prepare.</p>
+<h3 id="halo-of-spores">Halo of Spores</h3>
+<p><em>2nd level</em></p>
+<p>You are surrounded by invisible, necrotic spores. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to it unless it succeeds on a Constitution saving throw against your spell save DC. The damage increases to 1d6 at 6th level, 1d8 at 10th, and 1d10 at 14th.</p>
+<h3 id="symbiotic-entity">Symbiotic Entity</h3>
+<p><em>2nd level</em></p>
+<p>As an action, you can expend a use of Wild Shape to awaken the spores rather than transform. You gain 4 temporary hit points per druid level, your Halo of Spores damage die doubles in number, and your melee weapon attacks deal an extra 1d6 necrotic damage. The effect lasts 10 minutes, until you lose all the temporary hit points, or until you use Wild Shape again.</p>
+<h3 id="fungal-infestation">Fungal Infestation</h3>
+<p><em>6th level</em></p>
+<p>If a beast or humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it as a zombie under your control. It rises with 1 hit point, acts on your initiative immediately after you, and lasts 1 hour. You can use this a number of times equal to your Wisdom modifier (minimum once) per long rest.</p>
+<h3 id="spreading-spores">Spreading Spores</h3>
+<p><em>10th level</em></p>
+<p>As a bonus action while your Symbiotic Entity is active, you can hurl spores up to 30 feet away, creating a 10-foot cube of spores lasting 1 minute. Your Halo of Spores no longer damages creatures near you, but any creature that starts its turn in the cube or enters it takes your Halo of Spores damage. You can move the cube 30 feet as a bonus action.</p>
+<h3 id="fungal-body">Fungal Body</h3>
+<p><em>14th level</em></p>
+<p>The fungal spores in your body alter you: you can't be blinded, deafened, frightened, or poisoned, and any critical hit against you counts as a normal hit unless you're incapacitated.</p>
+<p><a href="index.html">← Back to Druid</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

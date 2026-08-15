@@ -1,0 +1,37 @@
+{
+  "id": "school-of-transmutation",
+  "name": "School of Transmutation",
+  "class": "wizard",
+  "label": "Arcane Tradition",
+  "source": { "book": "PHB", "page": 119 },
+  "summary": "An alchemist of reality who reshapes matter and carries a stone of ever-shifting power.",
+  "flavor": "You are a student of spells that modify energy and matter. To you, the world is not a fixed thing but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities.",
+  "playstyle": "Utility-focused with a strong 6th-level feature. The Transmuter's Stone is a persistent, reconfigurable buff you can hand to an ally, and Master Transmuter offers a once-per-day miracle.",
+  "features": [
+    {
+      "name": "Transmutation Savant",
+      "level": 2,
+      "description": "The gold and time you must spend to copy a transmutation spell into your spellbook is halved."
+    },
+    {
+      "name": "Minor Alchemy",
+      "level": 2,
+      "description": "You can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those substances.\n\nFor each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. The transformation lasts for 1 hour, or until you lose your concentration."
+    },
+    {
+      "name": "Transmuter's Stone",
+      "level": 6,
+      "description": "You can spend 8 hours creating a transmuter's stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice while the stone is in its possession:\n\n- Darkvision out to 60 feet\n- An increase to speed of 10 feet while unencumbered\n- Proficiency in Constitution saving throws\n- Resistance to acid, cold, fire, lightning, or thunder damage (your choice when you create the stone)\n\nEach time you cast a transmutation spell of 1st level or higher, you can change the effect of your stone if it is on your person."
+    },
+    {
+      "name": "Shapechanger",
+      "level": 10,
+      "description": "You add the *polymorph* spell to your spellbook if it is not there already. You can cast *polymorph* without expending a spell slot; when you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower. Once you cast it this way, you can't do so again until you finish a short or long rest."
+    },
+    {
+      "name": "Master Transmuter",
+      "level": 14,
+      "description": "You can use your action to consume the reserve of transmutation magic stored within your transmuter's stone in a single burst. When you do so, choose one of the following effects; your stone is destroyed and can't be remade until you finish a long rest.\n\n**Major Transformation.** Transmute one nonmagical object into another object of similar size and mass, of equal or lesser value.\n**Panacea.** Remove all curses, diseases, and poisons affecting a creature you touch, and restore all its hit points.\n**Restore Life.** Cast *raise dead* without expending a spell slot or material components.\n**Restore Youth.** Reduce the target's apparent age by 3d10 years, to a minimum of 13 years, without changing its lifespan."
+    }
+  ]
+}

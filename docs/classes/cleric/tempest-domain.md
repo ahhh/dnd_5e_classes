@@ -1,0 +1,60 @@
+# Tempest Domain
+
+*Cleric Divine Domain — Player's Handbook, p. 62*
+
+> Storm-caller with heavy armor, martial weapons, and guaranteed maximum lightning damage.
+
+Gods of the storm govern thunder, lightning, and the raging sea. Their clerics are expected to strike hard and fast, inspiring fear so that common folk keep the storm gods in mind and give them their due.
+
+**How it plays.** A front-line blaster. Destructive Wrath maximizes a lightning or thunder spell's damage — devastating on a *call lightning* or *shatter* — and Wrath of the Storm punishes anyone who hits you.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 1st | fog cloud, thunderwave |
+| 3rd | gust of wind, shatter |
+| 5th | call lightning, sleet storm |
+| 7th | control water, ice storm |
+| 9th | destructive wave, insect plague |
+
+## Features
+
+### Bonus Proficiencies
+
+*1st level*
+
+You gain proficiency with martial weapons and heavy armor.
+
+### Wrath of the Storm
+
+*1st level*
+
+When a creature within 5 feet that you can see hits you with an attack, you can use your reaction to cause it to make a Dexterity saving throw. It takes 2d8 lightning or thunder damage (your choice) on a failure, or half on a success. You can use this a number of times equal to your Wisdom modifier (minimum once) per long rest.
+
+### Channel Divinity: Destructive Wrath
+
+*2nd level*
+
+When you roll lightning or thunder damage, you can use Channel Divinity to deal maximum damage instead of rolling.
+
+### Thunderbolt Strike
+
+*6th level*
+
+When you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.
+
+### Divine Strike
+
+*8th level*
+
+Once on each of your turns when you hit with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage. This increases to 2d8 at 14th level.
+
+### Stormborn
+
+*17th level*
+
+You have a flying speed equal to your current walking speed whenever you are not underground or indoors.
+
+
+[← Back to Cleric](index.md)

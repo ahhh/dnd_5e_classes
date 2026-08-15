@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drakewarden — Ranger</title>
+<meta name="description" content="A ranger bonded to a growing draconic companion you can eventually ride into battle. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Ranger</a> / <strong>Drakewarden</strong></nav>
+<main>
+<h1 id="drakewarden">Drakewarden</h1>
+<p><em>Ranger Ranger Archetype — Fizban's Treasury of Dragons, p. 12</em></p>
+<blockquote>A ranger bonded to a growing draconic companion you can eventually ride into battle.</blockquote>
+<p>The bond between a Drakewarden and their drake is a wondrous thing. A spark of draconic power, given form and life, grows alongside the ranger — from a Tiny companion perched on a shoulder to a Large steed that carries them through the sky.</p>
+<p><strong>How it plays.</strong> The best animal-companion ranger by a wide margin. The drake scales with your level, deals bonus elemental damage that you can share with allies, and becomes a flying mount at 15th level.</p>
+<h2 id="features">Features</h2>
+<h3 id="draconic-gift">Draconic Gift</h3>
+<p><em>3rd level</em></p>
+<p>The bond with your drake creates a link to dragonkind. You learn the <em>thaumaturgy</em> cantrip, and you gain the ability to speak, read, and write Draconic.</p>
+<h3 id="drake-companion">Drake Companion</h3>
+<p><em>3rd level</em></p>
+<p>As an action, you can magically summon your drake, which appears in an unoccupied space within 30 feet. It is friendly to you and your companions and obeys your commands.</p>
+<p>The drake is Tiny (Medium at 7th level, Large at 15th) and has statistics that scale with your ranger level and proficiency bonus. Choose a damage type when you summon it — acid, cold, fire, lightning, or poison — which determines its Infusion of Draconic Essence.</p>
+<p>In combat, the drake acts on your initiative. It can move and use its reaction on its own, but the only action it takes is the Dodge action unless you use a bonus action to command it to take another action, such as Attack.</p>
+<p>You can summon the drake once per long rest without cost, or by expending a spell slot of 1st level or higher.</p>
+<h3 id="bond-of-fang-and-scale">Bond of Fang and Scale</h3>
+<p><em>7th level</em></p>
+<p>While your drake is summoned, you gain these benefits: you have resistance to the damage type chosen for the drake; your weapon attacks deal an extra 1d6 damage of that type; and the drake grows to Medium size, gains a flying speed of 40 feet, and can serve as a mount for a Small or smaller creature.</p>
+<h3 id="drakes-breath">Drake's Breath</h3>
+<p><em>11th level</em></p>
+<p>As an action, you can exhale a 30-foot cone of damaging breath, or cause your drake to do so. Each creature in the area must make a Dexterity saving throw against your spell save DC, taking 8d6 damage of your drake's damage type on a failure, or half as much on a success. You can use this once per long rest without cost, or by expending a spell slot of 3rd level or higher (increasing the damage by 1d6 per level above 3rd).</p>
+<h3 id="perfected-bond">Perfected Bond</h3>
+<p><em>15th level</em></p>
+<p>Your bond reaches its zenith. The drake grows to Large size and can serve as a mount for a Medium or smaller creature. Additionally, when you or the drake takes damage while within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that damage. And whenever the drake uses its Bite attack, it deals extra damage equal to your proficiency bonus.</p>
+<p><a href="index.html">← Back to Ranger</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

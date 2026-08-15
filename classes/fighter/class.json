@@ -1,0 +1,131 @@
+{
+  "id": "fighter",
+  "name": "Fighter",
+  "source": { "book": "PHB", "page": 70 },
+  "summary": "A master of weapons and armor who fights more often, more accurately, and longer than anyone.",
+  "flavor": "Fighters share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. They are the most flexible martial class in the game — the archetype you pick can make you a rune-carved giant, a psychic duelist, an arcane spellblade, or simply the best pure warrior on the field.",
+  "hitDice": "d10",
+  "hitPointsAt1st": "10 + your Constitution modifier",
+  "hitPointsPerLevel": "1d10 (or 6) + your Constitution modifier",
+  "primaryAbility": ["Strength", "Dexterity"],
+  "savingThrows": ["Strength", "Constitution"],
+  "proficiencies": {
+    "armor": ["All armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": ["Acrobatics", "Animal Handling", "Athletics", "History", "Insight", "Intimidation", "Perception", "Survival"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["chain mail", "leather armor, longbow, and 20 arrows"] },
+      { "choose": 1, "from": ["a martial weapon and a shield", "two martial weapons"] },
+      { "choose": 1, "from": ["a light crossbow and 20 bolts", "two handaxes"] },
+      { "choose": 1, "from": ["a dungeoneer's pack", "an explorer's pack"] }
+    ],
+    "fixed": [],
+    "goldAlternative": "5d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Strength 13 or Dexterity 13",
+    "proficienciesGained": ["Light armor", "Medium armor", "Shields", "Simple weapons", "Martial weapons"]
+  },
+  "spellcasting": null,
+  "fightingStyles": [
+    "archery",
+    "defense",
+    "dueling",
+    "great-weapon-fighting",
+    "protection",
+    "two-weapon-fighting",
+    "blind-fighting",
+    "interception",
+    "superior-technique",
+    "thrown-weapon-fighting",
+    "unarmed-fighting"
+  ],
+  "subclass": { "label": "Martial Archetype", "level": 3, "featureLevels": [3, 7, 10, 15, 18] },
+  "progression": {
+    "columns": [],
+    "levels": [
+      { "level": 1, "features": ["Fighting Style", "Second Wind"] },
+      { "level": 2, "features": ["Action Surge (one use)"] },
+      { "level": 3, "features": ["Martial Archetype"] },
+      { "level": 4, "features": ["Ability Score Improvement", "Martial Versatility (optional)"] },
+      { "level": 5, "features": ["Extra Attack"] },
+      { "level": 6, "features": ["Ability Score Improvement"] },
+      { "level": 7, "features": ["Martial Archetype feature"] },
+      { "level": 8, "features": ["Ability Score Improvement"] },
+      { "level": 9, "features": ["Indomitable (one use)"] },
+      { "level": 10, "features": ["Martial Archetype feature"] },
+      { "level": 11, "features": ["Extra Attack (two)"] },
+      { "level": 12, "features": ["Ability Score Improvement"] },
+      { "level": 13, "features": ["Indomitable (two uses)"] },
+      { "level": 14, "features": ["Ability Score Improvement"] },
+      { "level": 15, "features": ["Martial Archetype feature"] },
+      { "level": 16, "features": ["Ability Score Improvement"] },
+      { "level": 17, "features": ["Action Surge (two uses)", "Indomitable (three uses)"] },
+      { "level": 18, "features": ["Martial Archetype feature"] },
+      { "level": 19, "features": ["Ability Score Improvement"] },
+      { "level": 20, "features": ["Extra Attack (three)"] }
+    ]
+  },
+  "features": [
+    {
+      "name": "Fighting Style",
+      "level": 1,
+      "description": "You adopt a particular style of fighting as your specialty. See the Fighting Styles table above for the options available to fighters."
+    },
+    {
+      "name": "Second Wind",
+      "level": 1,
+      "description": "You have a limited well of stamina you can draw on to protect yourself from harm. As a bonus action, you can regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
+    },
+    {
+      "name": "Action Surge",
+      "level": 2,
+      "description": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action. Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+    },
+    {
+      "name": "Martial Archetype",
+      "level": 3,
+      "description": "You choose an archetype that you strive to emulate in your combat styles and techniques. It grants features at 3rd, 7th, 10th, 15th, and 18th level."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Fighters gain this feature more often than any other class: at 4th, 6th, 8th, 12th, 14th, 16th, and 19th level."
+    },
+    {
+      "name": "Martial Versatility",
+      "level": 4,
+      "source": "TCE",
+      "optional": true,
+      "description": "Whenever you gain an Ability Score Improvement, you can replace a fighting style you know with another fighting style available to fighters. If you're a Battle Master, you can also replace one maneuver you know with a different maneuver."
+    },
+    {
+      "name": "Extra Attack",
+      "level": 5,
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number increases to three attacks at 11th level and four attacks at 20th level — more than any other class in the game."
+    },
+    {
+      "name": "Indomitable",
+      "level": 9,
+      "description": "You can reroll a saving throw that you fail, and must use the new roll. Once you use this feature, you must finish a long rest before you can use it again. You can use it twice between long rests starting at 13th level and three times starting at 17th level."
+    }
+  ],
+  "subclasses": [
+    { "id": "champion", "name": "Champion", "source": "PHB" },
+    { "id": "battle-master", "name": "Battle Master", "source": "PHB" },
+    { "id": "eldritch-knight", "name": "Eldritch Knight", "source": "PHB" },
+    { "id": "purple-dragon-knight", "name": "Purple Dragon Knight (Banneret)", "source": "SCAG" },
+    { "id": "arcane-archer", "name": "Arcane Archer", "source": "XGE" },
+    { "id": "cavalier", "name": "Cavalier", "source": "XGE" },
+    { "id": "samurai", "name": "Samurai", "source": "XGE" },
+    { "id": "psi-warrior", "name": "Psi Warrior", "source": "TCE" },
+    { "id": "rune-knight", "name": "Rune Knight", "source": "TCE" },
+    { "id": "echo-knight", "name": "Echo Knight", "source": "EGW" }
+  ]
+}

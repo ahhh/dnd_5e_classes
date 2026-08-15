@@ -1,0 +1,68 @@
+# Artillerist
+
+*Artificer Artificer Specialist — Tasha's Cauldron of Everything, p. 14*
+
+> A siege engineer who summons an Eldritch Cannon to blast, heal, or shield the party.
+
+An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power is valued by armies in the wars on many worlds — and when war ends, artillerists often turn to arcane exploration and demolition.
+
+**How it plays.** Excellent damage and battlefield control. The Eldritch Cannon adds a free attack every turn without costing your action, and the Force Ballista's push effect is strong control. Fortified Position is a party-wide half cover aura.
+
+## Expanded Spell List
+
+| Level | Spells |
+| :--- | :--- |
+| 3rd | shield, thunderwave |
+| 5th | scorching ray, shatter |
+| 9th | fireball, wind wall |
+| 13th | ice storm, wall of fire |
+| 17th | cone of cold, wall of force |
+
+## Features
+
+### Tool Proficiency
+
+*3rd level*
+
+You gain proficiency with woodcarver's tools. If you already have it, you gain proficiency with one other type of artisan's tools of your choice.
+
+### Eldritch Cannon
+
+*3rd level*
+
+You've learned how to create a magical cannon. Using woodcarver's tools or smith's tools, you can take an action to magically create a Small or Tiny Eldritch Cannon in an unoccupied space within 5 feet.
+
+The cannon is an object with AC 18 and hit points equal to five times your artificer level. It disappears if reduced to 0 hit points or after 1 hour. You can create it once per long rest without cost, or by expending a spell slot of 1st level or higher.
+
+As a bonus action, you can activate the cannon if you are within 60 feet of it. Choose its type when you create it:
+
+**Flamethrower.** Exhales fire in a 15-foot cone. Each creature must make a Dexterity save, taking 2d8 fire damage on a failure or half on a success.
+
+**Force Ballista.** Makes a ranged spell attack against one creature within 120 feet, dealing 2d8 force damage and pushing it 5 feet away.
+
+**Protector.** Emits positive energy, granting temporary hit points equal to 1d8 + your Intelligence modifier to each creature of your choice within 10 feet.
+
+### Arcane Firearm
+
+*5th level*
+
+You know how to turn a wand, staff, or rod into an arcane firearm. After a 1-hour ritual, that object becomes your arcane firearm. When you cast an artificer spell through it, you can roll a d8 and add the number rolled to one of the spell's damage rolls.
+
+### Explosive Cannon
+
+*9th level*
+
+Every eldritch cannon you create is more destructive: its damage rolls all increase by 1d8.
+
+Additionally, you can command the cannon to detonate. As an action, you can direct a cannon within 60 feet to explode. Each creature within 20 feet of it must make a Dexterity saving throw, taking 3d8 force damage on a failure or half on a success. The cannon is then destroyed.
+
+### Fortified Position
+
+*15th level*
+
+You're a master at forming defensive perimeters. You and your allies have half cover while within 10 feet of a cannon you create, thanks to a shimmering field of magical protection.
+
+In addition, you can now have two cannons at the same time. You can create two with the same action (but not the same spell slot), and you can activate both with the same bonus action. You determine whether the cannons are identical or different.
+
+
+[← Back to Artificer](index.md)

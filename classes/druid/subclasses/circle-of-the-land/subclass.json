@@ -1,0 +1,52 @@
+{
+  "id": "circle-of-the-land",
+  "name": "Circle of the Land",
+  "class": "druid",
+  "label": "Druid Circle",
+  "source": { "book": "PHB", "page": 68 },
+  "summary": "A mystic keeper of old lore whose chosen terrain grants extra spells and recovered slots.",
+  "flavor": "The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet in sacred circles of trees or standing stones to whisper primal secrets in Druidic.",
+  "playstyle": "The caster-focused druid. Natural Recovery effectively gives you a second wind of spell slots every day, and your Circle Spells add wizard-style utility that the druid list otherwise lacks.",
+  "expandedSpells": {
+    "Arctic (3/5/7/9)": ["hold person, spike growth", "sleet storm, slow", "freedom of movement, ice storm", "commune with nature, cone of cold"],
+    "Coast (3/5/7/9)": ["mirror image, misty step", "water breathing, water walk", "control water, freedom of movement", "conjure elemental, scrying"],
+    "Desert (3/5/7/9)": ["blur, silence", "create food and water, protection from energy", "blight, hallucinatory terrain", "insect plague, wall of stone"],
+    "Forest (3/5/7/9)": ["barkskin, spider climb", "call lightning, plant growth", "divination, freedom of movement", "commune with nature, tree stride"],
+    "Grassland (3/5/7/9)": ["invisibility, pass without trace", "daylight, haste", "divination, freedom of movement", "dream, insect plague"],
+    "Mountain (3/5/7/9)": ["spider climb, spike growth", "lightning bolt, meld into stone", "stone shape, stoneskin", "passwall, wall of stone"],
+    "Swamp (3/5/7/9)": ["darkness, Melf's acid arrow", "water walk, stinking cloud", "freedom of movement, locate creature", "insect plague, scrying"],
+    "Underdark (3/5/7/9)": ["spider climb, web", "gaseous form, stinking cloud", "greater invisibility, stone shape", "cloudkill, insect plague"]
+  },
+  "features": [
+    {
+      "name": "Bonus Cantrip",
+      "level": 2,
+      "description": "You learn one additional druid cantrip of your choice."
+    },
+    {
+      "name": "Natural Recovery",
+      "level": 2,
+      "description": "During a short rest, you can recover expended spell slots with a combined level equal to or less than half your druid level (rounded up), none of which can be 6th level or higher. You can use this once per long rest."
+    },
+    {
+      "name": "Circle Spells",
+      "level": 3,
+      "description": "Choose a type of land — arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark. You gain the associated circle spells at 3rd, 5th, 7th, and 9th level (see the expanded spell list above). They are always prepared and don't count against the number of spells you can prepare."
+    },
+    {
+      "name": "Land's Stride",
+      "level": 6,
+      "description": "Moving through nonmagical difficult terrain costs you no extra movement, and you can pass through nonmagical plants without being slowed or taking damage from thorns and spines. You also have advantage on saving throws against plants that are magically created or manipulated to impede movement."
+    },
+    {
+      "name": "Nature's Ward",
+      "level": 10,
+      "description": "You can't be charmed or frightened by elementals or fey, and you are immune to poison and disease."
+    },
+    {
+      "name": "Nature's Sanctuary",
+      "level": 14,
+      "description": "When a beast or plant creature attacks you, it must make a Wisdom saving throw against your druid spell save DC. On a failure it must choose a different target, or the attack automatically misses. On a success it is immune to this effect for 24 hours."
+    }
+  ]
+}

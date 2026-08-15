@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oath of Vengeance — Paladin</title>
+<meta name="description" content="A relentless avenger who marks a single foe and hunts it down with haste and free attacks. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Paladin</a> / <strong>Oath of Vengeance</strong></nav>
+<main>
+<h1 id="oath-of-vengeance">Oath of Vengeance</h1>
+<p><em>Paladin Sacred Oath — Player's Handbook, p. 87</em></p>
+<blockquote>A relentless avenger who marks a single foe and hunts it down with haste and free attacks.</blockquote>
+<p>The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. Sometimes called avengers or dark knights, these paladins are willing to sacrifice even their own righteousness to mete out justice.</p>
+<p><strong>How it plays.</strong> The damage-focused oath, and the classic optimizer's choice. Vow of Enmity gives you advantage on every attack against one target, and <em>haste</em> and <em>hold monster</em> on your oath spell list are exceptional.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>3rd</td><td>bane, hunter's mark</td></tr><tr><td>5th</td><td>hold person, misty step</td></tr><tr><td>9th</td><td>haste, protection from energy</td></tr><tr><td>13th</td><td>banishment, dimension door</td></tr><tr><td>17th</td><td>hold monster, scrying</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="tenets-of-vengeance">Tenets of Vengeance</h3>
+<p><em>3rd level</em></p>
+<p><strong>Fight the Greater Evil.</strong> Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil. <strong>No Mercy for the Wicked.</strong> Ordinary foes might win my mercy, but my sworn enemies do not. <strong>By Any Means Necessary.</strong> My qualms can't get in the way of exterminating my foes. <strong>Restitution.</strong> If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds.</p>
+<h3 id="channel-divinity-abjure-enemy">Channel Divinity: Abjure Enemy</h3>
+<p><em>3rd level</em></p>
+<p>As an action, you choose one creature within 60 feet that you can see. That creature must make a Wisdom saving throw unless it is immune to being frightened. On a failure it is frightened and its speed is 0 for 1 minute; on a success, its speed is halved for 1 minute. The effect ends early if the creature takes damage.</p>
+<h3 id="channel-divinity-vow-of-enmity">Channel Divinity: Vow of Enmity</h3>
+<p><em>3rd level</em></p>
+<p>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet. You gain advantage on attack rolls against it for 1 minute or until it drops to 0 hit points or falls unconscious.</p>
+<h3 id="relentless-avenger">Relentless Avenger</h3>
+<p><em>7th level</em></p>
+<p>When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.</p>
+<h3 id="soul-of-vengeance">Soul of Vengeance</h3>
+<p><em>15th level</em></p>
+<p>When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</p>
+<h3 id="avenging-angel">Avenging Angel</h3>
+<p><em>20th level</em></p>
+<p>As an action, you can assume the form of an angelic avenger for 1 hour. You gain a flying speed of 60 feet, and you emanate an aura of menace in a 30-foot radius. The first time any enemy enters the aura or starts its turn there during a fight, it must succeed on a Wisdom saving throw or become frightened of you for 1 minute. While frightened, its speed is 0 and it takes psychic damage equal to half your level at the start of each of its turns. Once used, you can't use this again until you finish a long rest.</p>
+<p><a href="index.html">← Back to Paladin</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

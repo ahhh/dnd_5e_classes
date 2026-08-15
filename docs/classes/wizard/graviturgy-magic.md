@@ -1,0 +1,46 @@
+# Graviturgy Magic
+
+*Wizard Arcane Tradition — Explorer's Guide to Wildemount, p. 186*
+
+> A dunamancer of gravity who crushes, slows, pulls, and eventually creates a singularity.
+
+Understanding and mastering the forces that draw bodies of matter together, or drive them apart, is the focus of the Graviturgy tradition. Those who follow it are able to increase the weight of objects, propel creatures across a battlefield, and create fields of crushing force.
+
+**How it plays.** A battlefield-control specialist. Adjust Density is a versatile buff or debuff, Gravity Well adds free forced movement to every spell you cast, and Event Horizon is a devastating high-level lockdown.
+
+## Features
+
+### Adjust Density
+
+*2nd level*
+
+As an action, you can magically alter the weight of one creature or object you can see within 30 feet that is Large or smaller. The effect lasts for 1 minute (concentration).
+
+**Halved.** The target's weight is halved: its speed increases by 10 feet, it can jump twice as far, and it has disadvantage on Strength checks and saving throws.
+
+**Doubled.** The target's weight is doubled: its speed is halved, and it has advantage on Strength checks and saving throws.
+
+### Gravity Well
+
+*6th level*
+
+You have developed a magical means of manipulating force. Whenever you cast a spell on a creature, and that spell either deals damage or forces the creature to make a saving throw, you can move that creature 5 feet to an unoccupied space of your choice. This works whether the spell hits or the creature saves.
+
+### Violent Attraction
+
+*10th level*
+
+When another creature you can see within 60 feet hits with a weapon attack, you can use your reaction to increase the attack's velocity, causing it to deal an extra 1d10 damage of the weapon's type.
+
+Alternatively, when a creature you can see within 60 feet takes falling damage, you can use your reaction to increase the damage by 2d10. You can use this feature a number of times equal to your Intelligence modifier (minimum once) per long rest.
+
+### Event Horizon
+
+*14th level*
+
+As an action, you can magically emit a powerful field of gravitational energy in a 30-foot radius for 1 minute (concentration). Any hostile creature that starts its turn in the area must make a Strength saving throw, taking 2d10 force damage on a failure and having its speed reduced to 0 until the start of its next turn, or half damage on a success.
+
+A hostile creature that is in the area must spend 2 feet of movement for every 1 foot it moves. Once used, you can't use this again until you finish a long rest, unless you expend a 3rd-level spell slot.
+
+
+[← Back to Wizard](index.md)

@@ -1,0 +1,44 @@
+# College of Eloquence
+
+*Bard Bard College — Tasha's Cauldron of Everything, p. 16*
+
+> Master orators whose inspiration never misses and whose arguments are literally irresistible.
+
+Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. Originally published in *Mythic Odysseys of Theros*.
+
+**How it plays.** Widely considered the most powerful bard college. Silver Tongue makes you nearly unfailable at social checks, and Unfailing Inspiration means your Bardic Inspiration dice are never wasted on a failed roll.
+
+## Features
+
+### Silver Tongue
+
+*3rd level*
+
+You are a master at saying the right thing at the right time. When you make a Persuasion or Deception check, you can treat a d20 roll of 9 or lower as a 10.
+
+### Unsettling Words
+
+*3rd level*
+
+As a bonus action, expend one use of Bardic Inspiration and choose a creature within 60 feet that can hear you. Roll the die and subtract the number from the creature's next saving throw before the start of your next turn.
+
+### Unfailing Inspiration
+
+*6th level*
+
+When a creature adds one of your Bardic Inspiration dice to its roll and the roll still fails, the creature keeps the die — it isn't expended.
+
+### Universal Speech
+
+*6th level*
+
+As an action, choose creatures within 60 feet up to your Charisma modifier (minimum one). They can understand you regardless of the language you speak, for 1 hour. You can use this once per long rest, or by expending a spell slot of 1st level or higher.
+
+### Infectious Inspiration
+
+*14th level*
+
+When a creature within 60 feet succeeds on a roll using your Bardic Inspiration die, you can use your reaction to give a Bardic Inspiration die to a different creature — without expending one of your own uses. You can do this a number of times equal to your Charisma modifier per long rest.
+
+
+[← Back to Bard](index.md)

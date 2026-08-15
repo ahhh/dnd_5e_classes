@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soulknife — Rogue</title>
+<meta name="description" content="A psionic assassin who manifests blades of pure mind-energy and speaks telepathically. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Rogue</a> / <strong>Soulknife</strong></nav>
+<main>
+<h1 id="soulknife">Soulknife</h1>
+<p><em>Rogue Roguish Archetype — Tasha's Cauldron of Everything, p. 63</em></p>
+<blockquote>A psionic assassin who manifests blades of pure mind-energy and speaks telepathically.</blockquote>
+<p>Your mind is a weapon. Whether you were born with this power, awakened it through meditation, or had it forced upon you by a psychic entity, you can manifest blades of psychic energy and strike at both body and mind.</p>
+<p><strong>How it plays.</strong> Excellent and self-sufficient. Psychic Blades are always available (no weapons to disarm), give you a free bonus-action attack every turn, and Psionic Power boosts your skill checks — a top-tier rogue.</p>
+<h2 id="features">Features</h2>
+<h3 id="psionic-power">Psionic Power</h3>
+<p><em>3rd level</em></p>
+<p>You harbor a wellspring of psionic energy, represented by your <strong>Psionic Energy dice</strong>. You have a number equal to twice your proficiency bonus, starting as d6s. You regain one die as a bonus action (once per short rest) and all of them on a long rest. The die size increases to d8 at 5th level, d10 at 11th, and d12 at 17th.</p>
+<p><strong>Psi-Bolstered Knack.</strong> When your training lets you add your proficiency bonus to an ability check and you fail, you can roll one die and add it to the check, potentially turning failure into success.</p>
+<p><strong>Psychic Whispers.</strong> You can establish telepathic communication with creatures — a number of them equal to your proficiency bonus — for a number of hours equal to the die roll. The first use each long rest is free.</p>
+<h3 id="psychic-blades">Psychic Blades</h3>
+<p><em>3rd level</em></p>
+<p>You can manifest shimmering blades of psychic energy. As part of the Attack action, you can manifest one and make a melee or ranged attack with it (range 60 feet). It counts as a simple weapon with the finesse and thrown properties, dealing 1d6 psychic damage on a hit. It vanishes immediately after the attack.</p>
+<p>Immediately after you attack with it on your turn, you can make a second attack with another psychic blade as a bonus action, dealing 1d4 psychic damage. Both blades scale with your rogue level.</p>
+<h3 id="soul-blades">Soul Blades</h3>
+<p><em>9th level</em></p>
+<p>You can channel your psionic energy through your blades in two ways.</p>
+<p><strong>Homing Strikes.</strong> If you miss with a Psychic Blades attack, you can roll one Psionic Energy die and add it to the attack roll, possibly turning the miss into a hit.</p>
+<p><strong>Psychic Teleportation.</strong> As a bonus action, you manifest a blade and throw it at a point within 10 feet times the number rolled on a Psionic Energy die. You then teleport to that unoccupied space, and the blade vanishes.</p>
+<h3 id="psychic-veil">Psychic Veil</h3>
+<p><em>13th level</em></p>
+<p>As an action, you can magically become invisible, along with anything you are wearing or carrying, for 1 hour or until you dismiss it. The invisibility ends early if you deal damage to a creature or force one to make a saving throw. You can use this once per long rest without cost, or by expending a Psionic Energy die.</p>
+<h3 id="rend-mind">Rend Mind</h3>
+<p><em>17th level</em></p>
+<p>When you use Psychic Blades to deal Sneak Attack damage to a creature, you can force it to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Dexterity modifier). On a failure, it is stunned for 1 minute, repeating the save at the end of each of its turns. You can use this once per long rest without cost, or by expending three Psionic Energy dice.</p>
+<p><a href="index.html">← Back to Rogue</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

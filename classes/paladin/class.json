@@ -1,0 +1,177 @@
+{
+  "id": "paladin",
+  "name": "Paladin",
+  "source": { "book": "PHB", "page": 82 },
+  "summary": "A sworn holy warrior who smites evil with burst radiant damage and shields allies with auras.",
+  "flavor": "Whatever their origin and their mission, paladins are united by their oaths to stand against the forces of evil. Whether sworn before a god's altar, in a sacred glade before nature spirits, or in a moment of desperation over the corpse of a fallen friend, a paladin's oath is a powerful bond — and a source of tremendous power.",
+  "hitDice": "d10",
+  "hitPointsAt1st": "10 + your Constitution modifier",
+  "hitPointsPerLevel": "1d10 (or 6) + your Constitution modifier",
+  "primaryAbility": ["Strength", "Charisma"],
+  "savingThrows": ["Wisdom", "Charisma"],
+  "proficiencies": {
+    "armor": ["All armor", "Shields"],
+    "weapons": ["Simple weapons", "Martial weapons"],
+    "tools": [],
+    "skills": {
+      "choose": 2,
+      "from": ["Athletics", "Insight", "Intimidation", "Medicine", "Persuasion", "Religion"]
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a martial weapon and a shield", "two martial weapons"] },
+      { "choose": 1, "from": ["five javelins", "any simple melee weapon"] },
+      { "choose": 1, "from": ["a priest's pack", "an explorer's pack"] }
+    ],
+    "fixed": ["Chain mail", "A holy symbol"],
+    "goldAlternative": "5d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Strength 13 and Charisma 13",
+    "proficienciesGained": ["Light armor", "Medium armor", "Shields", "Simple weapons", "Martial weapons"],
+    "spellcastingNote": "Add half your paladin level (rounded down) when determining shared multiclass spell slots."
+  },
+  "spellcasting": {
+    "ability": "Charisma",
+    "slotTable": "half",
+    "type": "prepared",
+    "ritualCasting": false,
+    "focus": "A holy symbol",
+    "preparedFormula": "Charisma modifier + half your paladin level, rounded down (minimum 1)",
+    "spellList": "Paladin",
+    "notes": "Oath spells are always prepared and don't count against the number you can prepare. Paladins have no cantrips (unless they take the Blessed Warrior fighting style)."
+  },
+  "fightingStyles": [
+    "defense",
+    "dueling",
+    "great-weapon-fighting",
+    "protection",
+    "blessed-warrior",
+    "blind-fighting",
+    "interception"
+  ],
+  "subclass": { "label": "Sacred Oath", "level": 3, "featureLevels": [3, 7, 15, 20] },
+  "progression": {
+    "columns": [],
+    "levels": [
+      { "level": 1, "features": ["Divine Sense", "Lay on Hands"] },
+      { "level": 2, "features": ["Fighting Style", "Spellcasting", "Divine Smite"] },
+      { "level": 3, "features": ["Divine Health", "Sacred Oath", "Harness Divine Power (optional)"] },
+      { "level": 4, "features": ["Ability Score Improvement", "Martial Versatility (optional)"] },
+      { "level": 5, "features": ["Extra Attack"] },
+      { "level": 6, "features": ["Aura of Protection"] },
+      { "level": 7, "features": ["Sacred Oath feature"] },
+      { "level": 8, "features": ["Ability Score Improvement"] },
+      { "level": 9, "features": [] },
+      { "level": 10, "features": ["Aura of Courage"] },
+      { "level": 11, "features": ["Improved Divine Smite"] },
+      { "level": 12, "features": ["Ability Score Improvement"] },
+      { "level": 13, "features": [] },
+      { "level": 14, "features": ["Cleansing Touch"] },
+      { "level": 15, "features": ["Sacred Oath feature"] },
+      { "level": 16, "features": ["Ability Score Improvement"] },
+      { "level": 17, "features": [] },
+      { "level": 18, "features": ["Aura improvements"] },
+      { "level": 19, "features": ["Ability Score Improvement"] },
+      { "level": 20, "features": ["Sacred Oath feature"] }
+    ]
+  },
+  "features": [
+    {
+      "name": "Divine Sense",
+      "level": 1,
+      "description": "As an action, until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet that is not behind total cover, and you know its type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated. You can use this feature a number of times equal to 1 + your Charisma modifier per long rest."
+    },
+    {
+      "name": "Lay on Hands",
+      "level": 1,
+      "description": "You have a pool of healing power that replenishes on a long rest. With that pool you can restore a total number of hit points equal to your paladin level x 5.\n\nAs an action, you can touch a creature and draw power from the pool to restore hit points, up to the maximum remaining in the pool. Alternatively, you can expend 5 hit points from the pool to cure the target of one disease or neutralize one poison. This feature has no effect on undead and constructs."
+    },
+    {
+      "name": "Fighting Style",
+      "level": 2,
+      "description": "You adopt a style of fighting as your specialty. See the Fighting Styles table above for the options available to paladins."
+    },
+    {
+      "name": "Spellcasting",
+      "level": 2,
+      "description": "You have learned to draw on divine magic through meditation and prayer. You prepare a number of paladin spells each day equal to your Charisma modifier + half your paladin level (rounded down), and you use a holy symbol as a spellcasting focus."
+    },
+    {
+      "name": "Divine Smite",
+      "level": 2,
+      "description": "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level slot, plus 1d8 for each slot level higher than 1st, to a maximum of 5d8.\n\nThe damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8. Crucially, you can decide to use this *after* seeing the attack hit, which makes it the game's premier burst-damage feature."
+    },
+    {
+      "name": "Divine Health",
+      "level": 3,
+      "description": "The divine magic flowing through you makes you immune to disease."
+    },
+    {
+      "name": "Sacred Oath",
+      "level": 3,
+      "description": "You swear the oath that binds you as a paladin forever. It grants oath spells, a Channel Divinity option, and features at 3rd, 7th, 15th, and 20th level."
+    },
+    {
+      "name": "Channel Divinity",
+      "level": 3,
+      "description": "Your oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it. When you use it, you choose which option to use, and you must finish a short or long rest to use it again. Some effects require saving throws; the DC equals your paladin spell save DC."
+    },
+    {
+      "name": "Harness Divine Power",
+      "level": 3,
+      "source": "TCE",
+      "optional": true,
+      "description": "You can expend a use of Channel Divinity as a bonus action to regain one expended spell slot, of a level no higher than half your proficiency bonus (rounded up). You can use this once per long rest, increasing to twice at 7th level and three times at 15th."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Gained again at 8th, 12th, 16th, and 19th level."
+    },
+    {
+      "name": "Martial Versatility",
+      "level": 4,
+      "source": "TCE",
+      "optional": true,
+      "description": "Whenever you gain an Ability Score Improvement, you can replace a fighting style you know with another fighting style available to paladins."
+    },
+    {
+      "name": "Extra Attack",
+      "level": 5,
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Aura of Protection",
+      "level": 6,
+      "description": "Whenever you or a friendly creature within 10 feet must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (minimum +1). You must be conscious to grant this bonus. At 18th level, the range increases to 30 feet.\n\nThis is widely considered one of the strongest features in the game, and a major reason paladins are prized in any party."
+    },
+    {
+      "name": "Aura of Courage",
+      "level": 10,
+      "description": "You and friendly creatures within 10 feet can't be frightened while you are conscious. At 18th level, the range increases to 30 feet."
+    },
+    {
+      "name": "Improved Divine Smite",
+      "level": 11,
+      "description": "You are so suffused with righteous might that all your melee weapon strikes carry divine power. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage."
+    },
+    {
+      "name": "Cleansing Touch",
+      "level": 14,
+      "description": "You can use your action to end one spell on yourself or on one willing creature you touch. You can use this feature a number of times equal to your Charisma modifier (minimum once) per long rest."
+    }
+  ],
+  "subclasses": [
+    { "id": "oath-of-devotion", "name": "Oath of Devotion", "source": "PHB" },
+    { "id": "oath-of-the-ancients", "name": "Oath of the Ancients", "source": "PHB" },
+    { "id": "oath-of-vengeance", "name": "Oath of Vengeance", "source": "PHB" },
+    { "id": "oathbreaker", "name": "Oathbreaker", "source": "DMG" },
+    { "id": "oath-of-the-crown", "name": "Oath of the Crown", "source": "SCAG" },
+    { "id": "oath-of-conquest", "name": "Oath of Conquest", "source": "XGE" },
+    { "id": "oath-of-redemption", "name": "Oath of Redemption", "source": "XGE" },
+    { "id": "oath-of-glory", "name": "Oath of Glory", "source": "TCE" },
+    { "id": "oath-of-the-watchers", "name": "Oath of the Watchers", "source": "TCE" }
+  ]
+}

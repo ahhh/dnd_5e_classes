@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Fiend — Warlock</title>
+<meta name="description" content="A devil's bargain — temporary hit points on every kill and fire-laced destruction. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Warlock</a> / <strong>The Fiend</strong></nav>
+<main>
+<h1 id="the-fiend">The Fiend</h1>
+<p><em>Warlock Otherworldly Patron — Player's Handbook, p. 109</em></p>
+<blockquote>A devil's bargain — temporary hit points on every kill and fire-laced destruction.</blockquote>
+<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you.</p>
+<p><strong>How it plays.</strong> The classic blaster warlock. Dark One's Blessing gives you free temporary hit points every time something dies, making you surprisingly durable, and Hurl Through Hell is a devastating once-per-day nuke.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>burning hands, command</td></tr><tr><td>2nd</td><td>blindness/deafness, scorching ray</td></tr><tr><td>3rd</td><td>fireball, stinking cloud</td></tr><tr><td>4th</td><td>fire shield, wall of fire</td></tr><tr><td>5th</td><td>flame strike, hallow</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="dark-ones-blessing">Dark One's Blessing</h3>
+<p><em>1st level</em></p>
+<p>When you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum 1).</p>
+<h3 id="dark-ones-own-luck">Dark One's Own Luck</h3>
+<p><em>6th level</em></p>
+<p>You can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any effects occur. Once used, you can't use it again until you finish a short or long rest.</p>
+<h3 id="fiendish-resilience">Fiendish Resilience</h3>
+<p><em>10th level</em></p>
+<p>You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</p>
+<h3 id="hurl-through-hell">Hurl Through Hell</h3>
+<p><em>14th level</em></p>
+<p>When you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.</p>
+<p>At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from the horrific experience. Once used, you can't use this again until you finish a long rest.</p>
+<p><a href="index.html">← Back to Warlock</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

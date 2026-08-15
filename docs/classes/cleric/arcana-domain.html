@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arcana Domain — Cleric</title>
+<meta name="description" content="A cleric who studies the Weave itself, learning wizard cantrips and true resurrection. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Cleric</a> / <strong>Arcana Domain</strong></nav>
+<main>
+<h1 id="arcana-domain">Arcana Domain</h1>
+<p><em>Cleric Divine Domain — Sword Coast Adventurer's Guide, p. 125</em></p>
+<blockquote>A cleric who studies the Weave itself, learning wizard cantrips and true resurrection.</blockquote>
+<p>Gods of magic are often served by elves, gnomes, and other folk with an innate arcane gift. Their clerics are seekers of arcane knowledge who see divine and arcane magic as two expressions of the same underlying truth.</p>
+<p><strong>How it plays.</strong> A hybrid caster with access to wizard cantrips and two wizard spells added to your always-prepared list. Arcane Mastery at 17th level grants some of the strongest spells in the game.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>detect magic, magic missile</td></tr><tr><td>3rd</td><td>magic weapon, Nystul's magic aura</td></tr><tr><td>5th</td><td>dispel magic, magic circle</td></tr><tr><td>7th</td><td>arcane eye, Leomund's secret chest</td></tr><tr><td>9th</td><td>planar binding, teleportation circle</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="arcane-initiate">Arcane Initiate</h3>
+<p><em>1st level</em></p>
+<p>You gain proficiency in the Arcana skill, and you learn two cantrips of your choice from the wizard spell list. They count as cleric cantrips for you but don't count against your cantrips known.</p>
+<h3 id="channel-divinity-arcane-abjuration">Channel Divinity: Arcane Abjuration</h3>
+<p><em>2nd level</em></p>
+<p>As an action, you present your holy symbol and one celestial, elemental, fey, or fiend within 30 feet that can see or hear you must make a Wisdom saving throw. On a failure it is turned for 1 minute or until it takes damage. A turned creature must move away from you and can't willingly move within 30 feet of you. At higher levels the feature can banish a turned creature of a sufficiently low challenge rating back to its home plane: CR 1/2 at 5th level, CR 1 at 8th, CR 2 at 11th, CR 3 at 14th, and CR 4 at 17th.</p>
+<h3 id="spell-breaker">Spell Breaker</h3>
+<p><em>6th level</em></p>
+<p>When you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the slot you used to heal.</p>
+<h3 id="potent-spellcasting">Potent Spellcasting</h3>
+<p><em>8th level</em></p>
+<p>You add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+<h3 id="arcane-mastery">Arcane Mastery</h3>
+<p><em>17th level</em></p>
+<p>You choose four spells from the wizard spell list — one each of 6th, 7th, 8th, and 9th level. You add them to your list of domain spells, so they are always prepared and don't count against the number of spells you can prepare.</p>
+<p><a href="index.html">← Back to Cleric</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circle of the Land — Druid</title>
+<meta name="description" content="A mystic keeper of old lore whose chosen terrain grants extra spells and recovered slots. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Druid</a> / <strong>Circle of the Land</strong></nav>
+<main>
+<h1 id="circle-of-the-land">Circle of the Land</h1>
+<p><em>Druid Druid Circle — Player's Handbook, p. 68</em></p>
+<blockquote>A mystic keeper of old lore whose chosen terrain grants extra spells and recovered slots.</blockquote>
+<p>The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet in sacred circles of trees or standing stones to whisper primal secrets in Druidic.</p>
+<p><strong>How it plays.</strong> The caster-focused druid. Natural Recovery effectively gives you a second wind of spell slots every day, and your Circle Spells add wizard-style utility that the druid list otherwise lacks.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>Arctic (3/5/7/9)</td><td>hold person, spike growth, sleet storm, slow, freedom of movement, ice storm, commune with nature, cone of cold</td></tr><tr><td>Coast (3/5/7/9)</td><td>mirror image, misty step, water breathing, water walk, control water, freedom of movement, conjure elemental, scrying</td></tr><tr><td>Desert (3/5/7/9)</td><td>blur, silence, create food and water, protection from energy, blight, hallucinatory terrain, insect plague, wall of stone</td></tr><tr><td>Forest (3/5/7/9)</td><td>barkskin, spider climb, call lightning, plant growth, divination, freedom of movement, commune with nature, tree stride</td></tr><tr><td>Grassland (3/5/7/9)</td><td>invisibility, pass without trace, daylight, haste, divination, freedom of movement, dream, insect plague</td></tr><tr><td>Mountain (3/5/7/9)</td><td>spider climb, spike growth, lightning bolt, meld into stone, stone shape, stoneskin, passwall, wall of stone</td></tr><tr><td>Swamp (3/5/7/9)</td><td>darkness, Melf's acid arrow, water walk, stinking cloud, freedom of movement, locate creature, insect plague, scrying</td></tr><tr><td>Underdark (3/5/7/9)</td><td>spider climb, web, gaseous form, stinking cloud, greater invisibility, stone shape, cloudkill, insect plague</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="bonus-cantrip">Bonus Cantrip</h3>
+<p><em>2nd level</em></p>
+<p>You learn one additional druid cantrip of your choice.</p>
+<h3 id="natural-recovery">Natural Recovery</h3>
+<p><em>2nd level</em></p>
+<p>During a short rest, you can recover expended spell slots with a combined level equal to or less than half your druid level (rounded up), none of which can be 6th level or higher. You can use this once per long rest.</p>
+<h3 id="circle-spells">Circle Spells</h3>
+<p><em>3rd level</em></p>
+<p>Choose a type of land — arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark. You gain the associated circle spells at 3rd, 5th, 7th, and 9th level (see the expanded spell list above). They are always prepared and don't count against the number of spells you can prepare.</p>
+<h3 id="lands-stride">Land's Stride</h3>
+<p><em>6th level</em></p>
+<p>Moving through nonmagical difficult terrain costs you no extra movement, and you can pass through nonmagical plants without being slowed or taking damage from thorns and spines. You also have advantage on saving throws against plants that are magically created or manipulated to impede movement.</p>
+<h3 id="natures-ward">Nature's Ward</h3>
+<p><em>10th level</em></p>
+<p>You can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.</p>
+<h3 id="natures-sanctuary">Nature's Sanctuary</h3>
+<p><em>14th level</em></p>
+<p>When a beast or plant creature attacks you, it must make a Wisdom saving throw against your druid spell save DC. On a failure it must choose a different target, or the attack automatically misses. On a success it is immune to this effect for 24 hours.</p>
+<p><a href="index.html">← Back to Druid</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

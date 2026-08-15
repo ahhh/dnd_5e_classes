@@ -1,0 +1,43 @@
+{
+  "id": "arcane-trickster",
+  "name": "Arcane Trickster",
+  "class": "rogue",
+  "label": "Roguish Archetype",
+  "source": { "book": "PHB", "page": 97 },
+  "summary": "A spell-thief who enchants, deceives, and pickpockets from across the room with a spectral hand.",
+  "flavor": "Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
+  "playstyle": "The most versatile rogue. *Find familiar* and *booming blade* solve your Sneak Attack problem, Mage Hand Legerdemain enables remarkable heists, and Spell Thief steals an enemy caster's best spell.",
+  "spellcasting": {
+    "slotTable": "third",
+    "ability": "Intelligence",
+    "school": "Enchantment and Illusion",
+    "notes": "You learn spells from the wizard spell list. Most must be from the enchantment or illusion schools, though at 3rd, 8th, 14th, and 20th level you may choose from any school. You know 3 spells at 3rd level, rising to 13 by 20th, plus 3 cantrips (one of which must be *mage hand*)."
+  },
+  "features": [
+    {
+      "name": "Spellcasting",
+      "level": 3,
+      "description": "You gain the ability to cast spells, using the third-caster progression above. Intelligence is your spellcasting ability. You learn three cantrips: *mage hand* and two others of your choice from the wizard spell list."
+    },
+    {
+      "name": "Mage Hand Legerdemain",
+      "level": 3,
+      "description": "When you cast *mage hand*, you can make the spectral hand invisible, and you can perform additional tasks with it: stow one object the hand is holding in a container worn or carried by another creature; retrieve an object from a container worn or carried by another creature; and use thieves' tools at range to pick locks and disarm traps.\n\nYou can perform one of these tasks without being noticed if you succeed on a Sleight of Hand check contested by the creature's Perception check. You can also use the bonus action granted by Cunning Action to control the hand."
+    },
+    {
+      "name": "Magical Ambush",
+      "level": 9,
+      "description": "If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn."
+    },
+    {
+      "name": "Versatile Trickster",
+      "level": 13,
+      "description": "You gain the ability to distract targets with your *mage hand*. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand. Doing so gives you advantage on attack rolls against that creature until the end of the turn — a reliable way to enable Sneak Attack on your own."
+    },
+    {
+      "name": "Spell Thief",
+      "level": 17,
+      "description": "You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster. Immediately after a creature casts a spell that targets you or includes you in its area, you can use your reaction to force it to make a saving throw with its spellcasting ability modifier. On a failure, you negate the spell's effect against you, and you steal the knowledge of the spell if it is of a level you can cast and of a level you could learn. For the next 8 hours, you know the spell and can cast it using your spell slots; the creature can't cast that spell until the 8 hours have passed. Once used, you can't use this again until you finish a long rest."
+    }
+  ]
+}

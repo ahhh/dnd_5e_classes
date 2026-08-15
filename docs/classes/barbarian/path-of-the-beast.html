@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Path of the Beast — Barbarian</title>
+<meta name="description" content="Your rage grows claws, a bite, or a lashing tail — a beast wearing your skin. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Barbarian</a> / <strong>Path of the Beast</strong></nav>
+<main>
+<h1 id="path-of-the-beast">Path of the Beast</h1>
+<p><em>Barbarian Primal Path — Tasha's Cauldron of Everything, p. 9</em></p>
+<blockquote>Your rage grows claws, a bite, or a lashing tail — a beast wearing your skin.</blockquote>
+<p>Barbarians who walk the Path of the Beast draw their rage from a bestial spirit within. That power might come from a lycanthropic curse, a pact with a primal entity, or an unusual ancestry — but when the rage comes, so do the fangs.</p>
+<p><strong>How it plays.</strong> Flexible martial damage with a choice made fresh each rage. Tail is the standout — a reaction AC bonus every round. Infectious Fury turns your hits into forced friendly fire.</p>
+<h2 id="features">Features</h2>
+<h3 id="form-of-the-beast">Form of the Beast</h3>
+<p><em>3rd level</em></p>
+<p>When you enter your rage, you can transform, manifesting one of the following natural weapons. It counts as a simple melee weapon for you, and you add your Strength modifier to attack and damage rolls as normal.</p>
+<p><strong>Bite.</strong> Reach 5 ft, 1d8 piercing. Once per turn when you damage a creature with it, you regain hit points equal to your proficiency bonus — but only if you have half your hit points or fewer.</p>
+<p><strong>Claws.</strong> Reach 5 ft, 1d6 slashing. When you attack with claws as part of the Attack action on your turn, you can make one additional claw attack as part of that action.</p>
+<p><strong>Tail.</strong> Reach 10 ft, 1d8 piercing. When a creature you can see hits you with an attack, you can use your reaction to add 1d8 to your AC against that attack, possibly causing it to miss.</p>
+<h3 id="bestial-soul">Bestial Soul</h3>
+<p><em>6th level</em></p>
+<p>Your natural weapons count as magical for overcoming resistance and immunity. You also gain a natural adaptation that you can change after each short or long rest: a swimming speed and the ability to breathe underwater; a climbing speed including difficult surfaces without an ability check; or the ability to jump with a running start as though you had a running start, adding your proficiency bonus in feet.</p>
+<h3 id="infectious-fury">Infectious Fury</h3>
+<p><em>10th level</em></p>
+<p>When you hit a creature with your natural weapons while raging, you can force it to make a Wisdom saving throw (DC 8 + proficiency bonus + Constitution modifier). On a failure, choose one: the creature must use its reaction to make a melee attack against another creature of your choice, or it takes 2d12 psychic damage. You can use this a number of times equal to your proficiency bonus per long rest.</p>
+<h3 id="call-the-hunt">Call the Hunt</h3>
+<p><em>14th level</em></p>
+<p>When you enter your rage, you can choose a number of other willing creatures within 30 feet up to your Constitution modifier (minimum one). Each gains 5 temporary hit points, and while raging you gain 5 temporary hit points per creature that accepted. Once per turn, an affected creature that hits with an attack deals an extra 1d6 damage. You can use this feature a number of times equal to your Constitution modifier per long rest.</p>
+<p><a href="index.html">← Back to Barbarian</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Hexblade — Warlock</title>
+<meta name="description" content="A sentient weapon patron that lets you attack with Charisma — the definitive warlock gish. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Warlock</a> / <strong>The Hexblade</strong></nav>
+<main>
+<h1 id="the-hexblade">The Hexblade</h1>
+<p><em>Warlock Otherworldly Patron — Xanathar's Guide to Everything, p. 55</em></p>
+<blockquote>A sentient weapon patron that lets you attack with Charisma — the definitive warlock gish.</blockquote>
+<p>You have made a pact with a mysterious entity from the Shadowfell — a force that manifests in sentient magic weapons carved from the stuff of shadow. The nature of this force is secretive, and it may be the unknown source of the legendary sword Blackrazor.</p>
+<p><strong>How it plays.</strong> The most popular multiclass dip in the game. Hex Warrior lets you use Charisma for weapon attacks, and Hexblade's Curse adds crit range, bonus damage, and healing — enormous power at just one or three levels.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>shield, wrathful smite</td></tr><tr><td>2nd</td><td>blur, branding smite</td></tr><tr><td>3rd</td><td>blink, elemental weapon</td></tr><tr><td>4th</td><td>phantasmal killer, staggering smite</td></tr><tr><td>5th</td><td>banishing smite, cone of cold</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="hexblades-curse">Hexblade's Curse</h3>
+<p><em>1st level</em></p>
+<p>As a bonus action, choose one creature you can see within 30 feet. The target is cursed for 1 minute, ending early if it drops to 0 hit points, you die, or you are incapacitated. While cursed:</p>
+<ul><li>You gain a bonus to damage rolls against the target equal to your proficiency bonus.</li><li>Any attack roll you make against the cursed target scores a critical hit on a roll of 19 or 20.</li><li>If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum 1).</li></ul>
+<p>Once used, you can't use this again until you finish a short or long rest.</p>
+<h3 id="hex-warrior">Hex Warrior</h3>
+<p><em>1st level</em></p>
+<p>You gain proficiency with medium armor, shields, and martial weapons.</p>
+<p>Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. Until you use this feature again, you can use your <strong>Charisma modifier instead of Strength or Dexterity</strong> for the attack and damage rolls of that weapon. If you have the Pact of the Blade, this benefit applies to any pact weapon you conjure, even a two-handed one.</p>
+<h3 id="accursed-specter">Accursed Specter</h3>
+<p><em>6th level</em></p>
+<p>You can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a specter. When the specter appears, it gains temporary hit points equal to half your warlock level, rolls initiative, and gains a bonus to attack rolls equal to your Charisma modifier. It remains in your service until the end of your next long rest, at which point it vanishes. Once used, you can't use this again until you finish a long rest.</p>
+<h3 id="armor-of-hexes">Armor of Hexes</h3>
+<p><em>10th level</em></p>
+<p>Your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll.</p>
+<h3 id="master-of-hexes">Master of Hexes</h3>
+<p><em>14th level</em></p>
+<p>You can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet, provided you aren't incapacitated. When you apply the curse this way, you don't regain hit points from the death of the previously cursed creature.</p>
+<p><a href="index.html">← Back to Warlock</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

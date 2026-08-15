@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School of Evocation — Wizard</title>
+<meta name="description" content="The blaster wizard — carve allies out of your fireballs and never roll low on damage. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Wizard</a> / <strong>School of Evocation</strong></nav>
+<main>
+<h1 id="school-of-evocation">School of Evocation</h1>
+<p><em>Wizard Arcane Tradition — Player's Handbook, p. 117</em></p>
+<blockquote>The blaster wizard — carve allies out of your fireballs and never roll low on damage.</blockquote>
+<p>You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar.</p>
+<p><strong>How it plays.</strong> The most popular wizard school and the easiest to play well. Sculpt Spells removes the biggest drawback of area damage — hitting your own party — and Empowered Evocation adds your Intelligence modifier to every evocation's damage.</p>
+<h2 id="features">Features</h2>
+<h3 id="evocation-savant">Evocation Savant</h3>
+<p><em>2nd level</em></p>
+<p>The gold and time you must spend to copy an evocation spell into your spellbook is halved.</p>
+<h3 id="sculpt-spells">Sculpt Spells</h3>
+<p><em>2nd level</em></p>
+<p>You can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</p>
+<h3 id="potent-cantrip">Potent Cantrip</h3>
+<p><em>6th level</em></p>
+<p>Your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from it.</p>
+<h3 id="empowered-evocation">Empowered Evocation</h3>
+<p><em>10th level</em></p>
+<p>You can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast.</p>
+<h3 id="overchannel">Overchannel</h3>
+<p><em>14th level</em></p>
+<p>You can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.</p>
+<p>The first time you do so, you suffer no adverse effect. If you use this feature again before finishing a long rest, you take 2d12 necrotic damage for each level of the spell immediately after you cast it. Each time you use it again before a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.</p>
+<p><a href="index.html">← Back to Wizard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

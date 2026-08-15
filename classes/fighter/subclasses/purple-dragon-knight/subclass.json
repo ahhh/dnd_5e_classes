@@ -1,0 +1,32 @@
+{
+  "id": "purple-dragon-knight",
+  "name": "Purple Dragon Knight (Banneret)",
+  "class": "fighter",
+  "label": "Martial Archetype",
+  "source": { "book": "SCAG", "page": 128 },
+  "summary": "A knightly leader who shares Second Wind, Indomitable, and inspiration with the whole party.",
+  "flavor": "Purple Dragon Knights are warriors who hail from the ranks of the Purple Dragons, the knightly order of Cormyr. Outside that realm they are known as banneret — champions who inspire greatness in others by committing brave deeds in battle.",
+  "playstyle": "A support-oriented fighter that turns your own personal features into party-wide ones. Widely regarded as underpowered relative to other archetypes, but strong in flavour for leadership roles.",
+  "features": [
+    {
+      "name": "Rallying Cry",
+      "level": 3,
+      "description": "When you use your Second Wind, you can choose up to three creatures within 60 feet that are allied with you. Each regains hit points equal to your fighter level, provided the creature can see or hear you."
+    },
+    {
+      "name": "Royal Envoy",
+      "level": 7,
+      "description": "You gain proficiency in the Persuasion skill. If you are already proficient, you gain proficiency in one of the following: Animal Handling, Insight, Intimidation, or Performance. Your proficiency bonus is doubled for any ability check you make using Persuasion."
+    },
+    {
+      "name": "Inspiring Surge",
+      "level": 10,
+      "description": "When you use your Action Surge, you can choose one creature within 60 feet that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided it can see or hear you. Starting at 18th level, you can choose two allies instead of one."
+    },
+    {
+      "name": "Bulwark",
+      "level": 15,
+      "description": "When you use your Indomitable feature to reroll an Intelligence, Wisdom, or Charisma saving throw, you can choose one ally within 60 feet that also failed its saving throw against the same effect. That creature can reroll its saving throw too."
+    }
+  ]
+}

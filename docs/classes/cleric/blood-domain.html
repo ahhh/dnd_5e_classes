@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blood Domain — Cleric</title>
+<meta name="description" content="A hemocraft priest who manipulates the blood of the living to wound, sicken, and control. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Cleric</a> / <strong>Blood Domain</strong></nav>
+<main>
+<h1 id="blood-domain">Blood Domain</h1>
+<p><em>Cleric Divine Domain — Explorer's Guide to Wildemount, p. 185</em></p>
+<blockquote>A hemocraft priest who manipulates the blood of the living to wound, sicken, and control.</blockquote>
+<p>Clerics of the Blood domain, sometimes called blood clerics or sanguinists, revere the vital fluid that flows within all living things. Whether they serve a god of death, a primal blood-spirit, or something stranger, they understand blood as the seat of life, memory, and power. Created by Matthew Mercer.</p>
+<p><strong>How it plays.</strong> A dark-flavoured control domain built around the bloodied condition (a creature at half hit points or fewer). Crimson Bond is a strong scrying and tracking tool, and Vascular Corruption Aura is a serious late-game damage aura.</p>
+<h2 id="expanded-spell-list">Expanded Spell List</h2>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Spells</th></tr></thead><tbody><tr><td>1st</td><td>false life, sleep</td></tr><tr><td>3rd</td><td>hold person, ray of enfeeblement</td></tr><tr><td>5th</td><td>haste, slow</td></tr><tr><td>7th</td><td>blight, stoneskin</td></tr><tr><td>9th</td><td>dominate person, hold monster</td></tr></tbody></table></div>
+<h2 id="features">Features</h2>
+<h3 id="bonus-proficiencies">Bonus Proficiencies</h3>
+<p><em>1st level</em></p>
+<p>You gain proficiency with martial weapons and heavy armor.</p>
+<h3 id="bloodletting-aura">Bloodletting Aura</h3>
+<p><em>1st level</em></p>
+<p>As an action, you create a 30-foot aura of blood magic centered on yourself, lasting 1 minute. Any creature that isn't a construct or undead takes extra damage from your allies' attacks while bloodied within the aura. You can use this feature a number of times equal to your Wisdom modifier per long rest.</p>
+<h3 id="channel-divinity-crimson-bond">Channel Divinity: Crimson Bond</h3>
+<p><em>2nd level</em></p>
+<p>As an action, you form a bond with a creature by studying a sample of its blood, or a bloodstained object it has touched, within 5 feet. For 1 hour, you can sense the creature's approximate distance and direction if it is on the same plane, and whether it is wounded. You can also spend an action to see and hear through the creature's senses for up to 1 minute, taking 1d4 psychic damage each round you maintain the link.</p>
+<h3 id="sanguine-recall">Sanguine Recall</h3>
+<p><em>6th level</em></p>
+<p>As an action, you can sacrifice your own vitality to recover magic. You can recover expended spell slots with a combined level equal to or less than half your cleric level (rounded up), none of which can be 6th level or higher. You then take 1d6 necrotic damage per slot level recovered, which can't be reduced. Once used, you can't use it again until you finish a long rest.</p>
+<h3 id="divine-strike">Divine Strike</h3>
+<p><em>8th level</em></p>
+<p>Once on each of your turns when you hit with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage. This increases to 2d8 at 14th level.</p>
+<h3 id="vascular-corruption-aura">Vascular Corruption Aura</h3>
+<p><em>17th level</em></p>
+<p>As an action, you emanate an aura in a 30-foot radius for 1 minute. Creatures other than constructs and undead have vulnerability to necrotic damage while in the aura, and any such creature that starts its turn in the aura takes 2d6 necrotic damage. Once used, you can't use this again until you finish a long rest.</p>
+<p><a href="index.html">← Back to Cleric</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

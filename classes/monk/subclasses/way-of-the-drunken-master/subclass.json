@@ -1,0 +1,37 @@
+{
+  "id": "way-of-the-drunken-master",
+  "name": "Way of the Drunken Master",
+  "class": "monk",
+  "label": "Monastic Tradition",
+  "source": { "book": "XGE", "page": 33 },
+  "summary": "A staggering, unpredictable brawler who lurches out of reach and redirects enemy attacks.",
+  "flavor": "The Way of the Drunken Master teaches its students to move with the jerky, unpredictable movements of a drunkard. A drunken master sways, tottering on unsteady feet, to present what seems like an incompetent combatant who proves frustrating to engage.",
+  "playstyle": "The mobility monk. Drunkard's Luck cancels disadvantage cheaply, Tipsy Sway gives you free repositioning after every Flurry, and Intoxicated Frenzy turns Flurry of Blows into a five-attack sweep.",
+  "features": [
+    {
+      "name": "Bonus Proficiencies",
+      "level": 3,
+      "description": "You gain proficiency in the Performance skill if you don't already have it. You also gain proficiency with brewer's supplies."
+    },
+    {
+      "name": "Drunken Technique",
+      "level": 3,
+      "description": "Whenever you use Flurry of Blows, you gain the benefit of the Disengage action, and your walking speed increases by 10 feet until the end of the current turn."
+    },
+    {
+      "name": "Tipsy Sway",
+      "level": 6,
+      "description": "You gain two benefits.\n\n**Leap to Your Feet.** When you're prone, you can stand up by spending 5 feet of movement rather than half your speed.\n\n**Redirect Attack.** When a creature misses you with a melee attack roll, you can spend 1 ki point as a reaction to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of you."
+    },
+    {
+      "name": "Drunkard's Luck",
+      "level": 11,
+      "description": "Whenever you make an ability check, attack roll, or saving throw and have disadvantage, you can spend 2 ki points to cancel the disadvantage for that roll."
+    },
+    {
+      "name": "Intoxicated Frenzy",
+      "level": 17,
+      "description": "When you use Flurry of Blows, you can make up to three additional attacks with it (up to a total of five), provided each attack targets a different creature."
+    }
+  ]
+}

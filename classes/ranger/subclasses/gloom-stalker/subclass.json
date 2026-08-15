@@ -1,0 +1,44 @@
+{
+  "id": "gloom-stalker",
+  "name": "Gloom Stalker",
+  "class": "ranger",
+  "label": "Ranger Archetype",
+  "source": { "book": "XGE", "page": 41 },
+  "summary": "A shadow-hunter who strikes devastatingly in the first round and is invisible in darkness.",
+  "flavor": "Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most people enter such places with trepidation; a gloom stalker enters and dominates.",
+  "playstyle": "Consistently rated the strongest ranger archetype. Dread Ambusher gives you a huge alpha strike — bonus initiative, extra speed, and an additional attack with 1d8 damage on the first turn of every fight.",
+  "expandedSpells": {
+    "3rd": ["disguise self"],
+    "5th": ["rope trick"],
+    "9th": ["fear"],
+    "13th": ["greater invisibility"],
+    "17th": ["seeming"]
+  },
+  "features": [
+    {
+      "name": "Dread Ambusher",
+      "level": 3,
+      "description": "You master the art of the first strike. You gain a bonus to your initiative rolls equal to your Wisdom modifier.\n\nAt the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action, and that attack deals an extra 1d8 damage of the weapon's type."
+    },
+    {
+      "name": "Umbral Sight",
+      "level": 3,
+      "description": "You gain darkvision out to 60 feet, or an additional 30 feet if you already have it. You are also adept at evading creatures that rely on darkvision: while in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness."
+    },
+    {
+      "name": "Iron Mind",
+      "level": 7,
+      "description": "You gain proficiency in Wisdom saving throws. If you already have it, you gain proficiency in Intelligence or Charisma saving throws (your choice)."
+    },
+    {
+      "name": "Stalker's Flurry",
+      "level": 11,
+      "description": "Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action."
+    },
+    {
+      "name": "Shadowy Dodge",
+      "level": 15,
+      "description": "When a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll."
+    }
+  ]
+}

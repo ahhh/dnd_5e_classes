@@ -1,0 +1,32 @@
+{
+  "id": "college-of-valor",
+  "name": "College of Valor",
+  "class": "bard",
+  "label": "Bard College",
+  "source": { "book": "PHB", "page": 55 },
+  "summary": "Skalds who sing the deeds of heroes — and fight on the front line themselves.",
+  "flavor": "Bards of the College of Valor are daring skalds whose tales keep alive the memory of great heroes. They gather in mead halls or around great bonfires to sing of victories past, and they inspire a new generation by taking up arms alongside them.",
+  "playstyle": "The classic gish bard: medium armor, shields, martial weapons, and Extra Attack. Combat Inspiration lets your dice buff damage or AC instead of just rolls.",
+  "features": [
+    {
+      "name": "Bonus Proficiencies",
+      "level": 3,
+      "description": "You gain proficiency with medium armor, shields, and martial weapons."
+    },
+    {
+      "name": "Combat Inspiration",
+      "level": 3,
+      "description": "A creature holding a Bardic Inspiration die from you can use it in two extra ways: it can add the die to a weapon damage roll it just made, or — as a reaction when hit by an attack — add the die to its AC against that attack, possibly causing it to miss."
+    },
+    {
+      "name": "Extra Attack",
+      "level": 6,
+      "description": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Battle Magic",
+      "level": 14,
+      "description": "When you use your action to cast a bard spell, you can make one weapon attack as a bonus action."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College of Eloquence — Bard</title>
+<meta name="description" content="Master orators whose inspiration never misses and whose arguments are literally irresistible. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Bard</a> / <strong>College of Eloquence</strong></nav>
+<main>
+<h1 id="college-of-eloquence">College of Eloquence</h1>
+<p><em>Bard Bard College — Tasha's Cauldron of Everything, p. 16</em></p>
+<blockquote>Master orators whose inspiration never misses and whose arguments are literally irresistible.</blockquote>
+<p>Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. Originally published in <em>Mythic Odysseys of Theros</em>.</p>
+<p><strong>How it plays.</strong> Widely considered the most powerful bard college. Silver Tongue makes you nearly unfailable at social checks, and Unfailing Inspiration means your Bardic Inspiration dice are never wasted on a failed roll.</p>
+<h2 id="features">Features</h2>
+<h3 id="silver-tongue">Silver Tongue</h3>
+<p><em>3rd level</em></p>
+<p>You are a master at saying the right thing at the right time. When you make a Persuasion or Deception check, you can treat a d20 roll of 9 or lower as a 10.</p>
+<h3 id="unsettling-words">Unsettling Words</h3>
+<p><em>3rd level</em></p>
+<p>As a bonus action, expend one use of Bardic Inspiration and choose a creature within 60 feet that can hear you. Roll the die and subtract the number from the creature's next saving throw before the start of your next turn.</p>
+<h3 id="unfailing-inspiration">Unfailing Inspiration</h3>
+<p><em>6th level</em></p>
+<p>When a creature adds one of your Bardic Inspiration dice to its roll and the roll still fails, the creature keeps the die — it isn't expended.</p>
+<h3 id="universal-speech">Universal Speech</h3>
+<p><em>6th level</em></p>
+<p>As an action, choose creatures within 60 feet up to your Charisma modifier (minimum one). They can understand you regardless of the language you speak, for 1 hour. You can use this once per long rest, or by expending a spell slot of 1st level or higher.</p>
+<h3 id="infectious-inspiration">Infectious Inspiration</h3>
+<p><em>14th level</em></p>
+<p>When a creature within 60 feet succeeds on a roll using your Bardic Inspiration die, you can use your reaction to give a Bardic Inspiration die to a different creature — without expending one of your own uses. You can do this a number of times equal to your Charisma modifier per long rest.</p>
+<p><a href="index.html">← Back to Bard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

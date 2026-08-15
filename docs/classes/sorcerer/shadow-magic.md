@@ -1,0 +1,46 @@
+# Shadow Magic
+
+*Sorcerer Sorcerous Origin — Xanathar's Guide to Everything, p. 50*
+
+> A creature of the Shadowfell who refuses to die and summons a hound of ill omen.
+
+You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed. Whatever the cause, the shadow of death hangs over you.
+
+**How it plays.** A resilient, atmospheric origin. Strength of the Grave keeps you standing at 0 hit points, and Hound of Ill Omen is an outstanding debuff — it gives one target disadvantage on all saves against your spells.
+
+## Features
+
+### Eyes of the Dark
+
+*1st level*
+
+You have darkvision with a radius of 120 feet. At 3rd level, you learn the *darkness* spell, which doesn't count against your number of spells known. You can cast it by spending 2 sorcery points or by expending a spell slot — and if you cast it with sorcery points, you can see through the darkness it creates.
+
+### Strength of the Grave
+
+*1st level*
+
+Your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you drop to 1 hit point instead. You can't use this feature if you are reduced to 0 by radiant damage or a critical hit. Once used, you can't use it again until you finish a long rest.
+
+### Hound of Ill Omen
+
+*6th level*
+
+As a bonus action, you can spend 3 sorcery points to summon a hound of ill omen to target one creature you can see within 120 feet. It appears in an unoccupied space within 30 feet of the target, uses the dire wolf statistics with modifications, and has hit points equal to half your sorcerer level.
+
+The hound moves toward the target by the shortest route and can move through creatures and objects as though they were difficult terrain. While it is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears after 5 minutes, when it drops to 0 hit points, or when the target dies.
+
+### Shadow Walk
+
+*14th level*
+
+You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness.
+
+### Umbral Form
+
+*18th level*
+
+You can spend 6 sorcery points as a bonus action to transform yourself into a shadowy form. In this form, you have resistance to all damage except force and radiant damage, and you can move through other creatures and objects as if they were difficult terrain (taking 5 force damage if you end your turn inside one). You remain in this form for 1 minute, or until you are incapacitated or end it as a bonus action.
+
+
+[← Back to Sorcerer](index.md)

@@ -1,0 +1,39 @@
+{
+  "id": "the-archfey",
+  "name": "The Archfey",
+  "class": "warlock",
+  "label": "Otherworldly Patron",
+  "source": { "book": "PHB", "page": 108 },
+  "summary": "A bargain with a fey lord granting charms, frights, and escapes into the Feywild.",
+  "flavor": "Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges.",
+  "playstyle": "A control-focused patron. Fey Presence is a repeatable crowd charm or fear on a short-rest cycle, and Misty Escape is an excellent panic button that turns you invisible and teleports you away.",
+  "expandedSpells": {
+    "1st": ["faerie fire", "sleep"],
+    "2nd": ["calm emotions", "phantasmal force"],
+    "3rd": ["blink", "plant growth"],
+    "4th": ["dominate beast", "greater invisibility"],
+    "5th": ["dominate person", "seeming"]
+  },
+  "features": [
+    {
+      "name": "Fey Presence",
+      "level": 1,
+      "description": "Your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw. The creatures that fail are charmed or frightened by you (your choice) until the end of your next turn. Once used, you can't use this feature again until you finish a short or long rest."
+    },
+    {
+      "name": "Misty Escape",
+      "level": 6,
+      "description": "You can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell. Once used, you can't use this feature again until you finish a short or long rest."
+    },
+    {
+      "name": "Beguiling Defenses",
+      "level": 10,
+      "description": "Your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. It must succeed on a Wisdom saving throw against your spell save DC or be charmed by you for 1 minute, or until it takes any damage."
+    },
+    {
+      "name": "Dark Delirium",
+      "level": 14,
+      "description": "You can plunge a creature into an illusory realm. As an action, choose a creature you can see within 60 feet. It must make a Wisdom saving throw. On a failure, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken. The creature perceives its surroundings as an illusory dreamscape, and it can repeat the saving throw at the end of each of its turns. Once used, you can't use this again until you finish a short or long rest."
+    }
+  ]
+}

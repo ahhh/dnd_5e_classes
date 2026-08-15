@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Way of the Long Death — Monk</title>
+<meta name="description" content="A scholar of mortality who feeds on nearby deaths and cheats his own. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Monk</a> / <strong>Way of the Long Death</strong></nav>
+<main>
+<h1 id="way-of-the-long-death">Way of the Long Death</h1>
+<p><em>Monk Monastic Tradition — Sword Coast Adventurer's Guide, p. 130</em></p>
+<blockquote>A scholar of mortality who feeds on nearby deaths and cheats his own.</blockquote>
+<p>Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare them for death, observing the moment of passing to snatch understanding from it. Many are aloof and disturbing to those around them.</p>
+<p><strong>How it plays.</strong> A durable, self-sustaining monk. Touch of Death converts kills into temporary hit points, and Mastery of Death makes you extremely hard to put down while you still have ki.</p>
+<h2 id="features">Features</h2>
+<h3 id="touch-of-death">Touch of Death</h3>
+<p><em>3rd level</em></p>
+<p>When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum 1).</p>
+<h3 id="hour-of-reaping">Hour of Reaping</h3>
+<p><em>6th level</em></p>
+<p>As an action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.</p>
+<h3 id="mastery-of-death">Mastery of Death</h3>
+<p><em>11th level</em></p>
+<p>When you are reduced to 0 hit points, you can expend 1 ki point (no action required) to have 1 hit point instead.</p>
+<h3 id="touch-of-the-long-death">Touch of the Long Death</h3>
+<p><em>17th level</em></p>
+<p>As an action, you touch a creature within 5 feet and expend 1 to 10 ki points. The target must make a Constitution saving throw, taking 2d10 necrotic damage per ki point spent on a failure, or half as much on a success.</p>
+<p><a href="index.html">← Back to Monk</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

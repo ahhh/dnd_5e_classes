@@ -1,0 +1,37 @@
+{
+  "id": "draconic-bloodline",
+  "name": "Draconic Bloodline",
+  "class": "sorcerer",
+  "label": "Sorcerous Origin",
+  "source": { "book": "PHB", "page": 102 },
+  "summary": "Dragon blood grants you extra hit points, natural armor, elemental damage, and finally wings.",
+  "flavor": "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon, or perhaps to a dragon in humanoid form.",
+  "playstyle": "The durable sorcerer. Draconic Resilience fixes the class's greatest weakness — a d6 hit die and no armor — and Elemental Affinity adds your Charisma modifier to damage on every spell of your chosen type.",
+  "features": [
+    {
+      "name": "Dragon Ancestor",
+      "level": 1,
+      "description": "Choose one type of dragon as your ancestor, which determines the damage type of your later features:\n\n| Dragon | Damage | Dragon | Damage |\n| :--- | :--- | :--- | :--- |\n| Black | Acid | Green | Poison |\n| Blue | Lightning | Red | Fire |\n| Brass | Fire | Silver | Cold |\n| Bronze | Lightning | White | Cold |\n| Copper | Acid | Gold | Fire |\n\nYou can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled."
+    },
+    {
+      "name": "Draconic Resilience",
+      "level": 1,
+      "description": "As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a sorcerer level.\n\nAdditionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier."
+    },
+    {
+      "name": "Elemental Affinity",
+      "level": 6,
+      "description": "When you cast a spell that deals damage of the type associated with your draconic ancestry, you add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour."
+    },
+    {
+      "name": "Dragon Wings",
+      "level": 14,
+      "description": "You gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn, and they last until you dismiss them as a bonus action. You can't manifest them while wearing armor unless the armor is made to accommodate them."
+    },
+    {
+      "name": "Draconic Presence",
+      "level": 18,
+      "description": "You can channel the dread presence of your dragon ancestor. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet for 1 minute (concentration). Each hostile creature that starts its turn in the aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends."
+    }
+  ]
+}

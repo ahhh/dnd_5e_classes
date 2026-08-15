@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Echo Knight — Fighter</title>
+<meta name="description" content="A dunamancy warrior who fights alongside an echo of themselves pulled from another timeline. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Fighter</a> / <strong>Echo Knight</strong></nav>
+<main>
+<h1 id="echo-knight">Echo Knight</h1>
+<p><em>Fighter Martial Archetype — Explorer's Guide to Wildemount, p. 183</em></p>
+<blockquote>A dunamancy warrior who fights alongside an echo of themselves pulled from another timeline.</blockquote>
+<p>Echo Knights emerged from the Kryn Dynasty of Xhorhas, warriors who wield the power of dunamis — the magic of possibility and gravity. They summon translucent echoes of alternate unrealized timelines of themselves, and fight in perfect concert with these shadows.</p>
+<p><strong>How it plays.</strong> Exceptional action economy and mobility. Your echo extends your reach anywhere on the battlefield, lets you attack from two places at once, and can be swapped with as a free teleport.</p>
+<h2 id="features">Features</h2>
+<h3 id="manifest-echo">Manifest Echo</h3>
+<p><em>3rd level</em></p>
+<p>As a bonus action, you manifest a magical, translucent echo of yourself in an unoccupied space within 15 feet. It has AC 14 + your proficiency bonus, 1 hit point, and immunity to all conditions. It lasts until destroyed, until you dismiss it, until you manifest another, or until you're incapacitated.</p>
+<p>While it persists you gain these benefits:</p>
+<ul><li>As a bonus action, you can swap places with the echo, teleporting up to 30 feet.</li><li>When you take the Attack action, any attack can originate from your space or the echo's.</li><li>When a creature that you can see within 5 feet of the echo provokes an opportunity attack, you can use your reaction to attack it as though you were in the echo's space.</li><li>As a bonus action, you can move the echo up to 30 feet, though it must stay within 30 feet of you.</li></ul>
+<h3 id="unleash-incarnation">Unleash Incarnation</h3>
+<p><em>3rd level</em></p>
+<p>You can heighten your echo's fury. Whenever you take the Attack action, you can make one additional melee attack from the echo's position. You can use this a number of times equal to your Constitution modifier (minimum once) per long rest.</p>
+<h3 id="echo-avatar">Echo Avatar</h3>
+<p><em>7th level</em></p>
+<p>As an action, you can see through your echo's eyes and hear through its ears. During this time, you are deafened and blinded, and the echo can be up to 1,000 feet away from you without being destroyed. The effect lasts up to 10 minutes or until you end it.</p>
+<h3 id="shadow-martyr">Shadow Martyr</h3>
+<p><em>10th level</em></p>
+<p>As a reaction when a creature you can see attacks a target other than you, you can make your echo intercept the attack — provided the echo is within 5 feet of the target. The echo is targeted by the attack instead, and it is destroyed. Once used, you can't use this again until you finish a short or long rest.</p>
+<h3 id="reclaim-potential">Reclaim Potential</h3>
+<p><em>15th level</em></p>
+<p>When your echo is destroyed by taking damage, you can gain temporary hit points equal to 2d6 + your Constitution modifier, provided you don't already have temporary hit points. You can use this a number of times equal to your Constitution modifier (minimum once) per long rest.</p>
+<h3 id="legion-of-one">Legion of One</h3>
+<p><em>18th level</em></p>
+<p>You can use a bonus action to create two echoes with your Manifest Echo feature, and these echoes can coexist. If you try to create a third, the previous two vanish. Anything you can do from one echo's position can be done from the other's.</p>
+<p>Additionally, when you roll initiative and have no uses of Unleash Incarnation remaining, you regain one use.</p>
+<p><a href="index.html">← Back to Fighter</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+# Way of the Ascendant Dragon
+
+*Monk Monastic Tradition — Fizban's Treasury of Dragons, p. 25*
+
+> A monk who channels draconic might — breath weapons, a frightful presence, and wings of ki.
+
+Monks of the Way of the Ascendant Dragon study the ancient magic of dragons, learning to emulate their might. Some train in monasteries founded by dragons; others learn from a dragon mentor or from studying draconic relics.
+
+**How it plays.** A well-rounded tradition with strong AoE. Breath of the Dragon gives you a repeatable cone or line attack at no ki cost, and Aspect of the Wyrm provides a party-wide resistance or fear aura.
+
+## Features
+
+### Draconic Disciple
+
+*3rd level*
+
+You gain three benefits.
+
+**Draconic Presence.** You can speak, read, and write Draconic, or you learn one other language if you already know it. Additionally, whenever you make a Charisma check, you can treat a d20 roll of 7 or lower as an 8.
+
+**Draconic Strike.** When you deal damage with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.
+
+**Ascendant Step.** As a bonus action, you can spend 1 ki point to gain a flying speed equal to your walking speed for 10 minutes (at 11th level).
+
+### Breath of the Dragon
+
+*3rd level*
+
+You can channel destructive waves of energy. When you take the Attack action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Each creature in that area must make a Dexterity saving throw, taking damage equal to your Martial Arts die on a failure. The damage increases as you gain levels, and the type matches your Draconic Disciple choice.
+
+You can use this a number of times equal to your proficiency bonus per long rest, and you can spend 1 ki point for additional uses.
+
+### Wings Unfurled
+
+*6th level*
+
+When you use your Step of the Wind, you can unfurl spectral draconic wings from your back, gaining a flying speed equal to your walking speed until the end of your turn. You can use this a number of times equal to your proficiency bonus per long rest.
+
+### Aspect of the Wyrm
+
+*11th level*
+
+As a bonus action, you can create an aura of draconic power in a 30-foot radius for 1 minute. Choose one effect when you activate it:
+
+**Frightful Presence.** Enemies of your choice in the aura must succeed on a Wisdom saving throw or be frightened of you for 1 minute.
+
+**Resistance.** You and your allies in the aura gain resistance to the damage type of your Draconic Disciple.
+
+You can use this once per long rest, or by spending 3 ki points.
+
+### Ascendant Aspect
+
+*17th level*
+
+Your draconic power reaches its apex.
+
+**Augment Breath.** When you use Breath of the Dragon, you can spend 1 ki point to increase the area (60-foot cone or 90-foot line) and increase the damage by one roll of your Martial Arts die.
+
+**Blindsight.** You gain blindsight out to 10 feet.
+
+**Explosive Fury.** When your Aspect of the Wyrm is active, each enemy that starts its turn in the aura takes damage equal to your proficiency bonus, of the type chosen for Draconic Disciple.
+
+
+[← Back to Monk](index.md)

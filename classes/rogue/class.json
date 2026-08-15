@@ -1,0 +1,147 @@
+{
+  "id": "rogue",
+  "name": "Rogue",
+  "source": { "book": "PHB", "page": 94 },
+  "summary": "A precise, skill-mastering opportunist who turns a single well-placed strike into massive damage.",
+  "flavor": "Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party. Where a fighter wins through force of arms, a rogue wins by being somewhere no one expected, holding a knife.",
+  "hitDice": "d8",
+  "hitPointsAt1st": "8 + your Constitution modifier",
+  "hitPointsPerLevel": "1d8 (or 5) + your Constitution modifier",
+  "primaryAbility": ["Dexterity"],
+  "savingThrows": ["Dexterity", "Intelligence"],
+  "proficiencies": {
+    "armor": ["Light armor"],
+    "weapons": ["Simple weapons", "Hand crossbows", "Longswords", "Rapiers", "Shortswords"],
+    "tools": ["Thieves' tools"],
+    "skills": {
+      "choose": 4,
+      "from": ["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation", "Investigation", "Perception", "Performance", "Persuasion", "Sleight of Hand", "Stealth"],
+      "note": "More skills than any other class"
+    }
+  },
+  "startingEquipment": {
+    "choices": [
+      { "choose": 1, "from": ["a rapier", "a shortsword"] },
+      { "choose": 1, "from": ["a shortbow and quiver of 20 arrows", "a shortsword"] },
+      { "choose": 1, "from": ["a burglar's pack", "a dungeoneer's pack", "an explorer's pack"] }
+    ],
+    "fixed": ["Leather armor", "Two daggers", "Thieves' tools"],
+    "goldAlternative": "4d4 x 10 gp"
+  },
+  "multiclassing": {
+    "prerequisite": "Dexterity 13",
+    "proficienciesGained": ["Light armor", "One skill from the rogue list", "Thieves' tools"]
+  },
+  "spellcasting": null,
+  "subclass": { "label": "Roguish Archetype", "level": 3, "featureLevels": [3, 9, 13, 17] },
+  "progression": {
+    "columns": [{ "key": "sneak", "label": "Sneak Attack" }],
+    "levels": [
+      { "level": 1, "features": ["Expertise", "Sneak Attack", "Thieves' Cant"], "values": { "sneak": "1d6" } },
+      { "level": 2, "features": ["Cunning Action"], "values": { "sneak": "1d6" } },
+      { "level": 3, "features": ["Roguish Archetype", "Steady Aim (optional)"], "values": { "sneak": "2d6" } },
+      { "level": 4, "features": ["Ability Score Improvement"], "values": { "sneak": "2d6" } },
+      { "level": 5, "features": ["Uncanny Dodge"], "values": { "sneak": "3d6" } },
+      { "level": 6, "features": ["Expertise"], "values": { "sneak": "3d6" } },
+      { "level": 7, "features": ["Evasion"], "values": { "sneak": "4d6" } },
+      { "level": 8, "features": ["Ability Score Improvement"], "values": { "sneak": "4d6" } },
+      { "level": 9, "features": ["Roguish Archetype feature"], "values": { "sneak": "5d6" } },
+      { "level": 10, "features": ["Ability Score Improvement"], "values": { "sneak": "5d6" } },
+      { "level": 11, "features": ["Reliable Talent"], "values": { "sneak": "6d6" } },
+      { "level": 12, "features": ["Ability Score Improvement"], "values": { "sneak": "6d6" } },
+      { "level": 13, "features": ["Roguish Archetype feature"], "values": { "sneak": "7d6" } },
+      { "level": 14, "features": ["Blindsense"], "values": { "sneak": "7d6" } },
+      { "level": 15, "features": ["Slippery Mind"], "values": { "sneak": "8d6" } },
+      { "level": 16, "features": ["Ability Score Improvement"], "values": { "sneak": "8d6" } },
+      { "level": 17, "features": ["Roguish Archetype feature"], "values": { "sneak": "9d6" } },
+      { "level": 18, "features": ["Elusive"], "values": { "sneak": "9d6" } },
+      { "level": 19, "features": ["Ability Score Improvement"], "values": { "sneak": "10d6" } },
+      { "level": 20, "features": ["Stroke of Luck"], "values": { "sneak": "10d6" } }
+    ]
+  },
+  "features": [
+    {
+      "name": "Expertise",
+      "level": 1,
+      "description": "Choose two of your skill proficiencies, or one skill proficiency and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make using either. You choose two more at 6th level."
+    },
+    {
+      "name": "Sneak Attack",
+      "level": 1,
+      "description": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal extra damage to one creature you hit with an attack if you have advantage on the attack roll.\n\nYou don't need advantage if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe attack must use a finesse or a ranged weapon. The extra damage is shown in the Sneak Attack column."
+    },
+    {
+      "name": "Thieves' Cant",
+      "level": 1,
+      "description": "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. You also understand a set of secret signs and symbols used to convey short, simple messages."
+    },
+    {
+      "name": "Cunning Action",
+      "level": 2,
+      "description": "Your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat to take the Dash, Disengage, or Hide action."
+    },
+    {
+      "name": "Roguish Archetype",
+      "level": 3,
+      "description": "You choose an archetype that you emulate in the exercise of your rogue abilities. It grants features at 3rd, 9th, 13th, and 17th level."
+    },
+    {
+      "name": "Steady Aim",
+      "level": 3,
+      "source": "TCE",
+      "optional": true,
+      "description": "As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this only if you haven't moved during this turn, and after you use it your speed is 0 until the end of the current turn. This gives ranged rogues a reliable way to enable Sneak Attack alone."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "level": 4,
+      "description": "Increase one ability score by 2, or two ability scores by 1 each, to a maximum of 20. Rogues gain this at 4th, 8th, 10th, 12th, 16th, and 19th level — one more than most classes."
+    },
+    {
+      "name": "Uncanny Dodge",
+      "level": 5,
+      "description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+    },
+    {
+      "name": "Evasion",
+      "level": 7,
+      "description": "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage on a success, and only half damage on a failure."
+    },
+    {
+      "name": "Reliable Talent",
+      "level": 11,
+      "description": "Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10. Combined with Expertise, this makes you essentially incapable of failing at what you're best at."
+    },
+    {
+      "name": "Blindsense",
+      "level": 14,
+      "description": "If you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you."
+    },
+    {
+      "name": "Slippery Mind",
+      "level": 15,
+      "description": "You have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+    },
+    {
+      "name": "Elusive",
+      "level": 18,
+      "description": "You are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated."
+    },
+    {
+      "name": "Stroke of Luck",
+      "level": 20,
+      "description": "You have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. Once used, you can't use this feature again until you finish a short or long rest."
+    }
+  ],
+  "subclasses": [
+    { "id": "thief", "name": "Thief", "source": "PHB" },
+    { "id": "assassin", "name": "Assassin", "source": "PHB" },
+    { "id": "arcane-trickster", "name": "Arcane Trickster", "source": "PHB" },
+    { "id": "mastermind", "name": "Mastermind", "source": "XGE" },
+    { "id": "swashbuckler", "name": "Swashbuckler", "source": "XGE" },
+    { "id": "inquisitive", "name": "Inquisitive", "source": "XGE" },
+    { "id": "scout", "name": "Scout", "source": "XGE" },
+    { "id": "phantom", "name": "Phantom", "source": "TCE" },
+    { "id": "soulknife", "name": "Soulknife", "source": "TCE" }
+  ]
+}

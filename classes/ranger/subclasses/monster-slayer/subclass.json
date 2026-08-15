@@ -1,0 +1,44 @@
+{
+  "id": "monster-slayer",
+  "name": "Monster Slayer",
+  "class": "ranger",
+  "label": "Ranger Archetype",
+  "source": { "book": "XGE", "page": 42 },
+  "summary": "A witcher-style hunter who reads a monster's weaknesses and shuts down its magic.",
+  "flavor": "You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A monster slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats, training to detect their weaknesses and counter their supernatural powers.",
+  "playstyle": "Excellent against spellcasters and single big monsters. Slayer's Prey is reliable damage with no concentration cost, and Supernatural Defense plus Magic-User's Nemesis make you an anti-caster specialist.",
+  "expandedSpells": {
+    "3rd": ["protection from evil and good"],
+    "5th": ["zone of truth"],
+    "9th": ["magic circle"],
+    "13th": ["banishment"],
+    "17th": ["hold monster"]
+  },
+  "features": [
+    {
+      "name": "Hunter's Sense",
+      "level": 3,
+      "description": "As an action, choose one creature you can see within 60 feet. You immediately learn whether it has any damage immunities, resistances, or vulnerabilities, and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities. You can use this a number of times equal to your Wisdom modifier (minimum once) per long rest."
+    },
+    {
+      "name": "Slayer's Prey",
+      "level": 3,
+      "description": "As a bonus action, you can designate one creature you can see within 60 feet as the target of this feature. The first time each turn that you hit that creature with a weapon attack, it takes an extra 1d6 damage from the weapon. This benefit lasts until you finish a short or long rest, and it ends early if you designate a different creature."
+    },
+    {
+      "name": "Supernatural Defense",
+      "level": 7,
+      "description": "Whenever the target of your Slayer's Prey forces you to make a saving throw, and whenever you make an ability check to escape that target's grapple, add 1d6 to your roll."
+    },
+    {
+      "name": "Magic-User's Nemesis",
+      "level": 11,
+      "description": "When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted. Once used, you can't use this again until you finish a short or long rest."
+    },
+    {
+      "name": "Slayer's Counter",
+      "level": 15,
+      "description": "If the target of your Slayer's Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw, and if the attack hits, your save automatically succeeds."
+    }
+  ]
+}

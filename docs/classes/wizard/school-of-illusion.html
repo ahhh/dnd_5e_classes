@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School of Illusion — Wizard</title>
+<meta name="description" content="A master of deception whose illusions become partly real and can be reshaped at will. — D&D 5e (2014) class reference.">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">D&amp;D 5e Classes <span class="edition">2014</span></a>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour scheme">◐</button>
+</header>
+<nav class="crumbs"><a href="../../index.html">All Classes</a> / <a href="index.html">Wizard</a> / <strong>School of Illusion</strong></nav>
+<main>
+<h1 id="school-of-illusion">School of Illusion</h1>
+<p><em>Wizard Arcane Tradition — Player's Handbook, p. 118</em></p>
+<blockquote>A master of deception whose illusions become partly real and can be reshaped at will.</blockquote>
+<p>You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real.</p>
+<p><strong>How it plays.</strong> Rewards creative play more than any other school. Malleable Illusions lets you rewrite an illusion mid-scene, and Illusory Reality — turning an illusory object real for a minute — is one of the game's most open-ended features.</p>
+<h2 id="features">Features</h2>
+<h3 id="illusion-savant">Illusion Savant</h3>
+<p><em>2nd level</em></p>
+<p>The gold and time you must spend to copy an illusion spell into your spellbook is halved.</p>
+<h3 id="improved-minor-illusion">Improved Minor Illusion</h3>
+<p><em>2nd level</em></p>
+<p>You learn the <em>minor illusion</em> cantrip. If you already know it, you learn a different wizard cantrip of your choice, which doesn't count against your cantrips known.</p>
+<p>When you cast <em>minor illusion</em>, you can create both a sound and an image with a single casting of the spell — normally you must choose one or the other.</p>
+<h3 id="malleable-illusions">Malleable Illusions</h3>
+<p><em>6th level</em></p>
+<p>When you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion, provided that you can see the illusion. The new appearance must be within the parameters of the spell — you could turn an illusory ogre into an illusory tiger, or make an illusory sound change from a voice into a scream.</p>
+<h3 id="illusory-self">Illusory Self</h3>
+<p><em>10th level</em></p>
+<p>You can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses, then the illusion dissipates. Once used, you can't use this again until you finish a short or long rest.</p>
+<h3 id="illusory-reality">Illusory Reality</h3>
+<p><em>14th level</em></p>
+<p>You have learned the secret of weaving shadow magic into your illusions to give them a semi-reality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real.</p>
+<p>The object lasts for 1 minute and can't deal damage or directly harm anyone — but it can, for example, be a real bridge across a chasm, or a real wall, or a real ladder.</p>
+<p><a href="index.html">← Back to Wizard</a></p>
+</main>
+<footer>
+  <p>Generated from JSON source data. Class rules from the SRD are used under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>; non-SRD subclasses are summarised
+  in original wording with source citations, and are the property of Wizards of the Coast.
+  This is an unofficial fan reference.</p>
+</footer>
+<script>
+(function () {
+  var key = "dnd-theme";
+  var saved = localStorage.getItem(key);
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var next = cur === "dark" ? "light" : cur === "light" ? "dark"
+      : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(key, next);
+  });
+})();
+</script>
+</body>
+</html>

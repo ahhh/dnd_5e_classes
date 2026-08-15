@@ -1,0 +1,44 @@
+{
+  "id": "horizon-walker",
+  "name": "Horizon Walker",
+  "class": "ranger",
+  "label": "Ranger Archetype",
+  "source": { "book": "XGE", "page": 42 },
+  "summary": "A planar sentinel who steps through space, deals force damage, and closes rifts between worlds.",
+  "flavor": "Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner and Outer Planes as needed.",
+  "playstyle": "A mobile, single-target damage archetype. Planar Warrior converts your weapon damage to force — which almost nothing resists — and adds a die, and Distant Strike gives you free teleports every turn.",
+  "expandedSpells": {
+    "3rd": ["protection from evil and good"],
+    "5th": ["misty step"],
+    "9th": ["haste"],
+    "13th": ["banishment"],
+    "17th": ["teleportation circle"]
+  },
+  "features": [
+    {
+      "name": "Detect Portal",
+      "level": 3,
+      "description": "As an action, you detect the distance and direction to the closest planar portal within 1 mile of you. Once you use this feature, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Planar Warrior",
+      "level": 3,
+      "description": "As a bonus action, choose one creature you can see within 30 feet. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 1d8 force damage. The extra damage increases to 2d8 at 11th level."
+    },
+    {
+      "name": "Ethereal Step",
+      "level": 7,
+      "description": "As a bonus action, you can cast the *etherealness* spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn. Once used, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Distant Strike",
+      "level": 11,
+      "description": "When you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see. If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+    },
+    {
+      "name": "Spectral Defense",
+      "level": 15,
+      "description": "When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack's damage on this turn."
+    }
+  ]
+}
