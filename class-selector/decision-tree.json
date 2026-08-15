@@ -1,0 +1,390 @@
+{
+  "$comment": "Source of truth for the first-time-player class/subclass picker. Generated output lives in class-selector/README.md and class-selector/decision-tree.md — see scripts/build-class-selector.mjs. Every leaf's flavor text (name, summary) is pulled live from classes/<class>/subclasses/<subclass>/subclass.json, never duplicated here.",
+  "start": "q1",
+  "questions": {
+    "q1": {
+      "short": "Start here",
+      "text": "What's the fantasy that pulls you to the table? Go with your gut — there's no wrong answer.",
+      "options": [
+        { "label": "I want to win fights through skill, steel, and nerve — no spellbook required.", "next": "q-r1" },
+        { "label": "My power comes from something greater than me: a god, the land, or the wild things living in it.", "next": "q-r2" },
+        { "label": "I want to master magic itself — its theory, its schools, its craft.", "next": "q-r3" },
+        { "label": "I win by knowing more than everyone else at the table: secrets, angles, misdirection.", "next": "q-r4" },
+        { "label": "My power comes from something vast, alien, or barely tamed — storms, dragons, the stars, dreams.", "next": "q-r5" },
+        { "label": "My power has a price. I made a deal, broke a vow, or simply refuse to stay dead.", "next": "q-r6" }
+      ]
+    },
+
+    "q-r1": {
+      "short": "Steel & Discipline",
+      "text": "How do you want to win a fight?",
+      "options": [
+        { "label": "I plant my feet and out-tough everyone on the field.", "next": "q-r1a" },
+        { "label": "I make the people around me better at fighting.", "next": "q-r1b" },
+        { "label": "I live and die by my own personal code of mastery.", "next": "q-r1c" },
+        { "label": "I stay light on my feet and read the terrain (or the crowd).", "next": "q-r1d" },
+        { "label": "I want a taste of magic without giving up my weapon.", "next": "q-r1e" }
+      ]
+    },
+    "q-r1a": {
+      "short": "Front-line bruiser",
+      "text": "When the damage starts piling up, what's your answer?",
+      "options": [
+        { "label": "I shrug it off and keep swinging — simple, consistent, effective.", "result": { "class": "fighter", "subclass": "champion" } },
+        { "label": "I fly into a rage that makes me nearly impossible to put down.", "result": { "class": "barbarian", "subclass": "path-of-the-berserker" } },
+        { "label": "I turn my own armor into a weapon, spikes and all.", "result": { "class": "barbarian", "subclass": "path-of-the-battlerager" } },
+        { "label": "I just keep moving forward, and nothing stops my momentum.", "result": { "class": "barbarian", "subclass": "path-of-the-juggernaut" } },
+        { "label": "I climb inside a suit of magical powered armor.", "result": { "class": "artificer", "subclass": "armorer" } }
+      ]
+    },
+    "q-r1b": {
+      "short": "Tactical commander",
+      "text": "How do you make your allies better?",
+      "options": [
+        { "label": "I call out precise maneuvers that trip, disarm, and control the fight.", "result": { "class": "fighter", "subclass": "battle-master" } },
+        { "label": "I rally them with inspiring words and a banner worth dying for.", "result": { "class": "fighter", "subclass": "purple-dragon-knight" } },
+        { "label": "I plant myself between them and every enemy that gets close.", "result": { "class": "fighter", "subclass": "cavalier" } },
+        { "label": "I channel a war god's fury directly into their weapon arms.", "result": { "class": "cleric", "subclass": "war-domain" } },
+        { "label": "I bind myself to their protection through a sacred oath to the throne.", "result": { "class": "paladin", "subclass": "oath-of-the-crown" } }
+      ]
+    },
+    "q-r1c": {
+      "short": "Honor & personal mastery",
+      "text": "What does personal mastery look like for you?",
+      "options": [
+        { "label": "An unbreakable code of resolve that keeps me fighting past death's door.", "result": { "class": "fighter", "subclass": "samurai" } },
+        { "label": "A duelist's charm — one-on-one, blade and wit.", "result": { "class": "rogue", "subclass": "swashbuckler" } },
+        { "label": "Legendary feats that will be sung about for generations.", "result": { "class": "paladin", "subclass": "oath-of-glory" } },
+        { "label": "A single blade and a song, moving as one.", "result": { "class": "wizard", "subclass": "bladesinging" } },
+        { "label": "A weapon that's become an extension of my body and spirit.", "result": { "class": "monk", "subclass": "way-of-the-kensei" } },
+        { "label": "My own fists and feet — no weapon needed at all.", "result": { "class": "monk", "subclass": "way-of-the-open-hand" } }
+      ]
+    },
+    "q-r1d": {
+      "short": "Skirmisher & survivor",
+      "text": "What's your edge outside a straight fight?",
+      "options": [
+        { "label": "I'm fast, light-fingered, and always one step ahead.", "result": { "class": "rogue", "subclass": "thief" } },
+        { "label": "I adapt my tactics to whatever prey I'm hunting.", "result": { "class": "ranger", "subclass": "hunter" } },
+        { "label": "I hunt the things that hunt people — fiends, undead, aberrations.", "result": { "class": "ranger", "subclass": "monster-slayer" } },
+        { "label": "My footwork looks like a drunk's stumble, but it's a killing art.", "result": { "class": "monk", "subclass": "way-of-the-drunken-master" } },
+        { "label": "I turn into the beast myself.", "result": { "class": "druid", "subclass": "circle-of-the-moon" } }
+      ]
+    },
+    "q-r1e": {
+      "short": "Battle-caster",
+      "text": "How does magic show up in your fighting style?",
+      "options": [
+        { "label": "It doesn't replace my weapon — it inspires the swings around me.", "result": { "class": "bard", "subclass": "college-of-valor" } },
+        { "label": "I dance through a fight, blade in one hand and a spell in the other.", "result": { "class": "bard", "subclass": "college-of-swords" } },
+        { "label": "I don't fight with steel at all — I end fights with a fireball.", "result": { "class": "wizard", "subclass": "school-of-evocation" } },
+        { "label": "I use magic like a tactician uses terrain — to control the battlefield.", "result": { "class": "wizard", "subclass": "war-magic" } }
+      ]
+    },
+
+    "q-r2": {
+      "short": "Faith & Nature",
+      "text": "What's the source of your power, and who — or what — does it serve?",
+      "options": [
+        { "label": "Keeping the people around me alive and whole.", "next": "q-r2a" },
+        { "label": "A bond with the wild places and things of the world.", "next": "q-r2b" },
+        { "label": "A spirit, ancestor, or creature that fights beside me.", "next": "q-r2c" },
+        { "label": "A devotion so total it burns away everything else.", "next": "q-r2d" }
+      ]
+    },
+    "q-r2a": {
+      "short": "Healer & protector",
+      "text": "How do you keep your allies standing?",
+      "options": [
+        { "label": "Overflowing divine healing, straight from the source.", "result": { "class": "cleric", "subclass": "life-domain" } },
+        { "label": "I bind the party together so we protect and inspire each other.", "result": { "class": "cleric", "subclass": "peace-domain" } },
+        { "label": "A touch that heals or harms, and fists that flow like water.", "result": { "class": "monk", "subclass": "way-of-mercy" } },
+        { "label": "Alchemical formulas and a healer's flask — no god required.", "result": { "class": "artificer", "subclass": "alchemist" } },
+        { "label": "A pact with a being of pure light, healing woven into every spell.", "result": { "class": "warlock", "subclass": "the-celestial" } },
+        { "label": "Divine power that was simply born into my blood.", "result": { "class": "sorcerer", "subclass": "divine-soul" } }
+      ]
+    },
+    "q-r2b": {
+      "short": "Nature's champion",
+      "text": "What's your bond with the wild?",
+      "options": [
+        { "label": "A god of the wild speaks through me.", "result": { "class": "cleric", "subclass": "nature-domain" } },
+        { "label": "The land itself lends me its magic, wherever I stand.", "result": { "class": "druid", "subclass": "circle-of-the-land" } },
+        { "label": "Spirits of beasts answer my call to guard the weak.", "result": { "class": "druid", "subclass": "circle-of-the-shepherd" } },
+        { "label": "An ancient oath sworn to the light that keeps the wild green.", "result": { "class": "paladin", "subclass": "oath-of-the-ancients" } },
+        { "label": "An animal companion fights at my side, always.", "result": { "class": "ranger", "subclass": "beast-master" } },
+        { "label": "I read the land and move through it like I was born there.", "result": { "class": "rogue", "subclass": "scout" } }
+      ]
+    },
+    "q-r2c": {
+      "short": "Spirit-bound warrior",
+      "text": "What fights alongside you?",
+      "options": [
+        { "label": "The spirit of a totem animal empowers my rage.", "result": { "class": "barbarian", "subclass": "path-of-the-totem-warrior" } },
+        { "label": "The ghosts of my ancestors guard my back.", "result": { "class": "barbarian", "subclass": "path-of-the-ancestral-guardian" } },
+        { "label": "My rage literally reshapes my body into a natural weapon.", "result": { "class": "barbarian", "subclass": "path-of-the-beast" } },
+        { "label": "A steel companion I built with my own two hands.", "result": { "class": "artificer", "subclass": "battle-smith" } }
+      ]
+    },
+    "q-r2d": {
+      "short": "Radiant zealot",
+      "text": "How far does your devotion go?",
+      "options": [
+        { "label": "I fight like death itself has no hold on me, in a god's name.", "result": { "class": "barbarian", "subclass": "path-of-the-zealot" } },
+        { "label": "An unbending, shining code of honor.", "result": { "class": "paladin", "subclass": "oath-of-devotion" } },
+        { "label": "I'd rather turn an enemy from violence than strike them down.", "result": { "class": "paladin", "subclass": "oath-of-redemption" } },
+        { "label": "I channel pure radiant fire against the dark.", "result": { "class": "cleric", "subclass": "light-domain" } }
+      ]
+    },
+
+    "q-r3": {
+      "short": "Arcane Mastery",
+      "text": "What kind of arcane practitioner are you?",
+      "options": [
+        { "label": "Magic sharpens a weapon I'm already carrying.", "next": "q-r3a" },
+        { "label": "My god and my spellbook agree on more than you'd think.", "next": "q-r3b" },
+        { "label": "I want to specialize deep in one school of magic.", "next": "q-r3c" },
+        { "label": "I build or create things that shouldn't be possible.", "next": "q-r3d" }
+      ]
+    },
+    "q-r3a": {
+      "short": "Martial + arcane hybrid",
+      "text": "How does magic sharpen your weapon?",
+      "options": [
+        { "label": "I weave spells between my sword strikes — a battle-mage through and through.", "result": { "class": "fighter", "subclass": "eldritch-knight" } },
+        { "label": "Every arrow I loose carries a spell with it.", "result": { "class": "fighter", "subclass": "arcane-archer" } },
+        { "label": "I pick pockets with one hand and cast spells with the other.", "result": { "class": "rogue", "subclass": "arcane-trickster" } }
+      ]
+    },
+    "q-r3b": {
+      "short": "Divine-arcane crossover",
+      "text": "What does your god know about magic?",
+      "options": [
+        { "label": "Magic itself is my domain, arcane and divine intertwined.", "result": { "class": "cleric", "subclass": "arcana-domain" } },
+        { "label": "I've dedicated myself to knowing everything that can be known.", "result": { "class": "cleric", "subclass": "knowledge-domain" } },
+        { "label": "I forge magic items the way a smith forges steel.", "result": { "class": "cleric", "subclass": "forge-domain" } }
+      ]
+    },
+    "q-r3c": {
+      "short": "Pure arcane specialist",
+      "text": "Which school of magic calls to you?",
+      "options": [
+        { "label": "Wards, shields, and turning aside every hostile spell.", "result": { "class": "wizard", "subclass": "school-of-abjuration" } },
+        { "label": "Summoning allies and objects out of thin air.", "result": { "class": "wizard", "subclass": "school-of-conjuration" } },
+        { "label": "Glimpsing fate before it happens.", "result": { "class": "wizard", "subclass": "school-of-divination" } },
+        { "label": "Reshaping matter itself.", "result": { "class": "wizard", "subclass": "school-of-transmutation" } },
+        { "label": "I bind my magic into a living, sentient book.", "result": { "class": "wizard", "subclass": "order-of-scribes" } }
+      ]
+    },
+    "q-r3d": {
+      "short": "Inventive arcane crafter",
+      "text": "What do you build with your magic?",
+      "options": [
+        { "label": "Impossible objects, even life itself — sung or spoken into being.", "result": { "class": "bard", "subclass": "college-of-creation" } },
+        { "label": "My own body, plated and gearworked like clockwork.", "result": { "class": "sorcerer", "subclass": "clockwork-soul" } },
+        { "label": "Magical cannons and turrets that do my fighting for me.", "result": { "class": "artificer", "subclass": "artillerist" } }
+      ]
+    },
+
+    "q-r4": {
+      "short": "Shadow & Cunning",
+      "text": "How do you get the upper hand?",
+      "options": [
+        { "label": "Words. I can talk my way into or out of anything.", "next": "q-r4a" },
+        { "label": "Knowing things nobody else knows yet.", "next": "q-r4b" },
+        { "label": "The fight is already over before anyone sees me.", "next": "q-r4c" },
+        { "label": "I run the whole game from the shadows.", "next": "q-r4d" }
+      ]
+    },
+    "q-r4a": {
+      "short": "Master manipulator",
+      "text": "How do you bend a room to your will?",
+      "options": [
+        { "label": "I can talk anyone into anything, on stage or off.", "result": { "class": "bard", "subclass": "college-of-eloquence" } },
+        { "label": "Lies are just another tool of the trade — my god doesn't mind.", "result": { "class": "cleric", "subclass": "trickery-domain" } },
+        { "label": "One word from me, and allies act instantly, no questions asked.", "result": { "class": "cleric", "subclass": "order-domain" } },
+        { "label": "I don't ask — I make you agree with me.", "result": { "class": "wizard", "subclass": "school-of-enchantment" } }
+      ]
+    },
+    "q-r4b": {
+      "short": "Secret keeper & investigator",
+      "text": "What's your relationship with secrets?",
+      "options": [
+        { "label": "I collect knowledge like treasure, with a cutting remark for every occasion.", "result": { "class": "bard", "subclass": "college-of-lore" } },
+        { "label": "I trade in fear, blackmail, and the things people don't want said aloud.", "result": { "class": "bard", "subclass": "college-of-whispers" } },
+        { "label": "I hunt down dangerous magic and burn what shouldn't exist.", "result": { "class": "monk", "subclass": "way-of-the-cobalt-soul" } },
+        { "label": "I notice the one detail everyone else missed.", "result": { "class": "rogue", "subclass": "inquisitive" } }
+      ]
+    },
+    "q-r4c": {
+      "short": "Silent killer",
+      "text": "How does the fight end before it starts?",
+      "options": [
+        { "label": "I vanish into literal darkness and strike from it.", "result": { "class": "monk", "subclass": "way-of-shadow" } },
+        { "label": "One perfect strike from hiding, and it's already over.", "result": { "class": "rogue", "subclass": "assassin" } },
+        { "label": "I hunt from the tree line, where the light doesn't reach.", "result": { "class": "ranger", "subclass": "gloom-stalker" } },
+        { "label": "I've sworn to end one target, whatever it costs me.", "result": { "class": "paladin", "subclass": "oath-of-vengeance" } }
+      ]
+    },
+    "q-r4d": {
+      "short": "Spymaster",
+      "text": "How do you control the battlefield without being seen?",
+      "options": [
+        { "label": "I direct my allies from thirty feet back and let them take the credit.", "result": { "class": "rogue", "subclass": "mastermind" } },
+        { "label": "Nothing you see around me is entirely real.", "result": { "class": "wizard", "subclass": "school-of-illusion" } }
+      ]
+    },
+
+    "q-r5": {
+      "short": "Elemental, Fey & Cosmic",
+      "text": "What kind of vast, untamed power calls to you?",
+      "options": [
+        { "label": "Raw elemental force — storm, fire, and fury.", "next": "q-r5a" },
+        { "label": "The power of the mind itself.", "next": "q-r5b" },
+        { "label": "Something whimsical, beautiful, and a little dangerous.", "next": "q-r5c" },
+        { "label": "Something far bigger than this world.", "next": "q-r5d" },
+        { "label": "Something ancient, huge, or wildly unpredictable.", "next": "q-r5e" }
+      ]
+    },
+    "q-r5a": {
+      "short": "Elemental & storm",
+      "text": "Which element speaks loudest to you?",
+      "options": [
+        { "label": "My aura shifts with the seasons — desert sun, arctic frost, storm-wracked sea.", "result": { "class": "barbarian", "subclass": "path-of-the-storm-herald" } },
+        { "label": "I command thunder and lightning like a god's own storm.", "result": { "class": "cleric", "subclass": "tempest-domain" } },
+        { "label": "I bend the four elements into martial arts techniques.", "result": { "class": "monk", "subclass": "way-of-the-four-elements" } },
+        { "label": "My magic and lightning are one — I can even ride the storm through the sky.", "result": { "class": "sorcerer", "subclass": "storm-sorcery" } },
+        { "label": "Fire itself answers me, and a fire spirit walks at my side.", "result": { "class": "druid", "subclass": "circle-of-wildfire" } }
+      ]
+    },
+    "q-r5b": {
+      "short": "Mind & psionics",
+      "text": "How does your mind become a weapon?",
+      "options": [
+        { "label": "I shape psychic energy into armor and weapons around my body.", "result": { "class": "fighter", "subclass": "psi-warrior" } },
+        { "label": "I materialize a blade made of pure psychic force.", "result": { "class": "rogue", "subclass": "soulknife" } },
+        { "label": "Alien knowledge lives in my head, and it grants me telepathy and psychic power.", "result": { "class": "sorcerer", "subclass": "aberrant-mind" } },
+        { "label": "I project spectral fists and a spirit-body of pure astral energy.", "result": { "class": "monk", "subclass": "way-of-the-astral-self" } }
+      ]
+    },
+    "q-r5c": {
+      "short": "Fey & dreams",
+      "text": "How does the Feywild touch your magic?",
+      "options": [
+        { "label": "My performances captivate a room like fey enchantment.", "result": { "class": "bard", "subclass": "college-of-glamour" } },
+        { "label": "I walk the border of the Feywild, equal parts charming and deadly.", "result": { "class": "ranger", "subclass": "fey-wanderer" } },
+        { "label": "I made a pact with a fey lord or lady of the First World.", "result": { "class": "warlock", "subclass": "the-archfey" } },
+        { "label": "I bring healing dreams and starlight into a weary camp.", "result": { "class": "druid", "subclass": "circle-of-dreams" } }
+      ]
+    },
+    "q-r5d": {
+      "short": "Cosmic & the beyond",
+      "text": "Is your connection to the cosmic something that hunts, or something you study?",
+      "options": [
+        { "label": "Something vast is out there, and dangerous — I stand watch against it.", "next": "q-r5d1" },
+        { "label": "The cosmos bends slightly around me — time, space, starlight, dusk.", "next": "q-r5d2" }
+      ]
+    },
+    "q-r5d1": {
+      "short": "Beyond the veil",
+      "text": "What's your relationship with the thing beyond?",
+      "options": [
+        { "label": "I made a pact with an alien intelligence I'll never fully understand.", "result": { "class": "warlock", "subclass": "the-great-old-one" } },
+        { "label": "Something ancient sleeps in the deep ocean, and it speaks to me.", "result": { "class": "warlock", "subclass": "the-fathomless" } },
+        { "label": "I hunt the aberrations and horrors that slip through from other planes.", "result": { "class": "paladin", "subclass": "oath-of-the-watchers" } },
+        { "label": "A spectral echo of myself fights beside me, a half-step removed from time.", "result": { "class": "fighter", "subclass": "echo-knight" } }
+      ]
+    },
+    "q-r5d2": {
+      "short": "Between moments",
+      "text": "What cosmic thread runs through your magic?",
+      "options": [
+        { "label": "I tell stories that call spirits from beyond the grave to fight for me.", "result": { "class": "bard", "subclass": "college-of-spirits" } },
+        { "label": "I read fate in the stars, and become a living constellation.", "result": { "class": "druid", "subclass": "circle-of-stars" } },
+        { "label": "I bend time itself — slow it, rewind it, glimpse what's to come.", "result": { "class": "wizard", "subclass": "chronurgy-magic" } },
+        { "label": "I bend gravity and space around my enemies.", "result": { "class": "wizard", "subclass": "graviturgy-magic" } },
+        { "label": "I walk the line between day and night, guarding the space between.", "result": { "class": "cleric", "subclass": "twilight-domain" } },
+        { "label": "I've walked every plane there is, and none of them scare me anymore.", "result": { "class": "ranger", "subclass": "horizon-walker" } }
+      ]
+    },
+    "q-r5e": {
+      "short": "Draconic & wild",
+      "text": "Is your power something you were born with, or something wild and barely tamed?",
+      "options": [
+        { "label": "Dragon's blood runs in me, and fire answers when I call.", "next": "q-r5e1" },
+        { "label": "My power is huge, chaotic, or barely leashed.", "next": "q-r5e2" }
+      ]
+    },
+    "q-r5e1": {
+      "short": "Draconic blood & fire",
+      "text": "How does dragon-blood show in you?",
+      "options": [
+        { "label": "Scales, breath weapon, and a bloodline going back to actual dragons.", "result": { "class": "sorcerer", "subclass": "draconic-bloodline" } },
+        { "label": "I channel the essence of a dragon spirit into my own fists and aura.", "result": { "class": "monk", "subclass": "way-of-the-ascendant-dragon" } },
+        { "label": "A drake hatched bonded to me, and we grow together.", "result": { "class": "ranger", "subclass": "drakewarden" } },
+        { "label": "Solar fire fills me and erupts from my fists.", "result": { "class": "monk", "subclass": "way-of-the-sun-soul" } }
+      ]
+    },
+    "q-r5e2": {
+      "short": "Wild, giant & unpredictable",
+      "text": "Just how much bigger and wilder does this get?",
+      "options": [
+        { "label": "I grow into an actual giant, hurling boulders and knocking down walls.", "result": { "class": "barbarian", "subclass": "path-of-the-giant" } },
+        { "label": "Giant runes carved into my armor let me grow and command elemental forces.", "result": { "class": "fighter", "subclass": "rune-knight" } },
+        { "label": "A swarm of tiny fey spirits follows me everywhere I go.", "result": { "class": "ranger", "subclass": "swarmkeeper" } },
+        { "label": "My rage sets off unpredictable bursts of wild magic.", "result": { "class": "barbarian", "subclass": "path-of-wild-magic" } },
+        { "label": "My spells are a gamble — glorious, chaotic surges, every time.", "result": { "class": "sorcerer", "subclass": "wild-magic" } }
+      ]
+    },
+
+    "q-r6": {
+      "short": "Pacts, Curses & the Undying",
+      "text": "What did your power cost you?",
+      "options": [
+        { "label": "Nothing yet — but death and I have an understanding.", "next": "q-r6a" },
+        { "label": "I refuse to let death be the end of my story.", "next": "q-r6b" },
+        { "label": "A vow, broken, or a throne, terrified into submission.", "next": "q-r6c" },
+        { "label": "My freedom, or my very blood.", "next": "q-r6d" }
+      ]
+    },
+    "q-r6a": {
+      "short": "Death's servants",
+      "text": "What's your relationship with death itself?",
+      "options": [
+        { "label": "My god governs death as a natural, sacred end.", "result": { "class": "cleric", "subclass": "death-domain" } },
+        { "label": "I guard the border between life and death, and undeath offends me personally.", "result": { "class": "cleric", "subclass": "grave-domain" } },
+        { "label": "I command the dead to fight for me.", "result": { "class": "wizard", "subclass": "school-of-necromancy" } },
+        { "label": "Fungal spores and decay flow through my magic — death feeds new life.", "result": { "class": "druid", "subclass": "circle-of-spores" } }
+      ]
+    },
+    "q-r6b": {
+      "short": "Cannot die, won't stay dead",
+      "text": "How do you cheat death?",
+      "options": [
+        { "label": "I've touched death so many times it no longer scares me — and I can spread that fear.", "result": { "class": "monk", "subclass": "way-of-the-long-death" } },
+        { "label": "My patron has conquered death itself, and plague and undeath are its gifts to me.", "result": { "class": "warlock", "subclass": "the-undying" } },
+        { "label": "My patron is literally undead, and its unnatural resilience has become mine.", "result": { "class": "warlock", "subclass": "the-undead" } },
+        { "label": "A piece of the Shadowfell's death magic clings to my soul.", "result": { "class": "rogue", "subclass": "phantom" } }
+      ]
+    },
+    "q-r6c": {
+      "short": "Broken vows & dark bargains",
+      "text": "What did you have to break to get this power?",
+      "options": [
+        { "label": "I broke my sacred oath, and dark power filled the void it left.", "result": { "class": "paladin", "subclass": "oathbreaker" } },
+        { "label": "I terrify my enemies into submission, and I like it.", "result": { "class": "paladin", "subclass": "oath-of-conquest" } },
+        { "label": "I sold a piece of myself to an infernal patron.", "result": { "class": "warlock", "subclass": "the-fiend" } },
+        { "label": "A sentient, cursed weapon chose me as its wielder.", "result": { "class": "warlock", "subclass": "the-hexblade" } }
+      ]
+    },
+    "q-r6d": {
+      "short": "Bound to something greater",
+      "text": "What binds your power to something else?",
+      "options": [
+        { "label": "Blood itself is the source and the price of my magic.", "result": { "class": "cleric", "subclass": "blood-domain" } },
+        { "label": "I'm bound in service to a genie, trapped in their vessel between wishes.", "result": { "class": "warlock", "subclass": "the-genie" } },
+        { "label": "The Shadowfell seeped into my magic and never left.", "result": { "class": "sorcerer", "subclass": "shadow-magic" } }
+      ]
+    }
+  }
+}

@@ -10,6 +10,10 @@ official expanded content.
 read straight on GitHub: how to build the class step by step, what you choose at each level, the
 full progression table, every feature, and links to each subclass.
 
+**[Not sure what to play? →](class-selector/README.md)** A branching questionnaire for first-time
+players that ends at one of all 120 subclasses — plus a [diagram version](class-selector/decision-tree.md)
+of the same tree.
+
 | Class | Hit Die | Caster | Subclasses |
 | :--- | :---: | :--- | ---: |
 | Artificer | d8 | Half (from 1st) | 4 |
@@ -40,7 +44,11 @@ schema/class.schema.json                            # JSON Schema for class file
 schema/subclass.schema.json                         # JSON Schema for subclass files
 scripts/build.mjs                                   # JSON -> Markdown + HTML
 scripts/validate.mjs                                # structural checks
+scripts/build-class-selector.mjs                    # decision-tree.json -> class-selector guide + diagrams
 docs/                                               # generated site (GitHub Pages)
+class-selector/decision-tree.json                   # source of truth for the class-picker questionnaire
+class-selector/README.md                            # generated: the questionnaire, as prose
+class-selector/decision-tree.md                     # generated: the questionnaire, as Mermaid diagrams
 ```
 
 The JSON is the **single source of truth**. Markdown and HTML are both generated, so nothing is
