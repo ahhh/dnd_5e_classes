@@ -7,8 +7,9 @@
  */
 import { mkdirSync, writeFileSync, rmSync } from "node:fs";
 import { join } from "node:path";
-import { loadClasses, DOCS_DIR, spellTables, sourceName } from "./lib/data.mjs";
+import { loadClasses, DOCS_DIR, CLASSES_DIR, spellTables, sourceName } from "./lib/data.mjs";
 import { classMarkdown, subclassMarkdown, indexMarkdown } from "./lib/markdown.mjs";
+import { classReadme, subclassReadme, classesIndexReadme } from "./lib/readme.mjs";
 import { markdownToHtml, page, STYLESHEET } from "./lib/html.mjs";
 
 const classes = loadClasses();
@@ -97,8 +98,23 @@ for (const cls of classes) {
   }
 }
 
+// ---- Browsable READMEs in the source tree ---------------------------------
+// Unlike docs/, classes/ holds the JSON source, so only README.md files are
+// touched here — never a blind rmSync.
+let readmeCount = 1;
+write(join(CLASSES_DIR, "README.md"), classesIndexReadme(classes));
+for (const cls of classes) {
+  write(join(CLASSES_DIR, cls._dir, "README.md"), classReadme(cls));
+  readmeCount++;
+  for (const sub of cls.subclassData) {
+    write(join(CLASSES_DIR, cls._dir, "subclasses", sub.id, "README.md"), subclassReadme(sub, cls));
+    readmeCount++;
+  }
+}
+
 console.log(
-  `Built ${classes.length} classes and ${totalSubs} subclasses → ${pageCount} files in docs/`
+  `Built ${classes.length} classes and ${totalSubs} subclasses → ${pageCount} files in docs/, ` +
+    `${readmeCount} README.md files in classes/`
 );
 for (const c of classes) {
   const expected = (c.subclasses || []).length;

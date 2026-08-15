@@ -6,6 +6,10 @@ official expanded content.
 
 **13 classes · 120 subclasses.**
 
+**[Browse the classes →](classes/README.md)** Every class and subclass folder has a README you can
+read straight on GitHub: how to build the class step by step, what you choose at each level, the
+full progression table, every feature, and links to each subclass.
+
 | Class | Hit Die | Caster | Subclasses |
 | :--- | :---: | :--- | ---: |
 | Artificer | d8 | Half (from 1st) | 4 |
@@ -25,8 +29,11 @@ official expanded content.
 ## Layout
 
 ```
+classes/README.md                                   # generated index of all classes
 classes/<class>/class.json                          # class definition + subclass index
+classes/<class>/README.md                           # generated: browsable class page
 classes/<class>/subclasses/<subclass>/subclass.json # one folder per subclass
+classes/<class>/subclasses/<subclass>/README.md     # generated: browsable subclass page
 data/spellcasting-tables.json                       # shared slot progressions
 data/fighting-styles.json                           # shared fighting style options
 schema/class.schema.json                            # JSON Schema for class files
@@ -47,7 +54,15 @@ node scripts/validate.mjs   # check the dataset for structural errors
 node scripts/build.mjs      # regenerate docs/ from the JSON
 ```
 
-`build.mjs` wipes and rewrites `docs/`. Never hand-edit files in `docs/` — edit the JSON and rebuild.
+`build.mjs` writes two things: it wipes and rewrites `docs/` (the static site), and it refreshes
+every `README.md` under `classes/` (the GitHub-browsable pages). It only ever creates or overwrites
+`README.md` files inside `classes/` — the JSON is never touched. Never hand-edit a generated page;
+edit the JSON and rebuild.
+
+The two outputs cover different readers: `docs/` is the styled site for GitHub Pages, while the
+`classes/**/README.md` pages are aimed at someone browsing the repo who wants to build a character —
+they lead with a build walkthrough and a "decisions by level" table, and their links follow the
+repo's folder layout.
 
 Both scripts are dependency-free and need only Node 18+.
 

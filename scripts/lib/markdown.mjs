@@ -124,7 +124,7 @@ function spellcastingBlock(cls) {
   return out.join("\n");
 }
 
-function featureList(features, heading = "###") {
+export function featureList(features, heading = "###") {
   return features
     .slice()
     .sort((a, b) => a.level - b.level)

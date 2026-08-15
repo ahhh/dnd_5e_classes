@@ -1,0 +1,91 @@
+# Path of the Totem Warrior
+
+**[Barbarian](../../README.md) Primal Path** · *Player's Handbook, p. 50*
+
+> A spirit animal grants you its gifts — bear toughness, eagle mobility, wolf pack tactics, and more.
+
+The totem warrior accepts a spirit animal as guide, protector, and inspiration. In battle, that totem spirit fills the barbarian with supernatural might, adding magical fuel to their rage.
+
+**How it plays.** The most customizable barbarian. Bear totem's near-universal damage resistance is famously the toughest option in the game; Eagle is the mobility pick; Wolf is the best team-support choice.
+
+Taken at **3rd level** as your Primal Path. It gives you features at **3rd, 6th, 10th, 14th level**:
+
+| Level | Feature | In short |
+| ---: | :--- | :--- |
+| 3 | [Spirit Seeker](#spirit-seeker) | You gain the ability to cast the *beast sense* and *speak with animals* spells as rituals. |
+| 3 | [Totem Spirit](#totem-spirit) | Choose a totem animal. |
+| 6 | [Aspect of the Beast](#aspect-of-the-beast) | You gain a magical benefit based on a totem animal of your choice — it need not be the same as the one chosen at 3rd level. |
+| 10 | [Spirit Walker](#spirit-walker) | You can cast the *commune with nature* spell as a ritual. |
+| 14 | [Totemic Attunement](#totemic-attunement) | You gain a magical benefit based on a totem animal of your choice. |
+
+## Features
+
+### Spirit Seeker
+
+*3rd level*
+
+You gain the ability to cast the *beast sense* and *speak with animals* spells as rituals.
+
+### Totem Spirit
+
+*3rd level*
+
+Choose a totem animal. You must have a physical totem object — an amulet or similar — incorporating fur, feathers, claws, teeth, or bones of the animal.
+
+**Bear.** While raging, you have resistance to all damage except psychic. (The signature tank option.)
+
+**Eagle.** While raging and not wearing heavy armor, other creatures have disadvantage on opportunity attacks against you, and you can use the Dash action as a bonus action.
+
+**Wolf.** While raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you.
+
+**Elk.** *(SCAG/XGE)* While raging and not wearing heavy armor, your walking speed increases by 15 feet.
+
+**Tiger.** *(SCAG/XGE)* While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance.
+
+### Aspect of the Beast
+
+*6th level*
+
+You gain a magical benefit based on a totem animal of your choice — it need not be the same as the one chosen at 3rd level.
+
+**Bear.** Your carrying capacity doubles, and you have advantage on Strength checks made to push, pull, lift, or break objects.
+
+**Eagle.** You can see up to 1 mile away with no difficulty, discerning even fine details as though looking at something no more than 100 feet away. You also have no disadvantage on Perception checks in dim light.
+
+**Wolf.** You can track other creatures while travelling at a fast pace, and can move stealthily while travelling at a normal pace.
+
+**Elk.** *(SCAG/XGE)* Whether mounted or on foot, your travel pace is doubled, as is the pace of up to ten companions.
+
+**Tiger.** *(SCAG/XGE)* You gain proficiency in two skills from Athletics, Acrobatics, Stealth, and Survival.
+
+### Spirit Walker
+
+*10th level*
+
+You can cast the *commune with nature* spell as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to convey the information you seek.
+
+### Totemic Attunement
+
+*14th level*
+
+You gain a magical benefit based on a totem animal of your choice.
+
+**Bear.** While raging, any creature within 5 feet that is hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. A creature is immune if it can't see or hear you or can't be frightened.
+
+**Eagle.** While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts — you fall if you end your turn in the air and nothing else is holding you aloft.
+
+**Wolf.** While raging, you can use a bonus action after hitting a Large or smaller creature with a melee attack to knock that creature prone.
+
+**Elk.** *(SCAG/XGE)* While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength modifier + your proficiency bonus) or be knocked prone and take 1d12 + your Strength modifier bludgeoning damage.
+
+**Tiger.** *(SCAG/XGE)* While raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before attacking it, you can make an additional melee weapon attack against it as a bonus action.
+
+---
+
+### This folder
+
+[`subclass.json`](subclass.json) is the source of truth for this page.
+
+[← Back to Barbarian](../../README.md) · [Barbarian class table](../../README.md#the-barbarian) · [All classes](../../../README.md)
+
+<sub>Generated by `scripts/build.mjs` from `subclass.json` — edit the JSON, not this file.</sub>
