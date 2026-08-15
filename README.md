@@ -78,11 +78,32 @@ Both scripts are dependency-free and need only Node 18+.
 
 1. Commit the repo including the generated `docs/` directory.
 2. In the repository settings, set **Pages → Source** to *Deploy from a branch*, branch `main`,
-   folder `/docs`.
+   folder `/` (root).
+
+Serving from the root publishes both sites at once: `index.html` (the star chart) at `/`, and the
+generated reference site at `/docs/`. The star chart links into `/docs/` for full class and subclass
+pages, so the two need to be served together.
 
 The site is plain static HTML with one stylesheet — no build step, no framework, no external
 requests. A `.nojekyll` file is emitted so GitHub serves the HTML as-is. Pages are responsive
 and follow the reader's light/dark preference, with a manual toggle that persists.
+
+### The star chart (`index.html`)
+
+A single standalone page that turns `class-selector/decision-tree.json` into a navigable sky: every
+question is a waypoint star and every one of the 120 subclasses is its own procedurally drawn
+constellation at a fixed coordinate. Answering a question flies the camera to the next waypoint,
+leaving a glowing route behind; arriving at a destination opens the subclass with its art.
+
+It reads the repository's JSON and PNGs live over `fetch`, so it needs no build step and picks up
+new `subclass.json` edits and newly generated `art.png` files the moment they are committed. A
+subclass with no art yet falls back to its class portrait, then to the constellation alone.
+
+Because it fetches, it must be served over HTTP rather than opened from the filesystem:
+
+```bash
+node --run serve:chart   # http://localhost:8000
+```
 
 Both `.md` and `.html` versions of every page are generated, so the dataset also browses nicely
 directly on GitHub without Pages enabled.

@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (the repo itself is dependency-free; this is only for local tooling)
+node_modules/
+npm-debug.log*
